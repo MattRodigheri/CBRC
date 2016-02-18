@@ -1,0 +1,42 @@
+
+h1{
+	font-family: helvetica, sans-serif;
+	color: #001f3f;
+	width: 100%;
+	text-align: center; 
+}
+th{
+	color: white;
+	font-size: 1.3em;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color: #00343c;
+	padding-left: 8px;
+	padding-right: 8px;
+
+
+}
+table{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	width: 100%;
+    border-collapse: collapse;
+  
+}
+
+td{
+	font-size: 1.1em;
+    text-align: left;
+    padding: 5px;
+   
+    
+}
+.rows:nth-child(odd){
+	background-color: #6aabb5;
+
+}
+.rows:nth-child(even){
+	background-color: #f8f9fb;
+
+}
+row{
+opacity: 0.4;
+}
