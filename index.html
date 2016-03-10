@@ -3,33 +3,61 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="refresh" content="0; url=http://www.californiabirds.org/CBRCPrototype/default2.asp">
+<!-- <meta http-equiv="refresh" content="0; url=http://www.californiabirds.org/CBRCPrototype/default2.asp"> -->
+<!-- Latest compiled and minified CSS for Boostrap-->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <link rel="stylesheet" type="text/css" href="style.css">
 	<title>CBRC</title>
 </head>
 <body>
-<a name="top"></a>	
-<div class="container">
-<div class="head">
+<a name="top"></a>
+<!-- <div class="container">
+<div class="col head">
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html"><div class="logo col"></div></a>
+    </div>
+    <ul class="nav navbar-nav">
+      <!<li class="active"><a href="#">Home</a></li>
+      <li><a href="index.html">HOME</a></li>
+			<li><a href="cbrcdb2.html">DATABASE</a></li>
+			<li><a href="report_sighting.html">REPORT SIGHTING</a></li>
+			<li><a href="#">RARE BIRDS</a></li>
+			<li><a href="#">ANNUAL REPORTS</a></li>
+			<li><a href="#">ABOUT US</a></li>
+			<li><form><input class="head-search" type=text name=s placeholder="SEARCH CBRC"></form></li>
+    </ul>
+  </div>
+</nav> -->
+
+<!-- Unresponsive Navbar-->
 	<div class="nav">
 		<a href="index.html"><div class="logo col"></div></a>
 		<div class="col">
 			<nav>
 
+				<a href="index.html">HOME</a>
 				<a href="cbrcdb2.html">DATABASE</a>
 				<a href="guidelines.html">REPORT SIGHTING</a>
 				<a href="#">RARE BIRDS</a>
 				<a href="#">ANNUAL REPORTS</a>
 				<a href="#">ABOUT US</a>
-		
+
 			</nav>
 		</div>
 		<div class="col">
 			<form>
 			 	<input class="head-search" type=text name=s placeholder="SEARCH CBRC">
-			</form>	
+			</form>
 		</div>
 	</div>
+<!-- End of Unresponsive Navbar -->
+
 </div>
 <div class="wrapper">
 	<div class="half">
@@ -60,7 +88,7 @@
 		<input type="text" class="search-species" name="species" placeholder=" Enter Species">
 		<input class="partial-search" type="checkbox" name="partial" checked style="visibility:hidden">
 		<input type="submit" class="button" value="Query the Database">
-		
+
 		<h1>Reporting guidelines</h1>
 		<ul>
 		<li><p>Report only species which are on the cbrc review </br>
@@ -68,10 +96,11 @@
 		<li><p>all reports must include the species, locaiton, date</br>
 		 of the observation, and the name of the observer.</p></li>
 		</ul>
-		<a href="http://www.californiabirds.org/CBRCPrototype/guidelines.html">
-		<input type="button" class="button" value="Report Sighting">
-		</a>
+
+		<a href="report_sighting.html"><input type="button" class="button" value="Report Sighting"></a>
+
 		</form>
+
 	</div>
 </div>
 <div class="push"></div>
@@ -82,13 +111,13 @@
 				<a href="#">donate</a>
 				<a href="#">webmaster</a>
 				<a href="#">contact us</a>
-				<a href="#top">Back to Top &#8593;</a>					
+				<a href="#top">Back to Top &#8593;</a>
 			</footer>
 	</div>
 
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
 </div>
 </body>
 </html>
