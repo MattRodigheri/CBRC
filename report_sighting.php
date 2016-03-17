@@ -11,10 +11,6 @@ $to = "mrodighe@mail.ccsf.edu";
 $subject = "Sighting Report";
 mail($to, $subject, $msg);
 
-// if (filter_var($email, FILTER_VALIDATE_EMAIL)) { // this line checks that we have a valid email address
-// mail($to, $subject, $msg); //This method sends the mail.
-echo "Your email was sent!"; // success message
-// }else{
-// echo "Invalid Email, please provide an correct email.";
-// }
+echo "THANK YOU FOR YOUR SUBMISSION"; // success message
+
 ?>

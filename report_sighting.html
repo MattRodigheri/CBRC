@@ -11,7 +11,8 @@ $(document).ready(function(){
 $('#submit').click(function(){
 
 $.post("report_sighting.php", $("#mycontactform").serialize(), function(response) {
-$('#success').html(response);
+//not so sure about this php script to change button content
+$('#submit').html(response);
 });
 return false;
 
@@ -47,25 +48,95 @@ return false;
 </div>
 <div class="wrapper">
 	<div style="padding-top: 30px" class="half">
-		<h1 style="margin-bottom: 15px">Enter Sighting Information</h1>
+		<h1>Enter Sighting Information</h1>
+		<h1>Bird</h1>
 
 		<form class="sighting" action="" method="post" id="mycontactform">
-			<input type="text" name="species" id='species' placeholder=" Species">
-			<input type="text" name="date" id='date' placeholder=" Date of Obvservation">
-			<input type="text" name="location" id='location' placeholder=" Location">
-			<textarea class="sight-description" name="description" id='description' placeholder=" Please enter a detailed description of your sighting."></textarea>
-			<input type="text" name="name" id='name' placeholder=" Name of Observer">
+			<input type="text" name="species" id='species' placeholder="Enter Species">
+
+			<h1>Date & Time First Seen</h1>
+			<input type="text" name="firstDate" id='firstDate' placeholder=" mm/dd/yy">
+
+			<h1>Date & Time Last Seen</h1>
+			<input type="text" name="lastDate" id='lastDate' placeholder=" mm/dd/yy">
+
+			<h1>Number of Birds</h1>
+			<input type="text" name="number" id='number' placeholder=" Number">
+
+			<h1>County</h1>
+			<select required name="county" id='county'>
+				<option value="-"> - </option>
+				<option value="ALA">Alameda - ALA</option>
+  			<option value="ALP">Alpine - ALP</option>
+  			<option value="AMA">Amador - AMA</option>
+  			<option value="BUT">Butte - BUT</option>
+				<option value="CAL">Calaveras - CAL</option>
+				<option value="COL">Colusa - COL</option>
+				<option value="CC">Contra Costa - CC</option>
+				<option value="DN">Del Norte - DN</option>
+				<option value="ED">El Dorado - ED</option>
+				<option value="FRE">Fresno - FRE</option>
+				<option value="GLE">Glenn</option>
+				<option value="HUM">Humboldt - HUM</option>
+				<option value="IMP">Imperial - IMP</option>
+				<option value="INY">Inyo - INY</option>
+				<option value="KER">Kern - KER</option>
+				<option value="KIN">Kings - KIN</option>
+				<option value="LAK">Lake - LAK</option>
+				<option value="LAS">Lassen - LAS</option>
+				<option value="LA">Los Angeles - LA</option>
+				<option value="MAD">Madera - MAD</option>
+				<option value="MRN">Marin - MRN</option>
+				<option value="MPA">Mariposa - MPA</option>
+				<option value="MEN">Mendocino - MEN</option>
+				<option value="MER">Merced - MER</option>
+				<option value="MOD">Modoc - MOD</option>
+				<option value="MNO">Mono - MNO</option>
+				<option value="MON">Monterey - MON</option>
+				<option value="NAP">Napa - NAP</option>
+				<option value="NEV">Nevada - NEV</option>
+				<option value="ORA">Orange - ORA</option>
+				<option value="PLA">Placer - PLA</option>
+				<option value="PLU">Plumas - PLU</option>
+				<option value="RIV">Riverside - RIV</option>
+				<option value="SAC">Sacramento - SAC</option>
+				<option value="SBT">San Benito - SBT</option>
+				<option value="SBD">San Bernardino - SBD</option>
+				<option value="SD">San Diego - SD</option>
+				<option value="SF">San Francisco - SF</option>
+				<option value="SJ">San Joaquin - SJ</option>
+				<option value="SLO">San Luis Obispo - SLO</option>
+				<option value="SM">San Mateo - SM</option>
+				<option value="SB">Santa Barbara - SB</option>
+				<option value="SCL">Santa Clara - SCL</option>
+				<option value="SCR">Santa Cruz - SCR</option>
+				<option value="SHA">Shasta - SHA</option>
+				<option value="SIE">Sierra - SIE</option>
+				<option value="SIS">Siskiyou - SIS</option>
+				<option value="SOL">Solano - SOL</option>
+				<option value="SON">Sonoma - SON</option>
+				<option value="STA">Stanislaus - STA</option>
+				<option value="SUT">Sutter - SUT</option>
+				<option value="TEH">Tehama - TEH</option>
+				<option value="TRI">Trinity - TRI</option>
+				<option value="TUL">Tulare - TUL</option>
+				<option value="TUO">Tuolumne - TUO</option>
+				<option value="VEN">Ventura - VEN</option>
+				<option value="YOL">Yolo - YOL</option>
+				<option value="YUB">Yuba - YUB</option>
+			</select>
+
+			<h1>Contact</h1>
+			<input required type="text" name="name" id='name' placeholder=" Name of Observer">
 			<input type="text" name="email" id='email' placeholder=" Email of Observer">
-			<input type="button" class="button" id="submit" value="Submit Sighting">
-			<div id="success" style="color:red;"></div>
-		</form>
+			<input required type="text" name="address" id="address" placeholder=" Address">
+
 
 	</div>
 
 
 		<div class="half" style="padding-top:45px">
-
-		<h2>REPORTING GUIDELINES</h2>
+		<!-- <h2>REPORTING GUIDELINES</h2>
 			<ul>
 				<li>
 					<p>All reports <span class="bold">must include the species, location, date of the observation, and the name of the observer.</span> The most important additional information you should include is a detailed description of the bird seen (not what it should look like), comparing the bird in question to similar species. Include the viewing conditions at the time of the observation. For more information on documenting and reporting rarities, <a href="">click here</a>.</p>
@@ -98,7 +169,40 @@ return false;
 					<p><a href="#">Writing a Rare Bird Report</a><br>by Steve Summers</p>
 				</li>
 			</ul>
-		</div>
+		</div> -->
+
+		<h1>Conditions</h1>
+		<input required type="text" name="others" id='others' placeholder=" Other Observers">
+
+		<input required type="text" name="opticals" id='opticals' placeholder=" Optical Aids">
+
+		<h1>Length of Time Viewed</h1>
+		<select required name="time" id='time'>
+			<option>WHAT DO I PUT HERE?</option>
+		</select>
+
+		<h1>Was the bird photographed or recorded?</h1>
+		<input type="radio" name="recorded" value="yes"> Yes<br>
+		<input type="radio" name="recorded" value="no"> No<br>
+
+		<input type="button" class="button" id="picture" value="Add Picture">
+
+		<h1>Is the viewing 100% certain?</h1>
+		<input type="radio" name="certain" value="yes"> Yes<br>
+		<input type="radio" name="certain" value="no"> No<br>
+
+		<textarea required class="sight-description" name="description" id='description' placeholder=" Description"></textarea>
+
+		<input type="checkbox" name="pdf" value="pdf">Save as PDF<br>
+
+		<input type="button" class="button" id="submit" value="Submit Sighting">
+
+		<a href="#">Reporting Guidelines</a>
+		<a href="#">Additional Resources</a>
+
+		<div id="success" style="color:red;"></div>
+	</form>
+
 	</div>
 
 <div class="push"></div>
@@ -113,24 +217,6 @@ return false;
 			</footer>
 	</div>
 
-
-
-<!-- <script>
-function formSubmitted(str) {
-    if (str.length == 0) {
-        document.getElementById("txtHint").innerHTML = "";
-        return;
-    } else {
-        var xmlhttp = new XMLHttpRequest();
-        xmlhttp.onreadystatechange = function() {
-            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-                document.getElementById("txtHint").innerHTML = xmlhttp.responseText;
-            }
-        };
-        xmlhttp.open("GET", "gethint.php?q=" + str, true);
-        xmlhttp.send();
-    }
-} -->
 </script>
 </div>
 </body>

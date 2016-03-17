@@ -87,7 +87,7 @@ h6{
 h1{
 	font-family: "Lato Bold";
 	font-size: 20px;
-	font-weight: normal;	
+	font-weight: normal;
 	padding-bottom: 10px;
 	padding-top: 24px;
 	color:  #307984;
@@ -97,7 +97,7 @@ h1{
 h2{
 	font-family: "Lato Black";
 	font-size: 15px;
-	font-weight: normal;	
+	font-weight: normal;
 	padding-top: 14px;
 	padding-bottom: 2px;
 	color:  #307984;
@@ -116,13 +116,13 @@ h2.space-before {
 	text-align: center;
 	box-shadow: 0px 4px 4px -4px #AAAAAA;
 	background-color:;
-	
+
 }
 
 .nav{
 	height: 100px;
 	margin-left: auto;
-    margin-right: auto;
+  margin-right: auto;
 	width: 1200px;
 	background-color: ;
 
@@ -195,7 +195,7 @@ nav a:hover {
 	text-align: left;
 
 	-webkit-appearance: none;
-    	-moz-appearance: none;
+  -moz-appearance: none;
 }
 
 .search-species{
@@ -204,14 +204,14 @@ nav a:hover {
 	width: 360px;
 	height: 50px;
 	padding-left: 20px;
-	
+
 	background-color: #f0f6f7;
 	font-family: "Lato bold";
 	font-size: 15px;
 	text-align: left;
-	
+
 	-webkit-appearance: none;
-    	-moz-appearance: none;
+  -moz-appearance: none;
 
 }
 
@@ -228,10 +228,10 @@ nav a:hover {
 	text-transform: uppercase;
 	color: #FFF;
 	-webkit-appearance: none;
-    	-moz-appearance: none;
+  -moz-appearance: none;
     	text-indent: 1px;
     	text-overflow: '';
-    cursor: pointer
+    	cursor: pointer
 }
 
 .button:hover	{
@@ -256,7 +256,7 @@ nav a:hover {
 	margin: auto;
 	background-image: url('images/duck.png');
 	background-size: cover;
-	
+
 }
 
 .db-image{
@@ -265,7 +265,7 @@ nav a:hover {
 	margin: 0, auto;
 	background-image: url('images/DB-bird.png');
 	background-size: cover;
-	
+
 }
 
 
@@ -338,7 +338,7 @@ footer a{
 	display: inline-block;
 	color: #307984;
 	font-family: "Lato Regular", helvetica, sans-serif;
-	font-weight: normal;	
+	font-weight: normal;
 	font-size: 14px;
 	text-transform: capitalize;
 	background-color: ;
@@ -349,7 +349,7 @@ footer a{
 
 table{
 	font-family: "Lato Regular";
-	font-weight: normal;	
+	font-weight: normal;
 	width: 960px;
     margin: 0 auto;
     margin-bottom: 40px;
@@ -362,7 +362,7 @@ th 	{
 	color: white;
 	font-size: 14px;
 	font-family: "Lato Bold";
-	font-weight: normal;	
+	font-weight: normal;
 	background-color: #307984;
 	text-transform: uppercase;
 	text-align: center;
@@ -374,13 +374,13 @@ th 	{
 th:nth-child(3) {
 	width: 200px;
 }
- 
+
 
 td{
 	font-size: 16px;
     text-align: left;
     height: 40px;
- padding: 10px; 
+ padding: 10px;
     border: 1px solid #e5eef0;
    /* vertical-align: top; */
 text-align:center;
@@ -438,7 +438,7 @@ input {
 	color: #307984;
 }
 
-.sighting input, .sight-description {	
+.sighting input, .sight-description {
 	width: 380px;
 	height: 50px;
 	background-color: #f0f6f7;
@@ -468,9 +468,3 @@ input {
 .sighting input.button:hover {
 	background-color: #00343C;
 	}
-
-
-
-
-
-			
