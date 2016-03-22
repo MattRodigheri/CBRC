@@ -30,7 +30,7 @@ return false;
 		<a href="default2.asp"><div class="logo col"></div></a>
 		<div class="col">
 			<nav>
-
+				<a href="index.html">HOME</a>
 				<a href="cbrcdb2.html">DATABASE</a>
 				<a href="guidelines.html" class="active">REPORT SIGHTING</a>
 				<a href="#">RARE BIRDS</a>
@@ -47,24 +47,32 @@ return false;
 	</div>
 </div>
 <div class="wrapper">
-	<div style="padding-top: 30px" class="half">
-		<h1>Enter Sighting Information</h1>
-		<h1>Bird</h1>
+	<div class="sightingHalf">
 
 		<form class="sighting" action="" method="post" id="mycontactform">
-			<input type="text" name="species" id='species' placeholder="Enter Species">
 
-			<h1>Date & Time First Seen</h1>
-			<input type="text" name="firstDate" id='firstDate' placeholder=" mm/dd/yy">
+			<h1 class="sightingH1">Enter Sighting Information</h1>
 
-			<h1>Date & Time Last Seen</h1>
-			<input type="text" name="lastDate" id='lastDate' placeholder=" mm/dd/yy">
+			<div>
+				<h1 class="sightingH1">Bird</h1>
+				<input type="text" name="species" id='species' placeholder="Enter Species">
+			</div>
 
-			<h1>Number of Birds</h1>
-			<input type="text" name="number" id='number' placeholder=" Number">
+			<div>
+				<h1 class="sightingH1">Date & Time First Seen</h1>
+				<input type="text" name="firstDate" id='firstDate' class='short' placeholder=" mm/dd/yy">
+			</div>
 
-			<h1>County</h1>
-			<select required name="county" id='county'>
+			<div>
+				<h1 class="sightingH1">Date & Time Last Seen</h1>
+				<input type="text" name="lastDate" id='lastDate' class='short right' placeholder=" mm/dd/yy">
+			</div>
+
+			<h1 class="sightingH1">Number of Birds</h1>
+			<input type="text" name="number" id='number' class='short' placeholder=" Number">
+
+			<h1 class="sightingH1">County</h1>
+ 			<select required name="county" id='county' class='short right'>
 				<option value="-"> - </option>
 				<option value="ALA">Alameda - ALA</option>
   			<option value="ALP">Alpine - ALP</option>
@@ -126,68 +134,32 @@ return false;
 				<option value="YUB">Yuba - YUB</option>
 			</select>
 
-			<h1>Contact</h1>
+			<h1 class="sightingH1">Contact</h1>
 			<input required type="text" name="name" id='name' placeholder=" Name of Observer">
 			<input type="text" name="email" id='email' placeholder=" Email of Observer">
 			<input required type="text" name="address" id="address" placeholder=" Address">
-
-
 	</div>
 
 
-		<div class="half" style="padding-top:45px">
-		<!-- <h2>REPORTING GUIDELINES</h2>
-			<ul>
-				<li>
-					<p>All reports <span class="bold">must include the species, location, date of the observation, and the name of the observer.</span> The most important additional information you should include is a detailed description of the bird seen (not what it should look like), comparing the bird in question to similar species. Include the viewing conditions at the time of the observation. For more information on documenting and reporting rarities, <a href="">click here</a>.</p>
-				</li>
+	<div class="sightingHalf">
 
-				<li>
-					<p>An optional fill-in-the-blank form is available for submitting your sightings electronically. Download it <a href="">here</a>. Photos should be submitted as separate JPEGs with original metadata (exif) rather than embedded in word processing documents.</p>
-				</li>
-			</ul>
-
-		<h2>ADDITIONAL RESOURCES</h2>
-			<ul>
-				<li>
-					<p><a href="#">A Lost Art?: Writing Descriptions of Rare Birds</a><br>by David Irons</p>
-				</li>
-
-				<li>
-					<p><a href="#">Elements of a Bird Description</a><br>by Lauren Harter</p>
-				</li>
-
-				<li>
-					<p><a href="#">How to Document Rare Birds</a><br>by Donna L. Dittmann and Greg W. Lasley</p>
-				</li>
-
-				<li>
-					<p><a href="#">How to Write Convincing Details</a><br>by Mike Patterson</p>
-				</li>
-
-				<li>
-					<p><a href="#">Writing a Rare Bird Report</a><br>by Steve Summers</p>
-				</li>
-			</ul>
-		</div> -->
-
-		<h1>Conditions</h1>
+		<h1 class="sightingH1">Conditions</h1>
 		<input required type="text" name="others" id='others' placeholder=" Other Observers">
 
 		<input required type="text" name="opticals" id='opticals' placeholder=" Optical Aids">
 
-		<h1>Length of Time Viewed</h1>
+		<h1 class="sightingH1">Length of Time Viewed</h1>
 		<select required name="time" id='time'>
 			<option>WHAT DO I PUT HERE?</option>
 		</select>
 
-		<h1>Was the bird photographed or recorded?</h1>
+		<h1 class="sightingH1">Was the bird photographed or recorded?</h1>
 		<input type="radio" name="recorded" value="yes"> Yes<br>
 		<input type="radio" name="recorded" value="no"> No<br>
 
 		<input type="button" class="button" id="picture" value="Add Picture">
 
-		<h1>Is the viewing 100% certain?</h1>
+		<h1 class="sightingH1">Is the viewing 100% certain?</h1>
 		<input type="radio" name="certain" value="yes"> Yes<br>
 		<input type="radio" name="certain" value="no"> No<br>
 

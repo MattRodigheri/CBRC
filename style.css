@@ -91,7 +91,7 @@ h1{
 	padding-bottom: 10px;
 	padding-top: 24px;
 	color:  #307984;
-
+	margin-top: -10px;
 }
 
 h2{
@@ -256,7 +256,6 @@ nav a:hover {
 	margin: auto;
 	background-image: url('images/duck.png');
 	background-size: cover;
-
 }
 
 .db-image{
@@ -267,7 +266,6 @@ nav a:hover {
 	background-size: cover;
 
 }
-
 
 .active{
 	border-bottom: thick solid #307984;
@@ -298,7 +296,6 @@ div.half ul {
 }
 
 .footer-bar, .push{
-
 	margin-left: auto;
     margin-right: auto;
 	width: 100%;
@@ -319,11 +316,6 @@ div.half ul {
 	width: 960px;
 	background-color: ;
 }
-
-/* 	back to top
-	remove display: none;
-	to show
-*/
 
 .footer a:last-child {
 	float: right;
@@ -392,17 +384,6 @@ td:first-child {
 	white-space: nowrap;
 }
 
-/*td:first-child a {
-	text-decoration: none;
-	color: #307984;
-
-}
-
-td:first-child a:hover {
-	text-decoration: none;
-	color: #307984;
-}
-*/
 td:nth-child(2) {
 	text-align: left;
 }
@@ -430,7 +411,8 @@ th:nth-child(2) {
 	outline-offset: -1px;
 }
 
-/*		Report Sighting text field		*/
+/*		Report Sighting Page		*/
+
 input {
 	font-family: "Lato Bold";
 	font-weight: normal;
@@ -446,7 +428,7 @@ input {
 	border: solid 1px #9db8bd;
 	margin-bottom: 20px;
 	padding-left: 20px;
-		font-family: "Lato Bold";
+	font-family: "Lato Bold";
 	font-weight: normal;
 	font-size: 15px;
 	color: #307984;
@@ -468,3 +450,49 @@ input {
 .sighting input.button:hover {
 	background-color: #00343C;
 	}
+
+.sighting input.short {
+	width: 175px;
+	background-color: #f0f6f7;
+	text-align: left;
+	border: solid 1px #9db8bd;
+	font-family: "Lato Bold";
+	font-weight: normal;
+	font-size: 15px;
+	color: #307984;
+	float: left;
+	/*display: inline;*/
+}
+
+.right {
+	margin-top: -48px;
+	margin-left: 8px;
+}
+.sightingH1 {
+}
+
+.sightingHalf {
+	width: 45%;
+	background-color: #ffffff;
+	padding-left: 5%;
+	style: padding-top: 30px;
+	float: left;
+	height: auto;
+	margin-bottom: 40px;
+	margin-top: 24px;
+}
+
+select {
+	width: 175px;
+	height: 50px;
+	background-color: #f0f6f7;
+	text-align: left;
+	border: solid 1px #9db8bd;
+	/*margin-top: -48px;*/
+	margin-bottom: 20px;
+	padding-left: 20px;
+	font-family: "Lato Bold";
+	font-weight: normal;
+	font-size: 15px;
+	color: #307984;
+}
