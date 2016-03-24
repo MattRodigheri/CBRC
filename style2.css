@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face{
+	font-family: "Lato Bold";
+	src: url('fonts/Lato/Lato-Bold.ttf');
+}
+
+@font-face{
+	font-family: "Lato Black";
+	src: url('fonts/Lato/Lato-Black.ttf');
+}
+
+@font-face{
+	font-family: "Martel DemiBold";
+	src: url('fonts/Martel/Martel-DemiBold.ttf');
+}
+
+@font-face{
+	font-family: "Martel ExtraBold";
+	src: url('fonts/Martel/Martel-ExtraBold.ttf');
+}
+
+@font-face{
+	font-family: "Lato Regular";
+	src: url('fonts/Lato/Lato-Regular.ttf');
+}
+
+@font-face{
+	font-family: "Lato Light";
+	src: url('fonts/Lato/Lato-Light.ttf');
+}
+
+/* ===== NAVIGATION ===== */
+
+header {
+	height: 100px;
+	box-shadow: 0px 4px 4px -4px #AAAAAA;
+}
+
+#nav-container {
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo{
+	width: 200px;
+	height: 100px;
+	margin-bottom: -22px;
+	background-image: url('images/logo.png');
+}
+
+#active{
+	padding-bottom: 15px;
+	border-bottom: thick solid #307984;
+}
+
+.head-search{
+	margin-top: 57px;
+	padding: 5px;
+	font: 14px "Lato Bold";
+	border: none;
+	margin-left: 0px;
+	text-align: right;
+}
+
+nav li {
+	text-decoration: none;
+	display: inline-block;
+	padding: 0 15px;
+	color: #307984;
+	font-family: "Lato Black", helvetica, sans-serif;
+	font-size: 14px;
+	background-color: #fff;
+}
+
+nav a{
+	text-decoration: none;
+	color: #307984;
+}
+
+nav a:hover {
+	color: #00343c;
+}
+
+/* ===== REPORT SIGHTING FORM ===== */
+
+main {
+	width: 70%;
+	margin: 20px auto 0 auto;
+}
+
+.half {
+
+}
+
+h1 {
+	font: 20px "Lato Bold";
+	padding: 15px 0;
+	color:  #307984;
+}
+
+.sighting-form input {
+	font: 15px "Lato Bold";
+	color: #307984;
+	display: block;
+	height: 50px;
+	background-color: #f0f6f7;
+	text-align: left;
+	border: solid 1px #9db8bd;
+	margin-bottom: 20px;
+	padding-left: 20px;
+}
+
+.long {
+		width: 380px;
+}
+
+.short {
+	width: 225px;
+	display: inline-block;
+	margin: 0 -5px;
+}
+
+/*.date {
+	width: 180px;
+}*/
+
+
+
+select {
+	width: 175px;
+	height: 50px;
+	background-color: #f0f6f7;
+	text-align: left;
+	border: solid 1px #9db8bd;
+	/*margin-top: -48px;*/
+	margin-bottom: 20px;
+	padding-left: 20px;
+	font-family: "Lato Bold";
+	font-weight: normal;
+	font-size: 15px;
+	color: #307984;
+}
