@@ -89,11 +89,12 @@ nav a:hover {
 /* ===== REPORT SIGHTING FORM ===== */
 
 main {
-	width: 75%;
+	width: 90%;
 	margin: 20px auto 0 auto;
 }
 
 aside {
+	/*margin: 0 auto;*/
 	width: 50%;
 	height: 700px;
 	float: left;
@@ -108,7 +109,7 @@ h1 {
 .sighting-form input {
 	font: 15px "Lato Bold";
 	color: #307984;
-	display: block;
+	/*display: block;*/
 	height: 50px;
 	background-color: #f0f6f7;
 	text-align: left;
@@ -141,7 +142,7 @@ select {
 	padding-left: 20px;
 	font: 15px "Lato Bold";
 	font-weight: normal;
-	color: #307984;
+	color: #a9a9a9;
 	-webkit-appearance: none;
   -webkit-border-radius: 0px;
 	-webkit-input-placeholder: red;
@@ -151,6 +152,7 @@ select {
 	font: 15px "Lato Bold";
 	color: #307984;
 	height: 50px;
+	width: 380px;
 	background-color: #f0f6f7;
 	text-align: left;
 	border: solid 1px #9db8bd;
@@ -160,10 +162,31 @@ select {
 	display: inline-block;
 }
 
-.button{
+#opticals {
+	font: 15px "Lato Bold";
+	color: #307984;
+	height: 50px;
+	width: 175px;
+	background-color: #f0f6f7;
+	text-align: left;
+	border: solid 1px #9db8bd;
+	margin: -10px 28px 20px 0;
+	padding-left: 20px;
+	display: inline-block;
+}
+
+input[type="radio"] {
+	color: #307984;
+}
+
+input[value="no"] {
+  margin-left: 50px;
+}
+
+button{
 	border-radius: none;
 	border: 0px;
-	width: 380px;
+	width: 175px;
 	height: 50px;
 	background-color: #307984;
 	margin-top: 20px;
@@ -189,8 +212,26 @@ textarea {
 	border: solid 1px #9db8bd;
 	margin: 20px 0;
 	padding-left: 20px;
-	font-family: 15px "Lato Bold";
+	font: 15px "Lato Bold";
 	color: #307984;
+}
+
+input[type="submit"] {
+	border-radius: none;
+	border: 0px;
+	width: 175px;
+	height: 50px;
+	background-color: #307984;
+	margin-top: -20px;
+	margin-right: 150px;
+	font: 16px "Lato bold";
+	text-transform: uppercase;
+	color: #fff;
+	text-indent: 1px;
+	float: right;
+	cursor: pointer;
+	-webkit-appearance: none;
+		 -moz-appearance: none;
 }
 
 .checkbox {
@@ -198,14 +239,14 @@ textarea {
 }
 
 #guidelines-and-resources {
-	margin-top: 800px;
-	margin-left: 675px;
+	margin-top: 770px;
+	margin-bottom: 20px;
+	margin-left: 620px;
 }
 
 #guidelines-and-resources a {
-	padding: 0 10px;
+	padding: 0 20px;
 	color: #307984;
-
 }
 
 /* ===== FOOTER ===== */

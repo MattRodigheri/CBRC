@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="style2.css">
+<link rel="stylesheet" type="text/css" href="report_sighting.css">
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <script src="report_sighting.js"></script>
 <title>CBRC</title>
@@ -35,12 +35,12 @@
 
 				<section class="short">
 					<h1>Date & Time First Seen</h1>
-					<input class="date" type="date" name="firstDate" placeholder=" mm/dd/yy">
+					<input class="date" type="text" name="firstDate" placeholder=" mm/dd/yy">
 				</section>
 
 				<section class="short">
 					<h1>Date & Time Last Seen</h1>
-					<input class="date" type="date" name="lastDate" placeholder=" mm/dd/yy">
+					<input class="date" type="text" name="lastDate" placeholder=" mm/dd/yy">
 				</section>
 
 				<section class="short">
@@ -120,26 +120,29 @@
 		</aside>
 
 		<aside>
-			<section>
-				<h1>Conditions</h1>
-				<input required class="conditions" type="text" name="others" placeholder=" Other Observers">
-				<input required class="conditions" type="text" name="opticals" placeholder=" Optical Aids">
+			<h1>Conditions</h1>
+			<input required class="conditions" type="text" name="others" placeholder=" Other Observers">
+
+			<section class="short">
+				<input id="opticals" required type="text" name="opticals" placeholder=" Optical Aids">
 			</section>
 
-			<h1>Length of Time Viewed</h1>
-			<select required name="time">
-				<option>WHAT DO I PUT HERE?</option>
-			</select>
+			<section class="short">
+				<h1>Length of Time Viewed</h1>
+				<select required name="time"><option>WHAT DO I PUT HERE?</option></select>
+			</section>
 
 			<h1>Was the bird photographed or recorded?</h1>
-			<input type="radio" name="recorded" value="yes"> Yes<br>
-			<input type="radio" name="recorded" value="no"> No<br>
+			<input type="radio" name="recorded" value="yes"> Yes
+			<input type="radio" name="recorded" value="no"> No
 
-			<input type="button" class="button" value="Add Picture">
+			<button class="button" value="">Add Picture</button>
 
-			<h1>Is the viewing 100% certain?</h1>
-			<input type="radio" name="certain" value="yes"> Yes<br>
-			<input type="radio" name="certain" value="no"> No<br>
+			<section>
+				<h1>Is the viewing 100% certain?</h1>
+				<input type="radio" name="certain" value="yes"> Yes
+				<input type="radio" name="certain" value="no"> No
+			</section>
 
 			<textarea required name="description" placeholder=" Description"></textarea>
 
@@ -148,16 +151,16 @@
 				<p class="checkbox">Save as PDF</p>
 			</section>
 
-			<input type="button" class="button" value="Submit Sighting">
+			<input type="submit" class="button" value="Submit Sighting">
 		</aside>
 
 
 
 	</main>
-	
+
 	<section id="guidelines-and-resources">
-		<a href="#">Reporting Guidelines</a>
-		<a href="#">Additional Resources</a>
+		<a href="#">REPORTING GUIDLINES</a>
+		<a href="#">ADDITIONAL RESOURCES</a>
 	</section>
 
 	<footer>
