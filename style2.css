@@ -37,10 +37,10 @@
 
 header {
 	height: 100px;
-	box-shadow: 0px 4px 4px -4px #AAAAAA;
+	box-shadow: 0px 4px 4px -4px #aaa;
 }
 
-#nav-container {
+nav {
 	width: 95%;
 	margin-left: auto;
 	margin-right: auto;
@@ -89,12 +89,14 @@ nav a:hover {
 /* ===== REPORT SIGHTING FORM ===== */
 
 main {
-	width: 70%;
+	width: 75%;
 	margin: 20px auto 0 auto;
 }
 
-.half {
-
+aside {
+	width: 50%;
+	height: 700px;
+	float: left;
 }
 
 h1 {
@@ -122,26 +124,111 @@ h1 {
 .short {
 	width: 225px;
 	display: inline-block;
-	margin: 0 -5px;
+	margin-right: -10px;
 }
 
 /*.date {
 	width: 180px;
 }*/
 
-
-
 select {
-	width: 175px;
+	width: 190px;
 	height: 50px;
 	background-color: #f0f6f7;
 	text-align: left;
 	border: solid 1px #9db8bd;
-	/*margin-top: -48px;*/
 	margin-bottom: 20px;
 	padding-left: 20px;
-	font-family: "Lato Bold";
+	font: 15px "Lato Bold";
 	font-weight: normal;
-	font-size: 15px;
 	color: #307984;
+	-webkit-appearance: none;
+  -webkit-border-radius: 0px;
+	-webkit-input-placeholder: red;
+}
+
+.conditions {
+	font: 15px "Lato Bold";
+	color: #307984;
+	height: 50px;
+	background-color: #f0f6f7;
+	text-align: left;
+	border: solid 1px #9db8bd;
+	margin-bottom: 20px;
+	margin-right: 28px;
+	padding-left: 20px;
+	display: inline-block;
+}
+
+.button{
+	border-radius: none;
+	border: 0px;
+	width: 380px;
+	height: 50px;
+	background-color: #307984;
+	margin-top: 20px;
+	font: 16px "Lato bold";
+	text-transform: uppercase;
+	color: #fff;
+	text-indent: 1px;
+	display: block;
+	cursor: pointer
+	-webkit-appearance: none;
+     -moz-appearance: none;
+}
+
+.button:hover	{
+	background-color: #00343C;
+}
+
+textarea {
+	width: 380px;
+	height: 100px;
+	background-color: #f0f6f7;
+	text-align: left;
+	border: solid 1px #9db8bd;
+	margin: 20px 0;
+	padding-left: 20px;
+	font-family: 15px "Lato Bold";
+	color: #307984;
+}
+
+.checkbox {
+	display: inline-block;
+}
+
+#guidelines-and-resources {
+	margin-top: 800px;
+	margin-left: 675px;
+}
+
+#guidelines-and-resources a {
+	padding: 0 10px;
+	color: #307984;
+
+}
+
+/* ===== FOOTER ===== */
+
+footer {
+	background-color: #00343c;
+	height: 60px;
+	bottom: 0;
+}
+
+footer ul {
+	margin-left: 192px;
+}
+
+footer li {
+	padding-top: 22px;
+	margin-right: 20px;
+	display: inline-block;
+	font: 14px "Lato Regular", helvetica, sans-serif;
+	text-transform: capitalize;
+}
+
+footer a {
+	text-decoration: none;
+	color: #fff;
 }

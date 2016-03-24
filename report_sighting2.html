@@ -10,7 +10,6 @@
 </head>
 <body>
 	<header>
-		<section id="nav-container">
 			<nav>
 				<ul>
 					<li><a href="default2.asp"><div id="logo"></div></a></li>
@@ -23,13 +22,12 @@
 					<li><form><input class="head-search" type=text placeholder="SEARCH CBRC"></form></li>
 				</ul>
 			</nav>
-		</section>
 	</header>
 
 	<main>
 		<h1>Enter Sighting Information</h1>
 
-		<aside class="half">
+		<aside>
 			<form class="sighting-form" action="#" method="post">
 
 				<h1>Bird</h1>
@@ -45,11 +43,130 @@
 					<input class="date" type="date" name="lastDate" placeholder=" mm/dd/yy">
 				</section>
 
-				<h1 class="sightingH1">Number of Birds</h1>
-				<input type="text" name="number" id='number' class='short' placeholder=" Number">
+				<section class="short">
+					<h1>Number of Birds</h1>
+					<input type="text" name="number" placeholder=" Number">
+				</section>
 
+				<section class="short">
+					<h1 class="sightingH1">County</h1>
+	 				<select required name="county">
+					<option value="select"> select </option>
+					<option value="ALA">Alameda - ALA</option>
+	  			<option value="ALP">Alpine - ALP</option>
+	  			<option value="AMA">Amador - AMA</option>
+	  			<option value="BUT">Butte - BUT</option>
+					<option value="CAL">Calaveras - CAL</option>
+					<option value="COL">Colusa - COL</option>
+					<option value="CC">Contra Costa - CC</option>
+					<option value="DN">Del Norte - DN</option>
+					<option value="ED">El Dorado - ED</option>
+					<option value="FRE">Fresno - FRE</option>
+					<option value="GLE">Glenn</option>
+					<option value="HUM">Humboldt - HUM</option>
+					<option value="IMP">Imperial - IMP</option>
+					<option value="INY">Inyo - INY</option>
+					<option value="KER">Kern - KER</option>
+					<option value="KIN">Kings - KIN</option>
+					<option value="LAK">Lake - LAK</option>
+					<option value="LAS">Lassen - LAS</option>
+					<option value="LA">Los Angeles - LA</option>
+					<option value="MAD">Madera - MAD</option>
+					<option value="MRN">Marin - MRN</option>
+					<option value="MPA">Mariposa - MPA</option>
+					<option value="MEN">Mendocino - MEN</option>
+					<option value="MER">Merced - MER</option>
+					<option value="MOD">Modoc - MOD</option>
+					<option value="MNO">Mono - MNO</option>
+					<option value="MON">Monterey - MON</option>
+					<option value="NAP">Napa - NAP</option>
+					<option value="NEV">Nevada - NEV</option>
+					<option value="ORA">Orange - ORA</option>
+					<option value="PLA">Placer - PLA</option>
+					<option value="PLU">Plumas - PLU</option>
+					<option value="RIV">Riverside - RIV</option>
+					<option value="SAC">Sacramento - SAC</option>
+					<option value="SBT">San Benito - SBT</option>
+					<option value="SBD">San Bernardino - SBD</option>
+					<option value="SD">San Diego - SD</option>
+					<option value="SF">San Francisco - SF</option>
+					<option value="SJ">San Joaquin - SJ</option>
+					<option value="SLO">San Luis Obispo - SLO</option>
+					<option value="SM">San Mateo - SM</option>
+					<option value="SB">Santa Barbara - SB</option>
+					<option value="SCL">Santa Clara - SCL</option>
+					<option value="SCR">Santa Cruz - SCR</option>
+					<option value="SHA">Shasta - SHA</option>
+					<option value="SIE">Sierra - SIE</option>
+					<option value="SIS">Siskiyou - SIS</option>
+					<option value="SOL">Solano - SOL</option>
+					<option value="SON">Sonoma - SON</option>
+					<option value="STA">Stanislaus - STA</option>
+					<option value="SUT">Sutter - SUT</option>
+					<option value="TEH">Tehama - TEH</option>
+					<option value="TRI">Trinity - TRI</option>
+					<option value="TUL">Tulare - TUL</option>
+					<option value="TUO">Tuolumne - TUO</option>
+					<option value="VEN">Ventura - VEN</option>
+					<option value="YOL">Yolo - YOL</option>
+					<option value="YUB">Yuba - YUB</option>
+				</select>
+				</section>
+
+				<h1>Contact</h1>
+				<input required class="long" type="text" name="name" placeholder=" Name of Observer">
+				<input class="long" type="email" name="email" placeholder=" Email of Observer">
+				<input required class="long" type="text" name="address" placeholder=" Address">
 		</aside>
+
+		<aside>
+			<section>
+				<h1>Conditions</h1>
+				<input required class="conditions" type="text" name="others" placeholder=" Other Observers">
+				<input required class="conditions" type="text" name="opticals" placeholder=" Optical Aids">
+			</section>
+
+			<h1>Length of Time Viewed</h1>
+			<select required name="time">
+				<option>WHAT DO I PUT HERE?</option>
+			</select>
+
+			<h1>Was the bird photographed or recorded?</h1>
+			<input type="radio" name="recorded" value="yes"> Yes<br>
+			<input type="radio" name="recorded" value="no"> No<br>
+
+			<input type="button" class="button" value="Add Picture">
+
+			<h1>Is the viewing 100% certain?</h1>
+			<input type="radio" name="certain" value="yes"> Yes<br>
+			<input type="radio" name="certain" value="no"> No<br>
+
+			<textarea required name="description" placeholder=" Description"></textarea>
+
+			<section >
+				<input class="checkbox" type="checkbox" name="pdf" value="pdf">
+				<p class="checkbox">Save as PDF</p>
+			</section>
+
+			<input type="button" class="button" value="Submit Sighting">
+		</aside>
+
+
+
 	</main>
+	
+	<section id="guidelines-and-resources">
+		<a href="#">Reporting Guidelines</a>
+		<a href="#">Additional Resources</a>
+	</section>
+
+	<footer>
+				<ul>
+					<li><a href="#">donate</a></li>
+					<li><a href="#">webmaster</a></li>
+					<li><a href="#">contact us</a></li>
+				</ul>
+	</footer>
 
 </body>
 </html>
