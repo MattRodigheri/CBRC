@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="report_sighting.css">
-<script src="http://code.jquery.com/jquery-latest.js"></script>
+<!-- <script src="http://code.jquery.com/jquery-latest.js"></script> -->
 <script src="report_sighting.js"></script>
 <title>CBRC</title>
 </head>
@@ -25,12 +25,15 @@
 	</header>
 
 	<main>
-		<h1>Enter Sighting Information</h1>
 
 		<aside>
+			<section class="container">
+			<h1>Enter Sighting Information</h1>
+
 			<form class="sighting-form" action="#" method="post">
 
 				<h1>Bird</h1>
+
 				<input class="long" type="text" name="species" placeholder="Enter Species">
 
 				<section class="short">
@@ -51,7 +54,7 @@
 				<section class="short">
 					<h1 class="sightingH1">County</h1>
 	 				<select required name="county">
-					<option value="select"> select </option>
+					<option value="select"> Select </option>
 					<option value="ALA">Alameda - ALA</option>
 	  			<option value="ALP">Alpine - ALP</option>
 	  			<option value="AMA">Amador - AMA</option>
@@ -117,9 +120,12 @@
 				<input required class="long" type="text" name="name" placeholder=" Name of Observer">
 				<input class="long" type="email" name="email" placeholder=" Email of Observer">
 				<input required class="long" type="text" name="address" placeholder=" Address">
+			</section>
 		</aside>
 
 		<aside>
+			<section class="container">
+
 			<h1>Conditions</h1>
 			<input required class="conditions" type="text" name="others" placeholder=" Other Observers">
 
@@ -133,25 +139,27 @@
 			</section>
 
 			<h1>Was the bird photographed or recorded?</h1>
-			<input type="radio" name="recorded" value="yes"> Yes
-			<input type="radio" name="recorded" value="no"> No
+			<input class="radio" type="radio" name="recorded" value="yes"><label for="radio"> Yes</label>
+			<input class="radio" type="radio" name="recorded" value="no"><label for="radio"> No</label>
 
 			<button class="button" value="">Add Picture</button>
 
 			<section>
 				<h1>Is the viewing 100% certain?</h1>
-				<input type="radio" name="certain" value="yes"> Yes
-				<input type="radio" name="certain" value="no"> No
+				<input class="radio" type="radio" name="certain" value="yes"><label for="radio"> Yes</label>
+				<input class="radio" type="radio" name="certain" value="no"><label for="radio"> No</label>
 			</section>
 
 			<textarea required name="description" placeholder=" Description"></textarea>
 
-			<section >
+			<section>
 				<input class="checkbox" type="checkbox" name="pdf" value="pdf">
-				<p class="checkbox">Save as PDF</p>
+				<label for="checkbox">Save as PDF</label>
 			</section>
 
 			<input type="submit" class="button" value="Submit Sighting">
+		</section>
+
 		</aside>
 
 

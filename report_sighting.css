@@ -68,7 +68,6 @@ nav {
 }
 
 nav li {
-	text-decoration: none;
 	display: inline-block;
 	padding: 0 15px;
 	color: #307984;
@@ -89,15 +88,19 @@ nav a:hover {
 /* ===== REPORT SIGHTING FORM ===== */
 
 main {
-	width: 90%;
+	width: 85%;
 	margin: 20px auto 0 auto;
 }
 
 aside {
-	/*margin: 0 auto;*/
 	width: 50%;
 	height: 700px;
 	float: left;
+}
+
+.container {
+	margin: 0 auto;
+	width: 80%;
 }
 
 h1 {
@@ -175,9 +178,11 @@ select {
 	display: inline-block;
 }
 
-input[type="radio"] {
+label {
+	font: 15px "Lato Bold";
 	color: #307984;
 }
+
 
 input[value="no"] {
   margin-left: 50px;
@@ -204,18 +209,6 @@ button{
 	background-color: #00343C;
 }
 
-textarea {
-	width: 380px;
-	height: 100px;
-	background-color: #f0f6f7;
-	text-align: left;
-	border: solid 1px #9db8bd;
-	margin: 20px 0;
-	padding-left: 20px;
-	font: 15px "Lato Bold";
-	color: #307984;
-}
-
 input[type="submit"] {
 	border-radius: none;
 	border: 0px;
@@ -223,7 +216,7 @@ input[type="submit"] {
 	height: 50px;
 	background-color: #307984;
 	margin-top: -20px;
-	margin-right: 150px;
+	margin-right: 33px;
 	font: 16px "Lato bold";
 	text-transform: uppercase;
 	color: #fff;
@@ -238,10 +231,27 @@ input[type="submit"] {
 	display: inline-block;
 }
 
+input[type="checkbox"] label {
+	font: 16px "Lato bold";
+}
+
+textarea {
+	width: 380px;
+	height: 100px;
+	background-color: #f0f6f7;
+	text-align: left;
+	border: solid 1px #9db8bd;
+	margin: 20px 0;
+	padding-left: 20px;
+	padding-top: 20px;
+	font: 15px "Lato Bold";
+	color: #307984;
+}
+
 #guidelines-and-resources {
 	margin-top: 770px;
 	margin-bottom: 20px;
-	margin-left: 620px;
+	margin-left: 670px;
 }
 
 #guidelines-and-resources a {
