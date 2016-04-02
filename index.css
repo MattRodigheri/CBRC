@@ -33,6 +33,32 @@
 	src: url('fonts/Lato/Lato-Light.ttf');
 }
 
+/* ===== GRID COLUMNS ===== */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
 /* ===== NAVIGATION ===== */
 
 header {
@@ -85,174 +111,112 @@ nav a:hover {
 	color: #00343c;
 }
 
-/* ===== REPORT SIGHTING FORM ===== */
-
+/* ===== BODY CONTENT ===== */
 main {
 	width: 85%;
 	margin: 20px auto 0 auto;
 }
 
 aside {
-	width: 50%;
-	height: 700px;
-	float: left;
+	width: 35%;
+  display: inline-block;
+  padding: 0 7%;
+  vertical-align: top;
+
 }
 
-.container {
-	margin: 0 auto;
-	width: 80%;
-}
-
-h1 {
-	font: 20px "Lato Bold";
-	padding: 15px 0;
+h1{
+	font-family: "Lato Bold";
+	font-size: 20px;
+	font-weight: normal;
+	padding-bottom: 10px;
+	padding-top: 24px;
 	color:  #307984;
 }
 
-.sighting-form input {
-	font: 15px "Lato Bold";
-	color: #307984;
-	/*display: block;*/
-	height: 50px;
-	background-color: #f0f6f7;
-	text-align: left;
-	border: solid 1px #9db8bd;
-	margin-bottom: 20px;
-	padding-left: 20px;
+.news-image{
+	width: 100%;
+	height: 240px;
+	margin: auto;
+	background-image: url('images/duck.png');
+	background-size: cover;
 }
 
-.long {
-		width: 380px;
-}
-
-.short {
-	width: 225px;
-	display: inline-block;
-	margin-right: -10px;
-}
-
-/*.date {
-	width: 180px;
-}*/
-
-select {
-	width: 190px;
-	height: 50px;
-	background-color: #f0f6f7;
-	text-align: left;
-	border: solid 1px #9db8bd;
-	margin-bottom: 20px;
-	padding-left: 20px;
-	font: 15px "Lato Bold";
+h2{
+	font-family: "Lato Black";
+	font-size: 15px;
 	font-weight: normal;
-	color: #a9a9a9;
-	-webkit-appearance: none;
-  -webkit-border-radius: 0px;
-	-webkit-input-placeholder: red;
+	padding-top: 14px;
+	padding-bottom: 2px;
+	color:#307984;
 }
 
-.conditions {
+h2.space-before {
+	padding-top: 34px;
+}
+
+p {
+	font-family: "Martel DemiBold";
+	padding-top: 10px;
+	font-size: 15px;
+	color: #00343c;
+}
+
+aside a {
+  font-family: "Martel DemiBold";
+	color: #307984;
+	text-decoration: none;
+  font-size: 15px;
+}
+
+a:hover {
+	color: #b5a16a;
+}
+
+ul{
+	padding-left: 20px;
+}
+
+.index-form input {
 	font: 15px "Lato Bold";
 	color: #307984;
+  width: 360px;
 	height: 50px;
-	width: 380px;
 	background-color: #f0f6f7;
 	text-align: left;
 	border: solid 1px #9db8bd;
 	margin-bottom: 20px;
-	margin-right: 28px;
 	padding-left: 20px;
-	display: inline-block;
-}
-
-#opticals {
-	font: 15px "Lato Bold";
-	color: #307984;
-	height: 50px;
-	width: 175px;
-	background-color: #f0f6f7;
-	text-align: left;
-	border: solid 1px #9db8bd;
-	margin: -10px 28px 20px 0;
-	padding-left: 20px;
-	display: inline-block;
-}
-
-label {
-	font: 15px "Lato Bold";
-	color: #307984;
-}
-
-
-input[value="no"] {
-  margin-left: 50px;
 }
 
 button{
 	border-radius: none;
 	border: 0px;
-	width: 175px;
+	width: 380px;
 	height: 50px;
 	background-color: #307984;
 	margin-top: 20px;
-	font: 16px "Lato bold";
+	font-family: "Lato bold";
+	font-size: 16px;
 	text-transform: uppercase;
 	color: #fff;
-	text-indent: 1px;
-	display: block;
-	cursor: pointer;
 	-webkit-appearance: none;
-     -moz-appearance: none;
+  -moz-appearance: none;
+	text-indent: 1px;
+	cursor: pointer
 }
 
 button:hover	{
 	background-color: #00343C;
 }
 
-.checkbox {
-	display: inline-block;
-}
-
-input[type="checkbox"] label {
-	font: 16px "Lato bold";
-}
-
-textarea {
-	width: 380px;
-	height: 100px;
-	background-color: #f0f6f7;
-	text-align: left;
-	border: solid 1px #9db8bd;
-	margin: 20px 0;
-	padding-left: 20px;
-	padding-top: 20px;
-	font: 15px "Lato Bold";
-	color: #307984;
-}
-
-.submit {
-	margin-top: -20px;
-	margin-right: 33px;
-	float: right;
-}
-
-#guidelines-and-resources {
-	margin-top: 770px;
-	margin-bottom: 20px;
-	margin-left: 670px;
-}
-
-#guidelines-and-resources a {
-	padding: 0 20px;
-	color: #307984;
-}
 
 /* ===== FOOTER ===== */
 
 footer {
 	background-color: #00343c;
 	height: 60px;
-	bottom: 0;
+  margin-top: 5%;
 }
 
 footer ul {

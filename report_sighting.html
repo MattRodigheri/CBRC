@@ -3,193 +3,180 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="style.css">
-<script src="http://code.jquery.com/jquery-latest.js"></script>
-<script>
-$(document).ready(function(){
-
-$('#submit').click(function(){
-
-$.post("report_sighting.php", $("#mycontactform").serialize(), function(response) {
-//not so sure about this php script to change button content
-$('#submit').html(response);
-});
-return false;
-
-});
-
-});
-</script>
+<link rel="stylesheet" type="text/css" href="report_sighting.css">
+<script src="report_sighting.js"></script>
 <title>CBRC</title>
 </head>
 <body>
-<a name="top"></a>
-<div class="container">
-<div class="head">
-	<div class="nav">
-		<a href="default2.asp"><div class="logo col"></div></a>
-		<div class="col">
+	<header>
 			<nav>
-				<a href="index.html">HOME</a>
-				<a href="cbrcdb2.html">DATABASE</a>
-				<a href="guidelines.html" class="active">REPORT SIGHTING</a>
-				<a href="#">RARE BIRDS</a>
-				<a href="#">ANNUAL REPORTS</a>
-				<a href="#">ABOUT US</a>
-
+				<ul>
+					<li><a href="default2.asp"><div id="logo"></div></a></li>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="cbrcdb2.html">DATABASE</a></li>
+					<li><a href="report_sighting.html" id="active">REPORT SIGHTING</a></li>
+					<li><a href="#">RARE BIRDS</a></li>
+					<li><a href="#">ANNUAL REPORTS</a></li>
+					<li><a href="#">ABOUT US</a></li>
+					<li><form><input class="head-search" type=text placeholder="SEARCH CBRC"></form></li>
+				</ul>
 			</nav>
-		</div>
-		<div class="col">
-			<form>
-			 	<input class="head-search" type=text name=s placeholder="SEARCH CBRC">
-			</form>
-		</div>
-	</div>
-</div>
-<div class="wrapper">
-	<div class="sightingHalf">
+	</header>
 
-		<form class="sighting" action="" method="post" id="mycontactform">
+	<main>
 
-			<h1 class="sightingH1">Enter Sighting Information</h1>
+		<aside>
+			<section class="container">
+			<h1>Enter Sighting Information</h1>
 
-			<div>
-				<h1 class="sightingH1">Bird</h1>
-				<input type="text" name="species" id='species' placeholder="Enter Species">
-			</div>
+			<form class="sighting-form" action="#" method="post">
 
-			<div>
-				<h1 class="sightingH1">Date & Time First Seen</h1>
-				<input type="text" name="firstDate" id='firstDate' class='short' placeholder=" mm/dd/yy">
-			</div>
+				<h1>Bird</h1>
 
-			<div>
-				<h1 class="sightingH1">Date & Time Last Seen</h1>
-				<input type="text" name="lastDate" id='lastDate' class='short right' placeholder=" mm/dd/yy">
-			</div>
+				<input class="long" type="text" name="species" placeholder="Enter Species">
 
-			<h1 class="sightingH1">Number of Birds</h1>
-			<input type="text" name="number" id='number' class='short' placeholder=" Number">
+				<section class="short">
+					<h1>Date & Time First Seen</h1>
+					<input class="date" type="text" name="firstDate" placeholder=" mm/dd/yy">
+				</section>
 
-			<h1 class="sightingH1">County</h1>
- 			<select required name="county" id='county' class='short right'>
-				<option value="-"> - </option>
-				<option value="ALA">Alameda - ALA</option>
-  			<option value="ALP">Alpine - ALP</option>
-  			<option value="AMA">Amador - AMA</option>
-  			<option value="BUT">Butte - BUT</option>
-				<option value="CAL">Calaveras - CAL</option>
-				<option value="COL">Colusa - COL</option>
-				<option value="CC">Contra Costa - CC</option>
-				<option value="DN">Del Norte - DN</option>
-				<option value="ED">El Dorado - ED</option>
-				<option value="FRE">Fresno - FRE</option>
-				<option value="GLE">Glenn</option>
-				<option value="HUM">Humboldt - HUM</option>
-				<option value="IMP">Imperial - IMP</option>
-				<option value="INY">Inyo - INY</option>
-				<option value="KER">Kern - KER</option>
-				<option value="KIN">Kings - KIN</option>
-				<option value="LAK">Lake - LAK</option>
-				<option value="LAS">Lassen - LAS</option>
-				<option value="LA">Los Angeles - LA</option>
-				<option value="MAD">Madera - MAD</option>
-				<option value="MRN">Marin - MRN</option>
-				<option value="MPA">Mariposa - MPA</option>
-				<option value="MEN">Mendocino - MEN</option>
-				<option value="MER">Merced - MER</option>
-				<option value="MOD">Modoc - MOD</option>
-				<option value="MNO">Mono - MNO</option>
-				<option value="MON">Monterey - MON</option>
-				<option value="NAP">Napa - NAP</option>
-				<option value="NEV">Nevada - NEV</option>
-				<option value="ORA">Orange - ORA</option>
-				<option value="PLA">Placer - PLA</option>
-				<option value="PLU">Plumas - PLU</option>
-				<option value="RIV">Riverside - RIV</option>
-				<option value="SAC">Sacramento - SAC</option>
-				<option value="SBT">San Benito - SBT</option>
-				<option value="SBD">San Bernardino - SBD</option>
-				<option value="SD">San Diego - SD</option>
-				<option value="SF">San Francisco - SF</option>
-				<option value="SJ">San Joaquin - SJ</option>
-				<option value="SLO">San Luis Obispo - SLO</option>
-				<option value="SM">San Mateo - SM</option>
-				<option value="SB">Santa Barbara - SB</option>
-				<option value="SCL">Santa Clara - SCL</option>
-				<option value="SCR">Santa Cruz - SCR</option>
-				<option value="SHA">Shasta - SHA</option>
-				<option value="SIE">Sierra - SIE</option>
-				<option value="SIS">Siskiyou - SIS</option>
-				<option value="SOL">Solano - SOL</option>
-				<option value="SON">Sonoma - SON</option>
-				<option value="STA">Stanislaus - STA</option>
-				<option value="SUT">Sutter - SUT</option>
-				<option value="TEH">Tehama - TEH</option>
-				<option value="TRI">Trinity - TRI</option>
-				<option value="TUL">Tulare - TUL</option>
-				<option value="TUO">Tuolumne - TUO</option>
-				<option value="VEN">Ventura - VEN</option>
-				<option value="YOL">Yolo - YOL</option>
-				<option value="YUB">Yuba - YUB</option>
-			</select>
+				<section class="short">
+					<h1>Date & Time Last Seen</h1>
+					<input class="date" type="text" name="lastDate" placeholder=" mm/dd/yy">
+				</section>
 
-			<h1 class="sightingH1">Contact</h1>
-			<input required type="text" name="name" id='name' placeholder=" Name of Observer">
-			<input type="text" name="email" id='email' placeholder=" Email of Observer">
-			<input required type="text" name="address" id="address" placeholder=" Address">
-	</div>
+				<section class="short">
+					<h1>Number of Birds</h1>
+					<input type="text" name="number" placeholder=" Number">
+				</section>
+
+				<section class="short">
+					<h1 class="sightingH1">County</h1>
+	 				<select required name="county">
+					<option value="select"> Select </option>
+					<option value="ALA">Alameda - ALA</option>
+	  			<option value="ALP">Alpine - ALP</option>
+	  			<option value="AMA">Amador - AMA</option>
+	  			<option value="BUT">Butte - BUT</option>
+					<option value="CAL">Calaveras - CAL</option>
+					<option value="COL">Colusa - COL</option>
+					<option value="CC">Contra Costa - CC</option>
+					<option value="DN">Del Norte - DN</option>
+					<option value="ED">El Dorado - ED</option>
+					<option value="FRE">Fresno - FRE</option>
+					<option value="GLE">Glenn</option>
+					<option value="HUM">Humboldt - HUM</option>
+					<option value="IMP">Imperial - IMP</option>
+					<option value="INY">Inyo - INY</option>
+					<option value="KER">Kern - KER</option>
+					<option value="KIN">Kings - KIN</option>
+					<option value="LAK">Lake - LAK</option>
+					<option value="LAS">Lassen - LAS</option>
+					<option value="LA">Los Angeles - LA</option>
+					<option value="MAD">Madera - MAD</option>
+					<option value="MRN">Marin - MRN</option>
+					<option value="MPA">Mariposa - MPA</option>
+					<option value="MEN">Mendocino - MEN</option>
+					<option value="MER">Merced - MER</option>
+					<option value="MOD">Modoc - MOD</option>
+					<option value="MNO">Mono - MNO</option>
+					<option value="MON">Monterey - MON</option>
+					<option value="NAP">Napa - NAP</option>
+					<option value="NEV">Nevada - NEV</option>
+					<option value="ORA">Orange - ORA</option>
+					<option value="PLA">Placer - PLA</option>
+					<option value="PLU">Plumas - PLU</option>
+					<option value="RIV">Riverside - RIV</option>
+					<option value="SAC">Sacramento - SAC</option>
+					<option value="SBT">San Benito - SBT</option>
+					<option value="SBD">San Bernardino - SBD</option>
+					<option value="SD">San Diego - SD</option>
+					<option value="SF">San Francisco - SF</option>
+					<option value="SJ">San Joaquin - SJ</option>
+					<option value="SLO">San Luis Obispo - SLO</option>
+					<option value="SM">San Mateo - SM</option>
+					<option value="SB">Santa Barbara - SB</option>
+					<option value="SCL">Santa Clara - SCL</option>
+					<option value="SCR">Santa Cruz - SCR</option>
+					<option value="SHA">Shasta - SHA</option>
+					<option value="SIE">Sierra - SIE</option>
+					<option value="SIS">Siskiyou - SIS</option>
+					<option value="SOL">Solano - SOL</option>
+					<option value="SON">Sonoma - SON</option>
+					<option value="STA">Stanislaus - STA</option>
+					<option value="SUT">Sutter - SUT</option>
+					<option value="TEH">Tehama - TEH</option>
+					<option value="TRI">Trinity - TRI</option>
+					<option value="TUL">Tulare - TUL</option>
+					<option value="TUO">Tuolumne - TUO</option>
+					<option value="VEN">Ventura - VEN</option>
+					<option value="YOL">Yolo - YOL</option>
+					<option value="YUB">Yuba - YUB</option>
+				</select>
+				</section>
+
+				<h1>Contact</h1>
+				<input required class="long" type="text" name="name" placeholder=" Name of Observer">
+				<input class="long" type="email" name="email" placeholder=" Email of Observer">
+				<input required class="long" type="text" name="address" placeholder=" Address">
+			</section>
+		</aside>
+
+		<aside>
+			<section class="container">
+
+			<h1>Conditions</h1>
+			<input required class="conditions" type="text" name="others" placeholder=" Other Observers">
+
+			<section class="short">
+				<input id="opticals" required type="text" name="opticals" placeholder=" Optical Aids">
+			</section>
+
+			<section class="short">
+				<h1>Length of Time Viewed</h1>
+				<select required name="time"><option>WHAT DO I PUT HERE?</option></select>
+			</section>
+
+			<h1>Was the bird photographed or recorded?</h1>
+			<input class="radio" type="radio" name="recorded" value="yes"><label for="radio"> Yes</label>
+			<input class="radio" type="radio" name="recorded" value="no"><label for="radio"> No</label>
+
+			<button value="">Add Picture</button>
+
+			<section>
+				<h1>Is the viewing 100% certain?</h1>
+				<input class="radio" type="radio" name="certain" value="yes"><label for="radio"> Yes</label>
+				<input class="radio" type="radio" name="certain" value="no"><label for="radio"> No</label>
+			</section>
+
+			<textarea required name="description" placeholder=" Description"></textarea>
+
+			<section>
+				<input class="checkbox" type="checkbox" name="pdf" value="pdf">
+				<label for="checkbox">Save as PDF</label>
+			</section>
+
+			<button class="submit">Submit Sighting</button>
+		</section>
+
+		</aside>
 
 
-	<div class="sightingHalf">
 
-		<h1 class="sightingH1">Conditions</h1>
-		<input required type="text" name="others" id='others' placeholder=" Other Observers">
+	</main>
 
-		<input required type="text" name="opticals" id='opticals' placeholder=" Optical Aids">
+	<section id="guidelines-and-resources">
+		<a href="#">REPORTING GUIDLINES</a>
+		<a href="#">ADDITIONAL RESOURCES</a>
+	</section>
 
-		<h1 class="sightingH1">Length of Time Viewed</h1>
-		<select required name="time" id='time'>
-			<option>WHAT DO I PUT HERE?</option>
-		</select>
+	<footer>
+				<ul>
+					<li><a href="#">donate</a></li>
+					<li><a href="#">webmaster</a></li>
+					<li><a href="#">contact us</a></li>
+				</ul>
+	</footer>
 
-		<h1 class="sightingH1">Was the bird photographed or recorded?</h1>
-		<input type="radio" name="recorded" value="yes"> Yes<br>
-		<input type="radio" name="recorded" value="no"> No<br>
-
-		<input type="button" class="button" id="picture" value="Add Picture">
-
-		<h1 class="sightingH1">Is the viewing 100% certain?</h1>
-		<input type="radio" name="certain" value="yes"> Yes<br>
-		<input type="radio" name="certain" value="no"> No<br>
-
-		<textarea required class="sight-description" name="description" id='description' placeholder=" Description"></textarea>
-
-		<input type="checkbox" name="pdf" value="pdf">Save as PDF<br>
-
-		<input type="button" class="button" id="submit" value="Submit Sighting">
-
-		<a href="#">Reporting Guidelines</a>
-		<a href="#">Additional Resources</a>
-
-		<div id="success" style="color:red;"></div>
-	</form>
-
-	</div>
-
-<div class="push"></div>
-</div>
-<div class="footer-bar">
-	<div class="footer">
-			<footer>
-				<a href="#">donate</a>
-				<a href="#">webmaster</a>
-				<a href="#">contact us</a>
-				<a href="#top">Back to Top &#8593;</a>
-			</footer>
-	</div>
-
-</script>
-</div>
 </body>
 </html>
