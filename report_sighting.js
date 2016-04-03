@@ -1,9 +1,10 @@
 $(document).ready(function(){
 
-  $('#submit').click(function(){
-    $.post("report_sighting.php", $("#mycontactform").serialize(), function(response) {
+  $('.submit').click(function(){
+    $.post("report_sighting.php", $(".sighting-form").serialize(), function(response) {
+
       //not so sure about this php script to change button content
-      $('#submit').html(response);
+      $('.submit').innerHTML(response);
     });
     return false;
   });
