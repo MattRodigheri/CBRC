@@ -1,0 +1,156 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face{
+	font-family: "Lato Bold";
+	src: url('fonts/Lato/Lato-Bold.ttf');
+}
+
+@font-face{
+	font-family: "Lato Black";
+	src: url('fonts/Lato/Lato-Black.ttf');
+}
+
+@font-face{
+	font-family: "Martel DemiBold";
+	src: url('fonts/Martel/Martel-DemiBold.ttf');
+}
+
+@font-face{
+	font-family: "Martel ExtraBold";
+	src: url('fonts/Martel/Martel-ExtraBold.ttf');
+}
+
+@font-face{
+	font-family: "Lato Regular";
+	src: url('fonts/Lato/Lato-Regular.ttf');
+}
+
+@font-face{
+	font-family: "Lato Light";
+	src: url('fonts/Lato/Lato-Light.ttf');
+}
+
+/* ===== NAVIGATION ===== */
+
+header { 
+	height: 100px;
+	box-shadow: 0px 4px 4px -4px #aaa;
+}
+
+nav {
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p {
+	width: 80%;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #00343c;
+	font-family: "Lato Regular", helvetica, sans-serif;
+	font-size: 16px;
+}
+
+
+/*--------------------------*/
+#guidlines {
+	width: 75%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+}
+
+
+#logo{
+	width: 200px;
+	height: 100px;
+	margin-bottom: -22px;
+	background-image: url('images/logo.png');
+}
+
+#active{
+	padding-bottom: 15px;
+	border-bottom: thick solid #307984;
+}
+
+
+nav li {
+	display: inline-block;
+	padding: 0 15px;
+	color: #307984;
+	font-family: "Martel DemiBold", helvetica, sans-serif;
+	font-size: 14px;
+	background-color: #fff;
+}
+
+div li {
+	display: list-item;
+	padding: 0 15px;
+	margin top: auto;
+	margin-left: 35px;
+	width: 80%;
+	color: #00343c;
+	font-family: "Martel DemiBold", helvetica, sans-serif;
+	font-size: 16px;
+	background-color: #fff;
+}
+
+nav a{
+	text-decoration: none;
+	color: #307984;
+}
+
+nav a:hover {
+	color: #00343c;
+}
+
+
+h1 {
+	font: 25px "Lato Bold";
+	padding: 15px 0;
+	color:  #307984;
+}
+
+
+#guidelines-and-resources {
+	margin-top: auto;
+	margin-bottom: auto;
+	float: right;
+}
+
+#guidelines-and-resources a {
+	padding: 0 20px;
+	color: #307984;
+}
+
+/* ===== FOOTER ===== */
+
+footer {
+	background-color: #00343c;
+	height: 60px;
+	bottom: 0;
+}
+
+footer ul {
+	margin-left: 192px;
+}
+
+footer li {
+	padding-top: 22px;
+	margin-right: 20px;
+	display: inline-block;
+	font: 14px "Lato Regular", helvetica, sans-serif;
+	text-transform: capitalize;
+}
+
+footer a {
+	text-decoration: none;
+	color: #fff;
+}
