@@ -1,0 +1,247 @@
+/* ===== Styles from last semester ===== */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face{
+	font-family: "Lato Bold";
+	src: url('fonts/Lato/Lato-Bold.ttf');
+}
+
+@font-face{
+	font-family: "Lato Black";
+	src: url('fonts/Lato/Lato-Black.ttf');
+}
+
+@font-face{
+	font-family: "Martel DemiBold";
+	src: url('fonts/Martel/Martel-DemiBold.ttf');
+}
+
+@font-face{
+	font-family: "Martel ExtraBold";
+	src: url('fonts/Martel/Martel-ExtraBold.ttf');
+}
+
+@font-face{
+	font-family: "Lato Regular";
+	src: url('fonts/Lato/Lato-Regular.ttf');
+}
+
+@font-face{
+	font-family: "Lato Light";
+	src: url('fonts/Lato/Lato-Light.ttf');
+}
+
+
+
+h1{
+	font-family: "Lato Bold";
+	font-size: 20px;
+	font-weight: normal;	
+	padding-bottom: 10px;
+	padding-top: 24px;
+	color:  #307984;
+
+}
+
+h2{
+	font-family: "Lato Black";
+	font-size: 15px;
+	font-weight: normal;	
+	padding-top: 14px;
+	padding-bottom: 2px;
+	color:  #307984;
+}
+
+p {
+	font-family: "Martel DemiBold";
+	font-size: 12px;
+	padding-top: 10px;
+	font-size: 15px;
+	color: #00343c;
+}
+
+/* anchor links */
+
+a {
+	color: #307984;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #b5a16a;
+}
+
+
+
+
+/* ===== HEADER AND NAVIGATION ===== */
+
+header {
+	height: 100px;
+	box-shadow: 0px 4px 4px -4px #aaa;
+}
+
+nav {
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo{
+	width: 200px;
+	height: 100px;
+	margin-bottom: -22px;
+	background-image: url('images/logo.png');
+}
+
+#active{
+	padding-bottom: 15px;
+	border-bottom: thick solid #307984;
+}
+
+.head-search{
+	margin-top: 57px;
+	padding: 5px;
+	font: 14px "Lato Bold";
+	border: none;
+	margin-left: 0px;
+	text-align: right;
+}
+
+nav li {
+	text-decoration: none;
+	display: inline-block;
+	padding: 0 15px;
+	color: #307984;
+	font-family: "Lato Black", helvetica, sans-serif;
+	font-size: 14px;
+	background-color: #fff;
+/*    display: none*/
+}
+
+nav a{
+	text-decoration: none;
+	color: #307984;
+}
+
+nav a:hover {
+	color: #00343c;
+}
+
+
+/* ===== MAIN SECTION FOR ANNUAL REPORTS===== */
+
+.reports-wrapper {
+    margin: 20px auto 60px auto;
+    width: 80%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+/* set width for each column */
+.item {
+    width: 40%;
+    position: relative;
+}
+
+#report-text, #meeting-text {
+    text-align: justify;
+    margin-bottom: 120px;
+    height: 140px;  
+}
+
+
+.reports-wrapper h1 {
+    text-align: center;
+}
+
+/* position each archive heading and select option 
+at the bottom of the column */
+.archive {
+    position: absolute;
+    bottom: 20px;;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+/* select option styling */
+.search-report {
+    border-radius: none;
+	border: 1px solid #9db8bd;
+	width: 100%;
+	height: 50px;
+	margin-top: 0px;
+	padding-left: 20px;
+	background-color: #f0f6f7;
+	font-family: "Lato bold";
+	font-size: 15px;
+	text-align: left;
+	color: #307984;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+
+/* ===== FOOTER ===== */
+
+footer {
+	background-color: #00343c;
+	height: 60px;
+    position:absolute;
+    bottom:0;
+    width: 100%;
+}
+
+footer ul {
+	margin-left: 192px;
+}
+
+footer li {
+	padding-top: 22px;
+	margin-right: 20px;
+	display: inline-block;
+	font: 14px "Lato Regular", helvetica, sans-serif;
+	text-transform: capitalize;
+}
+
+footer a {
+	text-decoration: none;
+	color: #fff;
+}
+
+
+/* ===== MOBILE DESIGN ===== */
+
+
+/* style settings for screens less than or equal to 768px
+(standard tablet devices) */
+
+@media screen and (max-width: 768px) { 
+     .reports-wrapper { flex-direction: column;}
+    #report-text, #meeting-text { width: 80%; margin: 0 auto; margin-bottom: 120px; height: 100%; }
+     .item {width: 100%; }
+    .archive {width: 80%; }
+    footer { display: none; }
+}
+
+
+/* style settings for screens less than or equal to 480px (standard iPhone landscape mode and narrower) */
+
+@media screen and (max-width: 480px) {
+    .reports-wrapper {width: 90%;}
+    .item:last-child { border-top: 1px solid #e5eef0; }
+    #report-text, #meeting-text { width: 100%;
+        margin: 0 auto; margin-bottom: 120px;}
+     .archive {width: 100%; }
+}
+

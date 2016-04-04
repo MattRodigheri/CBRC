@@ -1,0 +1,333 @@
+/* ===== Styles from last semester ===== */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face{
+	font-family: "Lato Bold";
+	src: url('fonts/Lato/Lato-Bold.ttf');
+}
+
+@font-face{
+	font-family: "Lato Black";
+	src: url('fonts/Lato/Lato-Black.ttf');
+}
+
+@font-face{
+	font-family: "Martel DemiBold";
+	src: url('fonts/Martel/Martel-DemiBold.ttf');
+}
+
+@font-face{
+	font-family: "Martel ExtraBold";
+	src: url('fonts/Martel/Martel-ExtraBold.ttf');
+}
+
+@font-face{
+	font-family: "Lato Regular";
+	src: url('fonts/Lato/Lato-Regular.ttf');
+}
+
+@font-face{
+	font-family: "Lato Light";
+	src: url('fonts/Lato/Lato-Light.ttf');
+}
+
+
+
+h1{
+	font-family: "Lato Bold";
+	font-size: 20px;
+	font-weight: normal;	
+	padding-bottom: 10px;
+	padding-top: 24px;
+	color:  #307984;
+}
+
+h2{
+	font-family: "Lato Black";
+	font-size: 15px;
+	font-weight: normal;	
+	padding-top: 14px;
+	padding-bottom: 2px;
+	color:  #307984;
+}
+
+h6{
+	font-family: "Lato Black";
+	font-size: 15px;
+	font-weight: normal;
+	padding-top: 14px;
+	padding-bottom: 8px;
+	color:  #307984;
+	width: 960px;
+	margin-top: auto;
+	display: inline-block;
+}
+
+p {
+	font-family: "Martel DemiBold";
+	font-size: 12px;
+	padding-top: 10px;
+	font-size: 15px;
+	color: #00343c;
+}
+
+/* anchor links */
+
+a {
+	color: #307984;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #b5a16a;
+}
+
+
+/* ===== HEADER AND NAVIGATION ===== */
+
+header {
+	height: 100px;
+	box-shadow: 0px 4px 4px -4px #aaa;
+}
+
+nav {
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo{
+	width: 200px;
+	height: 100px;
+	margin-bottom: -22px;
+	background-image: url('images/logo.png');
+}
+
+#active{
+	padding-bottom: 15px;
+	border-bottom: thick solid #307984;
+}
+
+.head-search{
+	margin-top: 57px;
+	padding: 5px;
+	font: 14px "Lato Bold";
+	border: none;
+	margin-left: 0px;
+	text-align: right;
+}
+
+nav li {
+	text-decoration: none;
+	display: inline-block;
+	padding: 0 15px;
+	color: #307984;
+	font-family: "Lato Black", helvetica, sans-serif;
+	font-size: 14px;
+	background-color: #fff;
+/*    display: none*/
+}
+
+nav a{
+	text-decoration: none;
+	color: #307984;
+}
+
+nav a:hover {
+	color: #00343c;
+}
+
+
+/* ===== MAIN SECTION FOR QUERY RESULTS ===== */
+
+#table-wrapper {
+    width: 80%;
+    margin: 0px auto;
+}
+
+#table-wrapper h2 {
+    width: 100%;
+    text-align: justify;
+    margin: 0 auto;
+} 
+
+ #database-table {
+    font-family: "Lato Regular";
+    font-weight: normal;	
+    width: 100%;
+    margin-bottom: 40px;
+    margin: 10px;
+    outline: 1px solid #e5eef0;
+    border-collapse: collapse;
+}
+
+#database-table th {
+	color: #FFFFFF;
+	font-size: 14px;
+	font-family: "Lato Bold";
+	font-weight: normal;	
+	background-color: #307984;
+	text-transform: uppercase;
+	text-align: center;
+	height: 60px;
+	padding: 0px 8px;
+	border-left: 1px solid #2c8592;
+}
+
+
+#database-table th:nth-child(3) {
+	width: 200px;
+}
+ 
+#database-table td {
+	font-size: 16px;
+    height: 40px;
+    padding: 10px; 
+    border: 1px solid #e5eef0;
+    text-align: center;
+}
+
+#database-table td:first-child {
+	font-family: "Lato Black";
+	color: #000;
+	white-space: nowrap;
+}
+
+#database-table td:nth-child(2) {
+	text-align: left;
+}
+
+#database-table  td:nth-child(4) {
+	text-align: center;
+}
+
+#database-table tr:nth-child(odd){
+	background-color: #ecf4f5; 
+}
+
+}
+#database-table tr:nth-child(even){
+	background-color: #ffffff;
+}
+
+/* hide the last empty row with arrow image for desktop version */
+#database-table td:last-child {
+    display: none;
+}
+
+#database-table tr:hover {
+	outline: 1px solid #307984;
+	outline-offset: -1px;
+}
+
+
+/* ===== FOOTER ===== */
+
+footer {
+	background-color: #00343c;
+	height: 60px;
+	bottom: 0;
+}
+
+footer ul {
+	margin-left: 192px;
+}
+
+footer li {
+	padding-top: 22px;
+	margin-right: 20px;
+	display: inline-block;
+	font: 14px "Lato Regular", helvetica, sans-serif;
+	text-transform: capitalize;
+}
+
+footer a {
+	text-decoration: none;
+	color: #fff;
+}
+
+
+
+/* ===== MOBILE DESIGN ===== */
+
+
+/* style settings for screens less than or equal to 768px (standard tablet devices). These styles 
+will apply to all smaller screens unless they are overwritten */
+
+@media screen and (max-width: 768px) {
+    #table-wrapper h1 {font-size: 18px; width: 80%; margin: 0 auto; text-align: justify;}
+    
+    nav ul li {display: none; }
+    
+    #database-table { width: 80%; margin: 10px auto;}
+    
+    /*   hide the table head completely */
+    #database-table thead { display: none;}
+    
+    #database-table td:nth-child(2),#database-table td:nth-child(4) { text-align: right;}
+
+    /*  display rows vertically  */
+    #database-table tr { display: block;}
+
+    #database-table td {
+        display: block;
+        text-align: right;
+        padding: 10px 20px;
+        border: none;
+        height: 20px;
+        background-color: #FFFFFF;
+        font-size: 14px;
+    }
+    
+    #database-table tr:nth-child(odd){
+	   background-color: white; 
+    }
+    
+     #database-table td:nth-child(1) { background-color: #ecf4f5; } 
+    
+    
+    #database-table tr:hover { outline: none;}
+
+    
+    /* append data-label values to each row 
+    so they could serve as column names */
+    #database-table td:before {
+        content: attr(data-label);
+        float: left;
+        margin-right: 10px;
+        font-weight: bold; 
+        text-transform: uppercase;
+    }
+            
+    /* hide some of the rows */
+    #database-table td[data-label="Count"],
+    #database-table td[data-label="First Date"],
+    #database-table td[data-label="Last Date"],
+    #database-table td[data-label="Co"],
+    #database-table td[data-label="Co2"],
+    #database-table td[data-label="Note"] {
+        display: none;
+    }
+    
+    table td {padding: 10px 20px;}
+    
+    /* add the arrow image to each record   */
+    #database-table .arrow { background-image: url('images/arrowdown.png'); background-repeat: no-repeat; width: 20px; height: 20px; margin: 0px auto; cursor: pointer; padding: 1px; border: none; }
+    
+    #database-table td:last-child { display: block; border-top: 1px solid #e5eef0; }
+}
+
+
+
+/* style settings for screens less than or equal to 480px (standard iPhone landscape mode and narrower) */
+
+@media screen and (max-width: 480px) {
+    #table-wrapper {width: 100%;}
+    #table-wrapper h1 {font-size: 16px; width: 90%;}
+    #database-table { width: 100%;}
+    #database-table td { font-size: 13px;}
+}
