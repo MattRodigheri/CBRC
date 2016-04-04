@@ -2,6 +2,7 @@
 $path = 'images/';
 
 
+
 function getImagesFromDir($path) {
     $images = array();
     if ( $img_dir = @opendir($path) ) {
