@@ -1,0 +1,359 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+
+<HEAD>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html;CHARSET=iso-8859-1">
+	<TITLE>Database Query</TITLE>
+</HEAD>
+
+<BODY>
+
+<FORM ACTION="mydb2003.asp">
+
+<P><big><b>Query the CBRC database (beta)</big></b></P>
+
+<P>
+<TABLE BORDER="0" WIDTH="650">
+	<TR>
+		<TD><em>This is a preliminary form which can be used to query raw data from the CBRC records database. It is current through 
+			10 February 2009. Although this database contains records as early as 1880, certain pre-1997 records may be missing. For a complete accounting
+			of older records through 2004 and selected records through 2006, please refer to the book &quot;Rare Birds of California&quot;
+			available <A HREF="http://www.westernfieldornithologists.org/08rboc.php">here</A>. <BR>
+<BR>
+Note: If you check the &quot;partial matches&quot; box and leave the species blank, it will display all CBRC
+			reviewed records for the entered county. <BR>
+<BR>
+The display may include some cryptic or blank fields. We hope to improve the readability of the output in the future.  An explanation of the 
+status codes and a list of standard county codes are below.</em> 
+					</TD>
+	</TR>
+</TABLE>
+
+ 
+
+<P> Species: <INPUT TYPE="TEXT" NAME="species" SIZE="25">&nbsp;<INPUT TYPE="CHECKBOX" NAME="partial"> Check for partial matches
+<P> County: <INPUT TYPE="TEXT" NAME="county" SIZE="3"> <A HREF=http://www.californiabirds.org/counties.html>Standard county codes</a> only <BR><BR>
+<INPUT TYPE="SUBMIT">
+</FORM>
+
+<P>
+<TABLE BORDER="0" WIDTH="75%">
+	<TR>
+		<TD WIDTH="49%" VALIGN="TOP"><B>Explanation of Status Codes</B> 
+
+<TABLE BORDER="1">
+	<TR>
+		<TD>Status</TD>
+		<TD>Status Desc</TD>
+	</TR>
+	<TR>
+		<TD>A</TD>
+		<TD>Accepted</TD>
+	</TR>
+	<TR>
+		<TD>B</TD>
+		<TD>Batched</TD>
+	</TR>
+	<TR>
+		<TD>C</TD>
+		<TD>Recirculate</TD>
+	</TR>
+	<TR>
+		<TD>E</TD>
+		<TD>Not accepted-Establishment introduced population questionable</TD>
+	</TR>
+	<TR>
+		<TD>H</TD>
+		<TD>Historic Record  - Incomplete Documentation</TD>
+	</TR>
+	<TR>
+		<TD>I</TD>
+		<TD>Info needed</TD>
+	</TR>
+	<TR>
+		<TD>M</TD>
+		<TD>Hold for meeting</TD>
+	</TR>
+	<TR>
+		<TD>N</TD>
+		<TD>New</TD>
+	</TR>
+	<TR>
+		<TD>O</TD>
+		<TD>Not accepted - Natural occurrence questionable</TD>
+	</TR>
+	<TR>
+		<TD>Q</TD>
+		<TD>Assigned record number, but shouldn't have</TD>
+	</TR>
+	<TR>
+		<TD>R</TD>
+		<TD>Not accepted - ID not established</TD>
+	</TR>
+	<TR>
+		<TD>S</TD>
+		<TD>Split into multiple records</TD>
+	</TR>
+	<TR>
+		<TD>U</TD>
+		<TD>Unsubmitted</TD>
+	</TR>
+	<TR>
+		<TD>W</TD>
+		<TD>Not accepted - Withdrawn by observer</TD>
+	</TR>
+	<TR>
+		<TD>X</TD>
+		<TD>Unknown status</TD>
+	</TR>
+</TABLE>
+<TD WIDTH="62%" VALIGN="TOP"><B>County Codes</B> 
+			
+
+<TABLE BORDER="1">
+	<TR>
+		<TD>Co</TD>
+		<TD>County</TD>
+	</TR>
+	<TR>
+		<TD>ALA</TD>
+		<TD>Alameda</TD>
+	</TR>
+	<TR>
+		<TD>ALP</TD>
+		<TD>Alpine</TD>
+	</TR>
+	<TR>
+		<TD>AMA</TD>
+		<TD>Amador</TD>
+	</TR>
+	<TR>
+		<TD>BUT</TD>
+		<TD>Butte</TD>
+	</TR>
+	<TR>
+		<TD>CC</TD>
+		<TD>Contra Costa</TD>
+	</TR>
+	<TR>
+		<TD>CLV</TD>
+		<TD>Calaveras</TD>
+	</TR>
+	<TR>
+		<TD>COL</TD>
+		<TD>Colusa</TD>
+	</TR>
+	<TR>
+		<TD>DN</TD>
+		<TD>Del Norte</TD>
+	</TR>
+	<TR>
+		<TD>ED</TD>
+		<TD>El Dorado</TD>
+	</TR>
+	<TR>
+		<TD>FRE</TD>
+		<TD>Fresno</TD>
+	</TR>
+	<TR>
+		<TD>GLE</TD>
+		<TD>Glenn</TD>
+	</TR>
+	<TR>
+		<TD>HUM</TD>
+		<TD>Humboldt</TD>
+	</TR>
+	<TR>
+		<TD>IMP</TD>
+		<TD>Imperial</TD>
+	</TR>
+	<TR>
+		<TD>INY</TD>
+		<TD>Inyo</TD>
+	</TR>
+	<TR>
+		<TD>KER</TD>
+		<TD>Kern</TD>
+	</TR>
+	<TR>
+		<TD>KIN</TD>
+		<TD>Kings</TD>
+	</TR>
+	<TR>
+		<TD>LA</TD>
+		<TD>Los Angeles</TD>
+	</TR>
+	<TR>
+		<TD>LAK</TD>
+		<TD>Lake</TD>
+	</TR>
+	<TR>
+		<TD>LAS</TD>
+		<TD>Lassen</TD>
+	</TR>
+	<TR>
+		<TD>MAD</TD>
+		<TD>Madera</TD>
+	</TR>
+	<TR>
+		<TD>MEN</TD>
+		<TD>Mendocino</TD>
+	</TR>
+	<TR>
+		<TD>MER</TD>
+		<TD>Merced</TD>
+	</TR>
+	<TR>
+		<TD>MNO</TD>
+		<TD>Mono</TD>
+	</TR>
+	<TR>
+		<TD>MOD</TD>
+		<TD>Modoc</TD>
+	</TR>
+	<TR>
+		<TD>MRN</TD>
+		<TD>Marin</TD>
+	</TR>
+	<TR>
+		<TD>MRP</TD>
+		<TD>Mariposa</TD>
+	</TR>
+	<TR>
+		<TD>MTY</TD>
+		<TD>Monterey</TD>
+	</TR>
+	<TR>
+		<TD>NAP</TD>
+		<TD>Napa</TD>
+	</TR>
+	<TR>
+		<TD>NEV</TD>
+		<TD>Nevada</TD>
+	</TR>
+	<TR>
+		<TD>ORA</TD>
+		<TD>Orange</TD>
+	</TR>
+	<TR>
+		<TD>PLA</TD>
+		<TD>Placer</TD>
+	</TR>
+	<TR>
+		<TD>PLU</TD>
+		<TD>Plumas</TD>
+	</TR>
+	<TR>
+		<TD>RIV</TD>
+		<TD>Riverside</TD>
+	</TR>
+	<TR>
+		<TD>SAC</TD>
+		<TD>Sacramento</TD>
+	</TR>
+	<TR>
+		<TD>SBA</TD>
+		<TD>Santa Barbara</TD>
+	</TR>
+	<TR>
+		<TD>SBE</TD>
+		<TD>San Bernardino</TD>
+	</TR>
+	<TR>
+		<TD>SBT</TD>
+		<TD>San Benito</TD>
+	</TR>
+	<TR>
+		<TD>SCL</TD>
+		<TD>Santa Clara</TD>
+	</TR>
+	<TR>
+		<TD>SCZ</TD>
+		<TD>Santa Cruz</TD>
+	</TR>
+	<TR>
+		<TD>SD</TD>
+		<TD>San Diego</TD>
+	</TR>
+	<TR>
+		<TD>SF</TD>
+		<TD>San Francisco</TD>
+	</TR>
+	<TR>
+		<TD>SHA</TD>
+		<TD>Shasta</TD>
+	</TR>
+	<TR>
+		<TD>SIE</TD>
+		<TD>Sierra</TD>
+	</TR>
+	<TR>
+		<TD>SIS</TD>
+		<TD>Siskiyou</TD>
+	</TR>
+	<TR>
+		<TD>SJ</TD>
+		<TD>San Joaquin</TD>
+	</TR>
+	<TR>
+		<TD>SLO</TD>
+		<TD>San Luis Obispo</TD>
+	</TR>
+	<TR>
+		<TD>SM</TD>
+		<TD>San Mateo</TD>
+	</TR>
+	<TR>
+		<TD>SOL</TD>
+		<TD>Solano</TD>
+	</TR>
+	<TR>
+		<TD>SON</TD>
+		<TD>Sonoma</TD>
+	</TR>
+	<TR>
+		<TD>STA</TD>
+		<TD>Stanislaus</TD>
+	</TR>
+	<TR>
+		<TD>SUT</TD>
+		<TD>Sutter</TD>
+	</TR>
+	<TR>
+		<TD>TEH</TD>
+		<TD>Tehama</TD>
+	</TR>
+	<TR>
+		<TD>TRI</TD>
+		<TD>Trinity</TD>
+	</TR>
+	<TR>
+		<TD>TUL</TD>
+		<TD>Tulare</TD>
+	</TR>
+	<TR>
+		<TD>TUO</TD>
+		<TD>Tuolumne</TD>
+	</TR>
+	<TR>
+		<TD>VEN</TD>
+		<TD>Ventura</TD>
+	</TR>
+	<TR>
+		<TD>YOL</TD>
+		<TD>Yolo</TD>
+	</TR>
+	<TR>
+		<TD>YUB</TD>
+		<TD>Yuba</TD>
+	</TR>
+					
+			</TABLE>
+		</TD>
+	</TR>
+</TABLE>
+
+
+</BODY>
+
+</HTML>

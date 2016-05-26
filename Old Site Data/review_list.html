@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+   <meta name="description" content="The Review List by the California Bird Records Committee (CBRC) provides a convenient listing of the species and forms the CBRC reviews.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CBRC</title>
+    <link href="cbrc_styles.css" rel="stylesheet">
+     <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900|Martel:400' rel='stylesheet' type='text/css'>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+     <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="report_sighting.js"></script>
+    <script src="birdlist.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+    
+    
+<body>
+    
+    <!-- Header -->
+    <!-- ================================================== -->
+   <header>
+        <a href="index.html" id="logo"><img src="images/logo.png"></a>
+        <div id="hamburger"><a href="#id01" data-popup-open="popup-1" onclick="dropMenu()">&#9776;</a></div>
+            <ul>
+                <li id="close"><a href="javascript:void(0);" data-popup-close="popup-1" onclick="dropMenu()">&#x2715;</a></li>
+                <li><a href="index.html" class="headerlink">HOME</a></li>
+                <li><a href="database_query.html" class="headerlink">DATABASE</a></li>
+                <li>
+                    <section class="dropdown">
+                    <a onclick="reportDropdown()" class="dropbtn headerlink">SUBMIT SIGHTING</a>
+                        <div id="reportDropdown" class="dropdown-content">
+                            <a href="guidelines_resources.html">Guidelines & Resources</a>
+                            <a href="report_sighting.html">Report a Sighting</a>
+                        </div>
+                    </section>
+                </li>
+                <li>
+                    <section class="dropdown">
+                        <a onclick="listsDropdown()" class="dropbtn headerlink" id="active">LISTS</a>
+                        <div id="listsDropdown" class="dropdown-content">
+                            <a href="checklist.html">Checklist</a>
+                            <a href="review_list.html">Review List</a>
+                            <a href="watchlist.html">Watch List</a>
+                        </div>
+                    </section>
+                </li>
+                <li><a href="reports.html" class="headerlink">REPORTS</a></li>
+                <li>
+                    <section class="dropdown">
+                    <a onclick="aboutDropdown()" class="dropbtn headerlink">ABOUT</a>
+                        <div id="aboutDropdown" class="dropdown-content">
+                            <a href="foundation.html">Foundation</a>
+                            <a href="CBRCbylaws.html">By-Laws</a>
+                            <a href="CBRCmembers.html">Members</a>
+                        </div>
+                    </section>
+                </li>
+                    <li><a class="search-icon">SEARCH</a></li>
+                    <div id="white-box"></div>
+                    <div class="top-search">
+                        <form method="get" id="searchform" id="searchbox_016348171015647111605:xnnraaq2ers" action="search_results.html">
+                            <div>
+                                <input value="016348171015647111605:xnnraaq2ers" name="cx" type="hidden">
+                                <input value="FORID:11" name="cof" type="hidden">
+                                <input type="text" name="s" id="search-input">
+                                <input type="submit" id="searchsubmit" value="">
+                            </div>
+                        </form>
+                    </div>
+            </ul>
+    </header>
+
+    
+    
+    <!-- MAIN SECTION -->
+    <!-- ================================================== -->
+     <main>
+        <section class="review-wrapper">
+            <h1>CBRC Review List</h1>
+            <h4>Updated 31 January 2016</h4>
+
+            <p>The sequence of birds on this list has been updated to follow the 7th edition of the A.O.U Check-List of North American Birds, and supplements.</p>
+
+            <a href="#" class="read-more">Read More >></a>
+
+
+            <div class="birdlist-more">
+                <br><p>The California Bird Records Committee solicits information on all occurrences in California of the 193 species on this Review List, as well as species unrecorded in California. In general, review species average four or fewer occurrences per year in California over the most recent ten year period. Documentation should be sent to the CBRC Secretary by e-mail to <a href="mailto:secretary@californiabirds.org">secretary@californiabirds.org</a>. We also seek documentation concerning the potential establishment of introduced species not currently on the state list.</p>
+                <a href="#" class="read-less"><< Read Less </a>
+            </div>
+
+              <h2>Legend</h2>
+            <div class="legend-list">
+                <h3>For species not supported by curated specimens (114 species):</h3>
+                <table>
+                    <tr><td>P</td><td>At least one record supported by identifiable photograph (112 species)</td></tr>
+                    <tr><td>V</td><td>At least one record supported by identifiable video (22 species)</td></tr>
+                    <tr><td>A</td><td>At least one record supported by identifiable audio recording (9 species)</td></tr>
+                    <tr><td>S</td><td>Supported only by sight records (2 species)</td></tr>
+                </table>
+           </div>
+
+            <h2>Main List</h2>
+            <div class="main-list">
+
+            <h3>Anseriformes - Screamers, Swans, Geese, and Ducks</h3>
+                <h4>Anatidae - Ducks, Geese, and Swans</h4>
+                <ul>
+                    <li>Black-bellied Whistling-Duck <em>Dendrocygna autumnalis</em> - P</li>
+                    <li>Fulvous Whistling-Duck <em>Dendrocygna bicolor</em></li>
+                    <li>Tundra Bean-Goose <em>Anser serrirostris</em> - P</li>
+                    <li>Emperor Goose <em>Chen canagica</em></li>
+                    <li>Whooper Swan <em>Cygnus cygnus</em> - P</li>
+                    <li>Falcated Duck <em>Anas falcata</em> - P</li>
+                    <li>American Black Duck <em>Anas rubripes</em></li>
+                    <li>Garganey <em>Anas querquedula</em></li>
+                    <li>Baikal Teal <em>Anas formosa</em></li>
+                    <li>Common Pochard <em>Aythya ferina</em> - P</li>
+                    <li>Steller's Eider <em>Polysticta stelleri</em> - P</li>
+                    <li>King Eider <em>Somateria spectabilis</em></li>
+                    <li>Common Eider <em>Somateria mollissima</em> - P</li>
+                    <li>Common Scoter <em>Melanitta nigra</em> - P</li>
+                    <li>Smew <em>Mergellus albellus</em> - PV</li>
+                </ul>
+           
+
+
+            <h3>Gaviiformes - Loons</h3>
+                <h4>Gaviidae - Loons</h4>
+                <ul>
+                    <li>Arctic Loon <em>Gavia arctica</em></li>
+                    <li>Yellow-billed Loon <em>Gavia adamsii</em></li>
+                </ul>
+           
+
+
+            <h3>Podicipediformes - Grebes</h3>
+                <h4>Podicipedidae - Grebes</h4>
+                <ul>
+                    <li>Least Grebe <em>Tachybaptus dominicus</em></li>
+                </ul>
+           
+
+
+            <h3>Procellariiformes - Tube-nosed Swimmers</h3>
+                <h4>Diomedeidae - Albatrosses</h4>
+                <ul>
+                    <li>White-capped Albatross <em>Thalassarche cauta</em> - P</li>
+                    <li>Salvin's Albatross <em>Thalassarche salvini</em> - P</li>
+                    <li>Chatham Albatross <em>Thalassarche eremita</em> - P</li>
+                    <li>Light-mantled Albatross <em>Phoebetria palpebrata</em> - PV</li>
+                    <li>Wandering Albatross <em>Diomedea exulans</em> - P</li>
+                    <li>Short-tailed Albatross <em>Phoebastria albatrus</em></li>
+
+                </ul>
+
+
+                <h4>Procellariidae - Shearwaters and Petrels</h4>
+                <ul>
+                    <li>Great-winged Petrel <em>Pterodroma macroptera</em> - PV</li>
+                    <li>Stejneger's Petrel <em>Pterodroma longirostris</em> - P</li>
+                    <li>Bulwer's Petrel <em>Bulweria bulwerii</em> - P</li>
+                    <li>White-chinned Petrel <em>Procellaria aequinoctialis</em> - PV</li>
+                    <li>Parkinson's Petrel <em>Procellaria parkinsoni</em> - P</li>
+                    <li>Streaked Shearwater <em>Calonectris leucomelas</em></li>
+                    <li>Cory's Shearwater <em>Calonectris diomedea</em> - P</li>
+                    <li>Great Shearwater <em>Puffinus gravis</em> - P</li>
+                    <li>Wedge-tailed Shearwater <em>Puffinus pacificus</em> - P</li>
+                    <li>Newell's Shearwater <em>Puffinus newelli</em></li>
+                </ul>
+
+
+                <h4>Hydrobatidae - Storm-Petrels</h4>
+                <ul>
+                    <li>Ringed Storm-Petrel <em>Oceanodroma hornbyi</em> - P</li>
+                    <li>Wedge-rumped Storm-Petrel <em>Oceanodroma tethys</em></li>
+                    <li>Tristram's Storm-Petrel <em>Oceanodroma tristrami</em> - P</li>
+                </ul>
+           
+
+
+
+            <h3>Phaethontiformes - Tropicbirds</h3>
+                <h4>Phaethontidae - Tropicbirds</h4>
+                <ul>
+                    <li>White-tailed Tropicbird <em>Phaethon lepturus</em> - P</li>
+                    <li>Red-tailed Tropicbird <em>Phaethon rubricauda</em></li>
+                </ul>
+           
+
+
+            <h3>Suliformes - Frigatebirds, Boobies, Cormorants, Darters, and Allies</h3>
+                <h4>Fregatidae - Frigatebirds</h4>
+                <ul>
+                    <li>Magnificent Frigatebird <em>Fregata magnificens</em></li>
+                    <li>Great Frigatebird <em>Fregata minor</em> - P</li>
+                    <li>Lesser Frigatebird <em>Fregata ariel</em> - P  </li>
+                </ul>
+
+                <h4>Sulidae - Boobies and Gannets</h4>
+                <ul>
+                    <li>Masked Booby <em>Sula dactylatra</em> - P</li>
+                    <li>Nazca Booby <em>Sula granti</em> - P</li>
+                    <li>Red-footed Booby <em>Sula sula</em></li>
+                    <li>Northern Gannet <em>Morus bassanus</em> - P</li>
+                </ul>
+
+
+                <h4>Anhingidae - Darters</h4>
+                <ul>
+                    <li>Anhinga <em>Anhinga anhinga</em> - P</li>
+                </ul>
+           
+
+
+
+            <h3>Pelecaniformes - Pelicans, Herons, Ibises, and Allies</h3>
+                <h4>Ardeidae - Herons, Bitterns, and Allies</h4>
+                <ul>
+                    <li>Tricolored Heron <em>Egretta tricolor</em></li>
+                </ul>
+
+                <h4>Threskiornithidae - Ibises and Spoonbills</h4>
+                <ul>
+                    <li>White Ibis <em>Eudocimus albus</em></li>
+                    <li>Glossy Ibis <em>Plegadis falcinellus</em> - P</li>
+                    <li>Roseate Spoonbill <em>Platalea ajaja</em> - </li>
+                </ul>
+           
+
+
+
+            <h3>Accipitriformes - Hawks, Kites, Eagles, and Allies</h3>
+                <h4>Cathartidae - New World Vultures</h4>
+                <ul>
+                    <li>Black Vulture <em>Coragyps atratus</em> - P</li>
+                </ul>
+
+                <h4>Accipitridae - Hawks, Kites, Eagles, and Allies</h4>
+                <ul>
+                    <li>Swallow-tailed Kite <em>Elanoides forficatus</em> - P</li>
+                    <li>Mississippi Kite <em>Ictinia mississippiensis</em></li>
+                    <li>Common Black Hawk <em>Buteogallus anthracinus</em> - P</li>
+                    <li>Gray Hawk <em>Buteo plagiatus</em> - PV</li>
+
+                </ul>
+           
+
+
+
+            <h3>Gruiformes - Rails, Cranes, and Allies</h3>
+                <h4>Rallidae - Rails, Gallinules, and Coots</h4>
+                <ul>
+                    <li>Purple Gallinule <em>Porphyrio martinicus</em></li>
+                </ul>
+
+                <h4>Gruidae - Cranes</h4>
+                <ul>
+                    <li>Common Crane <em>Grus grus</em> - P</li>
+                </ul>
+           
+
+
+
+            <h3>Charadriiformes - Shorebirds, Gulls, Auks, 
+                and Allies</h3>
+                <h4>Charadriidae - Lapwings and Plovers</h4>
+                <ul>
+                    <li>Lesser Sand-Plover <em>Charadrius mongolus</em> - P</li>
+                    <li>Greater Sand-Plover <em>Charadrius leschenaultii</em> - PV</li>
+                    <li>Wilson's Plover <em>Charadrius wilsonia</em></li>
+                    <li>Common Ringed Plover <em>Charadrius hiaticula</em> - PVA</li>
+                    <li>Piping Plover <em>Charadrius melodus</em> - P</li>
+                    <li>Eurasian Dotterel <em>Charadrius morinellus</em> - PV</li>
+                </ul>
+
+                <h4>Scolopacidae - Sandpipers, Phalaropes, and Allies</h4>
+                <ul>
+                    <li>Terek Sandpiper <em>Xenus cinereus</em> - PV</li>
+                    <li>Gray-tailed Tattler <em>Tringa brevipes</em> - P</li>
+                    <li>Spotted Redshank <em>Tringa erythropus</em> - P</li>
+                    <li>Common Greenshank <em>Tringa nebularia</em> - PV</li>
+                    <li>Marsh Sandpiper <em>Tringa stagnatilis</em> - P</li>
+                    <li>Wood Sandpiper <em>Tringa glareola</em> - P</li>
+                    <li>Upland Sandpiper <em>Bartramia longicauda</em></li>
+                    <li>Little Curlew <em>Numenius minutus</em> - P</li>
+                    <li>Bristle-thighed Curlew <em>Numenius tahitiensis</em> - PV</li>
+                    <li>Hudsonian Godwit <em>Limosa haemastica</em> - P</li>
+                    <li>Bar-tailed Godwit <em>Limosa lapponica</em></li>
+                    <li>Curlew Sandpiper <em>Calidris ferruginea</em></li>
+                    <li>Long-toed Stint <em>Calidris subminuta</em> - P</li>
+                    <li>Red-necked Stint <em>Calidris ruficollis</em> - P      </li>
+                    <li>Little Stint <em>Calidris minuta</em></li>
+                    <li>White-rumped Sandpiper <em>Calidris fuscicollis</em></li>
+                    <li>Jack Snipe <em>Lymnocryptes minimus</em></li>
+                    <li>Common Snipe <em>Gallinago gallinago</em> - P</li>
+                    <li>American Woodcock <em>Scolopax minor</em> - P</li>
+                </ul>
+
+
+                <h4>Alcidae - Auks, Murres, and Puffins</h4>
+                <ul>
+                    <li>Thick-billed Murre <em>Uria lomvia</em></li>
+                    <li>Long-billed Murrelet <em>Brachyramphus perdix</em></li>
+                    <li>Kittlitz's Murrelet <em>Brachyramphus brevirostris</em></li>
+                    <li>Least Auklet <em>Aethia pusilla</em></li>
+                    <li>Crested Auklet <em>Aethia cristatella</em></li>
+                </ul>
+
+                <h4>Laridae - Gulls, Terns, and Skimmers</h4>
+                <ul>
+                    <li>Swallow-tailed Gull <em>Creagrus furcatus</em> - P</li>
+                    <li>Red-legged Kittiwake <em>Rissa brevirostris</em></li>
+                    <li>Ivory Gull <em>Pagophila eburnea</em> - P</li>
+                    <li>Black-headed Gull <em>Chroicocephalus ridibundus</em> - P</li>
+                    <li>Little Gull <em>Hydrocoloeus minutus</em></li>
+                    <li>Ross's Gull <em>Rhodostethia rosea</em> - P</li>
+                    <li>Belcher's Gull <em>Larus belcheri</em> - PV</li>
+                    <li>Black-tailed Gull <em>Larus crassirostris</em></li>
+                    <li>Iceland Gull <em>Larus glaucoides</em> - P</li>
+                    <li>Slaty-backed Gull <em>Larus schistisagus</em> - P</li>
+                    <li>Great Black-backed Gull <em>Larus marinus</em> - P</li>
+                    <li>Kelp Gull <em>Larus dominicanus</em> - P</li>
+                    <li>Sooty Tern <em>Onychoprion fuscatus</em></li>
+                    <li>Bridled Tern <em>Onychoprion anaethetus</em> - P</li>
+                    <li>White-winged Tern <em>Chlidonias leucopterus</em> - PV</li>
+                    <li>Sandwich Tern <em>Thalasseus sandvicensis</em> - P</li>
+                </ul>
+           
+
+
+            <h3>Columbiformes - Pigeons, and Doves</h3>
+                <h4>Columbidae - Pigeons and Doves</h4>
+                <ul>
+                    <li>Oriental Turtle-Dove <em>Streptopelia orientalis</em> - PV</li>
+                    <li>Ruddy Ground-Dove <em>Columbina talpacoti</em></li>
+                </ul>
+           
+
+
+            <h3>Cuculiformes - Cuckoos and Allies</h3>
+                <h4>Cuculidae - Cuckoos, Roadrunners, and Anis</h4>
+                <ul>
+                    <li>Common Cuckoo <em>Cuculus canorus</em> - PV</li>
+                    <li>Black-billed Cuckoo <em>Coccyzus erythropthalmus</em></li>
+                    <li>Groove-billed Ani <em>Crotophaga sulcirostris</em> - P</li>
+                </ul>
+           
+
+
+            <h3>Strigiformes - Owls</h3>
+                <h4>Strigidae - Typical Owls</h4>
+                <ul>
+                    <li>Snowy Owl <em>Bubo scandiacus</em></li>
+                    <li>Elf Owl <em>Micrathene whitneyi</em></li>
+                </ul>
+           
+
+
+
+            <h3>Caprimulgiformes - Goatsuckers, Oilbirds, and Allies</h3>
+                <h4>Caprimulgidae - Goatsuckers</h4>
+                <ul>
+                    <li>Chuck-will's-widow <em>Antrostomus carolinensis</em></li>
+                    <li>Buff-collared Nightjar <em>Antrostomus ridgwayi</em></li>
+                    <li>Eastern Whip-poor-will <em>Antrostomus vociferus</em> - PA</li>
+                </ul>
+           
+
+
+
+            <h3>Apodiformes - Swifts, and Hummingbirds</h3>
+                <h4>Apodidae - Swifts</h4>
+                <ul>
+                    <li>White-collared Swift <em>Streptoprocne zonaris</em> - S</li>
+                    <li>Common Swift <em>Apus apus</em> - P</li>
+                </ul>
+
+                <h4>Trochilidae - Hummingbirds</h4>
+                <ul>
+                    <li>Green Violetear <em>Colibri thalassinus</em> - P</li>
+                    <li>Magnificent Hummingbird <em>Eugenes fulgens</em> - P</li>
+                    <li>Blue-throated Hummingbird <em>Lampornis clemenciae</em> - P</li>
+                    <li>Ruby-throated Hummingbird <em>Archilochus colubris</em></li>
+                    <li>Broad-billed Hummingbird <em>Cynanthus latirostris</em> - P</li>
+                    <li>Violet-crowned Hummingbird <em>Amazilia violiceps</em> - P</li>
+                    <li>Xantus's Hummingbird <em>Hylocharis xantusii</em> - P</li>
+                </ul>
+           
+
+
+
+            <h3>Piciformes - Puffbirds, Jacamars, Toucans, Woodpeckers, and Allies</h3>
+                <h4>Picidae - Woodpeckers and Allies</h4>
+                <ul>
+                    <li>Red-headed Woodpecker <em>Melanerpes erythrocephalus</em></li>
+                </ul>
+           
+
+
+            <h3>Falconiformes - Caracaras and Falcons</h3>
+                <h4>Falconidae - Caracaras and Falcons</h4>
+                <ul>
+                    <li>Crested Caracara <em>Caracara cheriway</em> - PV</li>
+                    <li>Eurasian Kestrel <em>Falco tinnunculus</em> - P</li>
+                    <li>Gyrfalcon <em>Falco rusticolus</em></li>
+                </ul>
+           
+
+
+
+            <h3>Passeriformes - Passerine Birds</h3>
+                <h4>Tyrannidae - Tyrant Flycatchers</h4>
+                <ul>
+                    <li>Greater Pewee <em>Contopus pertinax</em></li>
+                    <li>Eastern Wood-Pewee <em>Contopus virens</em> - PA</li>
+                    <li>Yellow-bellied Flycatcher <em>Empidonax flaviventris</em></li>
+                    <li>Alder Flycatcher <em>Empidonax alnorum</em></li>
+                    <li>Dusky-capped Flycatcher <em>Myiarchus tuberculifer</em></li>
+                    <li>Nutting's Flycatcher <em>Myiarchus nuttingi</em> - PVA</li>
+                    <li>Great Crested Flycatcher <em>Myiarchus crinitus</em></li>
+                    <li>Sulphur-bellied Flycatcher <em>Myiodynastes luteiventris</em> - PV</li>
+                    <li>Couch's Kingbird <em>Tyrannus couchii</em> - PA</li>
+                    <li>Thick-billed Kingbird <em>Tyrannus crassirostris</em> - PVA</li>
+                    <li>Fork-tailed Flycatcher <em>Tyrannus savana</em> - P</li>
+                </ul>
+
+
+                <h4>Laniidae - Shrikes</h4>
+                <ul>
+                    <li>Brown Shrike <em>Lanius cristatus</em> - P</li>
+                </ul>
+
+
+                <h4>Vireonidae - Vireos</h4>
+                <ul>
+                    <li>White-eyed Vireo <em>Vireo griseus</em> - PA</li>
+                    <li>Blue-headed Vireo <em>Vireo solitarius</em></li>
+                </ul>
+
+
+                <h4>Corvidae - Crows and Jays</h4>
+                <ul>
+                    <li>Blue Jay <em>Cyanocitta cristata</em></li>
+                </ul>
+
+
+                <h4>Alaudidae - Larks</h4>
+                <ul>
+                    <li>Sky Lark <em>Alauda arvensis</em> - P</li>
+                </ul>
+
+
+                <h4>Hirundinidae - Swallows</h4>
+                <ul>
+                    <li>Cave Swallow <em>Petrochelidon fulva</em> - P</li>
+                </ul>
+
+
+                <h4>Troglodytidae - Wrens</h4>
+                <ul>
+                    <li>Winter Wren <em>Troglodytes hiemalis</em> - PA</li>
+                    <li>Sedge Wren <em>Cistothorus platensis</em> - PA</li>
+                </ul>
+
+
+                <h4>Phylloscopidae - Leaf Warblers</h4>
+                <ul>
+                    <li>Dusky Warbler <em>Phylloscopus fuscatus</em></li>
+                    <li>Arctic/Kamchatka Leaf Warbler <em>Phylloscopus borealis/examinandus</em> - P</li>
+                </ul>
+
+
+                <h4>Locustellidae - Grasshopper-Warblers</h4>
+                <ul>
+                    <li>Lanceolated Warbler <em>Locustella lanceolata</em> - P  </li>
+                </ul>
+
+
+                <h4>Muscicapidae - Old World Flycatchers</h4>
+                <ul>
+                    <li>Bluethroat <em>Luscinia svecica</em> - P</li>
+                    <li>Red-flanked Bluetail <em>Tarsiger cyanurus</em> - P</li>
+                    <li>Taiga Flycatcher <em>Ficedula albicilla</em> - P</li>
+                    <li>Northern Wheatear <em>Oenanthe oenanthe</em></li>
+                    <li>Stonechat <em>Saxicola torquatus</em> - P</li>
+                </ul>
+
+                <h4>Turdidae - Thrushes</h4>
+                <ul>
+                    <li>Veery <em>Catharus fuscescens</em> - P</li>
+                    <li>Gray-cheeked Thrush <em>Catharus minimus</em></li>
+                    <li>Wood Thrush <em>Hylocichla mustelina</em></li>
+                    <li>Eyebrowed Thrush <em>Turdus obscurus</em> - PV</li>
+                    <li>Rufous-backed Robin <em>Turdus rufopalliatus</em> - P</li>
+                </ul>
+
+
+                <h4>Mimidae - Mockingbirds and Thrashers</h4>
+                <ul>
+                    <li>Curve-billed Thrasher <em>Toxostoma curvirostre</em></li>
+                </ul>
+
+                <h4>Motacillidae - Wagtails and Pipits</h4>
+                <ul>
+                    <li>Eastern Yellow Wagtail <em>Motacilla tschutschensis</em> - P</li>
+                    <li>Gray Wagtail <em>Motacilla cinerea</em> - P</li>
+                    <li>White Wagtail <em>Motacilla alba</em> - P</li>
+                    <li>Olive-backed Pipit <em>Anthus hodgsoni</em> - P</li>
+                </ul>
+
+                <h4>Calcariidae - Longspurs and Snow Buntings</h4>
+                <ul>
+                    <li>Smith's Longspur <em>Calcarius pictus</em> - PV</li>
+                    <li>Snow Bunting <em>Plectrophenax nivalis</em> -   </li>
+                </ul>
+
+                <h4>Parulidae - Wood-Warblers</h4>
+                <ul>
+                    <li>Worm-eating Warbler <em>Helmitheros vermivorum</em></li>
+                    <li>Louisiana Waterthrush <em>Parkesia motacilla</em></li>
+                    <li>Golden-winged Warbler <em>Vermivora chrysoptera</em></li>
+                    <li>Blue-winged Warbler <em>Vermivora cyanoptera</em></li>
+                    <li>Connecticut Warbler <em>Oporornis agilis</em></li>
+                    <li>Mourning Warbler <em>Geothlypis philadelphia</em></li>
+                    <li>Cape May Warbler <em>Setophaga tigrina</em></li>
+                    <li>Cerulean Warbler <em>Setophaga cerulea</em> -  </li>
+                    <li>Grace's Warbler <em>Setophaga graciae</em></li>
+                    <li>Golden-cheeked Warbler <em>Setophaga chrysoparia</em></li>
+                    <li>Red-faced Warbler <em>Cardellina rubrifrons</em></li>
+                </ul>
+
+                <h4>Emberizidae - Emberizids</h4>
+                <ul>
+                    <li>Cassin's Sparrow <em>Peucaea cassinii</em> -  </li>
+                    <li>Field Sparrow <em>Spizella pusilla</em> - P</li>
+                    <li>Baird's Sparrow <em>Ammodramus bairdii</em></li>
+                    <li>Le Conte's Sparrow <em>Ammodramus leconteii</em></li>
+                    <li>Little Bunting <em>Emberiza pusilla</em> - P</li>
+                    <li>Rustic Bunting <em>Emberiza rustica</em> - P</li>
+                </ul>
+
+
+                <h4>Cardinalidae - Cardinals and Allies</h4>
+                <ul>
+                    <li>Pyrrhuloxia <em>Cardinalis sinuatus</em> - P</li>
+                    <li>Varied Bunting <em>Passerina versicolor</em></li>
+                </ul>
+
+
+                <h4>Icteridae - Blackbirds</h4>
+                <ul>
+                    <li>Rusty Blackbird <em>Euphagus carolinus</em></li>
+                    <li>Common Grackle <em>Quiscalus quiscula</em></li>
+                    <li>Streak-backed Oriole <em>Icterus pustulatus</em></li>
+                </ul>
+
+
+                <h4>Fringillidae - Fringilline and Cardueline Finches and Allies</h4>
+                <ul>
+                    <li>Brambling <em>Fringilla montifringilla</em> - PV</li>
+                    <li>Black Rosy-Finch <em>Leucosticte atrata</em></li>
+                    <li>Common Rosefinch <em>Carpodacus erythrinus</em> - P</li>
+                    <li>White-winged Crossbill <em>Loxia leucoptera</em> - S</li>
+                    <li>Common Redpoll <em>Acanthis flammea</em></li>
+                </ul>
+            </div><!-- end of main list -->
+
+            
+
+            <h2>Supplemental List</h2>
+            <div class="supplemental-list" id="supplemental-review">
+                <h3>We also review records of the following species groups and hybrids</h3>
+                <ul>
+                    <li>Taiga/Tundra Bean-Goose Anser fabalis/serrirostris </li>
+                    <li>Magnificent/Great/Lesser Frigatebird Fregata magnificens/minor/ariel</li>
+                    <li>Masked/Nazca Booby Sula dactylatra/granti</li>
+                    <li>Blue-winged X Golden-winged Warbler Vermivora cyanoptera X V. chrysoptera</li>
+                </ul>
+            </div> <!-- end of the supplemental list -->
+        </section> 
+    </main> <!-- end of main section-->
+    
+    
+    
+    <!-- Footer -->
+    <!-- ================================================== -->
+    
+    <footer>
+        <ul>
+            <li><a href="https://www.westernfieldornithologists.org/support.php">donate</a></li>
+            <li><a href="mailto:webmaster@californiabirds.org">webmaster</a></li>
+            <li><a href="mailto:secretary@californiabirds.org">contact us</a></li>
+        </ul>
+    </footer>
+
+<div class="popup" data-popup="popup-1"></div>
+</body>
+</html>

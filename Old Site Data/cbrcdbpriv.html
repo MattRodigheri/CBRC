@@ -1,0 +1,197 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+
+<HEAD>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html;CHARSET=iso-8859-1">
+	<TITLE>Database Query</TITLE>
+</HEAD>
+
+<BODY>
+
+<FORM ACTION="mydb.asp"><INPUT TYPE="HIDDEN" NAME="priv" VALUE="1">
+
+<P><big><b>Query the CBRC database (beta)</big></b></P>
+
+<P>
+<TABLE BORDER="0" WIDTH="650">
+	<TR>
+		<TD><IMG SRC="booby.gif" WIDTH="189" HEIGHT="272" ALIGN="LEFT" BORDER="0" HSPACE="20" VSPACE="20"><em><b>This version includes observers for all records and is intended for internal use by CBRC members only.  A public version which displays less detail and includes observers only for accepted records is <A HREF=cbrcdb.html>here.</a></b><br><br>
+		This is a preliminary form which can be used to query raw data from the CBRC records database. Although this database contains records as early as 1880, certain pre-1997 records may be missing. For a complete accounting
+			of older records through 2004 and selected records through 2006, please refer to the book &quot;Rare Birds of California&quot;
+			available <A HREF="http://www.westernfieldornithologists.org/08rboc.php">here</A>. <BR>
+<BR>
+Note: If you check the &quot;partial matches&quot; box and leave the species blank, it will display all CBRC
+			reviewed records for the entered county. <BR>
+<BR>
+The display may include some cryptic fields. We hope to improve the readability of the output in the future.  An explanation of the 
+status codes and a list of standard county codes are below.
+</em> 
+					</TD>
+	</TR>
+</TABLE>
+
+ 
+
+<P> Species: <INPUT TYPE="TEXT" NAME="species" SIZE="25">&nbsp;<INPUT TYPE="CHECKBOX" NAME="partial" CHECKED> Check for partial matches&nbsp;&nbsp;
+<!--<P> County: <INPUT TYPE="TEXT" NAME="county" SIZE="3"> Standard County Codes only (see below) -->&nbsp;&nbsp;<INPUT TYPE="CHECKBOX" NAME="accepted"> Check box for accepted records only.<br><br>
+<INPUT TYPE="RADIO" NAME="sort" VALUE="date" CHECKED>Sort by date</INPUT>
+<INPUT TYPE="RADIO" NAME="sort" VALUE="month">Sort by month (January to December)</INPUT>
+<INPUT TYPE="RADIO" NAME="sort" VALUE="">Sort by record number</INPUT><BR><BR>
+Optional Date Span (mm/dd/yyyy): <INPUT TYPE="TEXT" NAME="STARTDATE" SIZE="10" MAXLENGTH="10"> through <INPUT TYPE="TEXT" NAME="ENDDATE" SIZE="10" MAXLENGTH="10"> (Leave blank for current date)<BR><BR>
+<table border="0"><tr>
+<td valign=top>Select County:&nbsp; </td>
+<td><SELECT NAME="county" SIZE="4" valign="top">
+			<OPTION VALUE="" Selected>All counties </OPTION>
+			<OPTION VALUE=ALA>ALA - Alameda </OPTION>
+			<OPTION VALUE=ALP>ALP - Alpine </OPTION>
+
+			<OPTION VALUE=AMA>AMA - Amador </OPTION>
+			<OPTION VALUE=BUT>BUT - Butte </OPTION>
+			<OPTION VALUE=CC>CC - Contra Costa </OPTION>
+			<OPTION VALUE=CLV>CLV - Calaveras </OPTION>
+			<OPTION VALUE=COL>COL - Colusa </OPTION>
+			<OPTION VALUE=DN>DN - Del Norte </OPTION>
+
+			<OPTION VALUE=ED>ED - El Dorado </OPTION>
+			<OPTION VALUE=FRE>FRE - Fresno </OPTION>
+			<OPTION VALUE=GLE>GLE - Glenn </OPTION>
+			<OPTION VALUE=HUM>HUM - Humboldt </OPTION>
+			<OPTION VALUE=IMP>IMP - Imperial </OPTION>
+			<OPTION VALUE=INY>INY - Inyo </OPTION>
+
+			<OPTION VALUE=KER>KER - Kern </OPTION>
+			<OPTION VALUE=KIN>KIN - Kings </OPTION>
+			<OPTION VALUE=LA>LA - Los Angeles </OPTION>
+			<OPTION VALUE=LAK>LAK - Lake </OPTION>
+			<OPTION VALUE=LAS>LAS - Lassen </OPTION>
+			<OPTION VALUE=MAD>MAD - Madera </OPTION>
+
+			<OPTION VALUE=MEN>MEN - Mendocino </OPTION>
+			<OPTION VALUE=MER>MER - Merced </OPTION>
+			<OPTION VALUE=MNO>MNO - Mono </OPTION>
+			<OPTION VALUE=MOD>MOD - Modoc </OPTION>
+			<OPTION VALUE=MRN>MRN - Marin </OPTION>
+			<OPTION VALUE=MRP>MRP - Mariposa </OPTION>
+
+			<OPTION VALUE=MTY>MTY - Monterey </OPTION>
+			<OPTION VALUE=NAP>NAP - Napa </OPTION>
+			<OPTION VALUE=NEV>NEV - Nevada </OPTION>
+			<OPTION VALUE=ORA>ORA - Orange </OPTION>
+			<OPTION VALUE=PLA>PLA - Placer </OPTION>
+			<OPTION VALUE=PLU>PLU - Plumas </OPTION>
+
+			<OPTION VALUE=RIV>RIV - Riverside </OPTION>
+			<OPTION VALUE=SAC>SAC - Sacramento </OPTION>
+			<OPTION VALUE=SBA>SBA - Santa Barbara </OPTION>
+			<OPTION VALUE=SBE>SBE - San Bernardino </OPTION>
+			<OPTION VALUE=SBT>SBT - San Benito </OPTION>
+			<OPTION VALUE=SCL>SCL - Santa Clara </OPTION>
+
+			<OPTION VALUE=SCZ>SCZ - Santa Cruz </OPTION>
+			<OPTION VALUE=SD>SD - San Diego </OPTION>
+			<OPTION VALUE=SF>SF - San Francisco </OPTION>
+			<OPTION VALUE=SHA>SHA - Shasta </OPTION>
+			<OPTION VALUE=SIE>SIE - Sierra </OPTION>
+			<OPTION VALUE=SIS>SIS - Siskiyou </OPTION>
+
+			<OPTION VALUE=SJ>SJ - San Joaquin </OPTION>
+			<OPTION VALUE=SLO>SLO - San Luis Obispo </OPTION>
+			<OPTION VALUE=SM>SM - San Mateo </OPTION>
+			<OPTION VALUE=SOL>SOL - Solano </OPTION>
+			<OPTION VALUE=SON>SON - Sonoma </OPTION>
+			<OPTION VALUE=STA>STA - Stanislaus </OPTION>
+
+			<OPTION VALUE=SUT>SUT - Sutter </OPTION>
+			<OPTION VALUE=TEH>TEH - Tehama </OPTION>
+			<OPTION VALUE=TRI>TRI - Trinity </OPTION>
+			<OPTION VALUE=TUL>TUL - Tulare </OPTION>
+			<OPTION VALUE=TUO>TUO - Tuolumne </OPTION>
+			<OPTION VALUE=VEN>VEN - Ventura </OPTION>
+
+			<OPTION VALUE=YOL>YOL - Yolo </OPTION>
+			<OPTION VALUE=YUB>YUB - Yuba </OPTION>
+			</SELECT></td></tr></table>
+
+
+<INPUT TYPE="SUBMIT">
+</FORM>
+
+<P>
+<TABLE BORDER="1" CELLSPACING="0" BGCOLOR="white">
+<FONT FACE="Arial" COLOR=#000000><CAPTION><B>Explanation of Status Codes</B></CAPTION>
+
+<THEAD>
+	<TR>
+		<TH BGCOLOR="silver" BORDERCOLOR="#000000">
+			<P><FONT SIZE="2" COLOR="black" FACE="Arial">Status</FONT>
+		</TH>
+		<TH BGCOLOR="silver" BORDERCOLOR="#000000">
+			<P><FONT SIZE="2" COLOR="black" FACE="Arial">Status Descriptions</FONT>
+		</TH>
+	</TR>
+</THEAD>
+<TBODY>
+	<TR VALIGN="TOP">
+		<TD BORDERCOLOR="#c0c0c0"><FONT SIZE="2" COLOR="black" FACE="Arial">A</FONT></TD>
+		<TD BORDERCOLOR="#c0c0c0"><FONT SIZE="2" COLOR="black" FACE="Arial">Accepted</FONT></TD>
+	</TR>
+	<TR VALIGN="TOP">
+		<TD BORDERCOLOR="#c0c0c0"><FONT SIZE="2" COLOR="black" FACE="Arial">B</FONT></TD>
+		<TD BORDERCOLOR="#c0c0c0"><FONT SIZE="2" COLOR="black" FACE="Arial">Batched</FONT></TD>
+	</TR>
+	<TR VALIGN="TOP">
+		<TD BORDERCOLOR="#c0c0c0"><FONT SIZE="2" COLOR="black" FACE="Arial">C</FONT></TD>
+		<TD BORDERCOLOR="#c0c0c0"><FONT SIZE="2" COLOR="black" FACE="Arial">Recirculate</FONT></TD>
+	</TR>
+	<TR VALIGN="TOP">
+		<TD BORDERCOLOR="#c0c0c0"><FONT SIZE="2" COLOR="black" FACE="Arial">E</FONT></TD>
+		<TD BORDERCOLOR="#c0c0c0"><FONT SIZE="2" COLOR="black" FACE="Arial">Not Accepted - Establishment of introduced population questionable</FONT></TD>
+	</TR>
+	<TR VALIGN="TOP">
+		<TD BORDERCOLOR="#c0c0c0"><FONT SIZE="2" COLOR="black" FACE="Arial">I</FONT></TD>
+		<TD BORDERCOLOR="#c0c0c0"><FONT SIZE="2" COLOR="black" FACE="Arial">Info needed</FONT></TD>
+	</TR>
+	<TR VALIGN="TOP">
+		<TD BORDERCOLOR="#c0c0c0"><FONT SIZE="2" COLOR="black" FACE="Arial">M</FONT></TD>
+		<TD BORDERCOLOR="#c0c0c0"><FONT SIZE="2" COLOR="black" FACE="Arial">Hold for meeting</FONT></TD>
+	</TR>
+	<TR VALIGN="TOP">
+		<TD BORDERCOLOR="#c0c0c0"><FONT SIZE="2" COLOR="black" FACE="Arial">N</FONT></TD>
+		<TD BORDERCOLOR="#c0c0c0"><FONT SIZE="2" COLOR="black" FACE="Arial">New</FONT></TD>
+	</TR>
+	<TR VALIGN="TOP">
+		<TD BORDERCOLOR="#c0c0c0"><FONT SIZE="2" COLOR="black" FACE="Arial">O</FONT></TD>
+		<TD BORDERCOLOR="#c0c0c0"><FONT SIZE="2" COLOR="black" FACE="Arial">Not Accepted - Natural occurrence questionable</FONT></TD>
+	</TR>
+	<TR VALIGN="TOP">
+		<TD BORDERCOLOR="#c0c0c0"><FONT SIZE="2" COLOR="black" FACE="Arial">Q</FONT></TD>
+		<TD BORDERCOLOR="#c0c0c0"><FONT SIZE="2" COLOR="black" FACE="Arial">Assigned record number, but shouldn't have</FONT></TD>
+	</TR>
+	<TR VALIGN="TOP">
+		<TD BORDERCOLOR="#c0c0c0"><FONT SIZE="2" COLOR="black" FACE="Arial">R</FONT></TD>
+		<TD BORDERCOLOR="#c0c0c0"><FONT SIZE="2" COLOR="black" FACE="Arial">Not Accepted - ID not established</FONT></TD>
+	</TR>
+	<TR VALIGN="TOP">
+		<TD BORDERCOLOR="#c0c0c0"><FONT SIZE="2" COLOR="black" FACE="Arial">S</FONT></TD>
+		<TD BORDERCOLOR="#c0c0c0"><FONT SIZE="2" COLOR="black" FACE="Arial">Split into multiple records</FONT></TD>
+	</TR>
+	<TR VALIGN="TOP">
+		<TD BORDERCOLOR="#c0c0c0"><FONT SIZE="2" COLOR="black" FACE="Arial">U</FONT></TD>
+		<TD BORDERCOLOR="#c0c0c0"><FONT SIZE="2" COLOR="black" FACE="Arial">Unsubmitted</FONT></TD>
+	</TR>
+	<TR VALIGN="TOP">
+		<TD BORDERCOLOR="#c0c0c0"><FONT SIZE="2" COLOR="black" FACE="Arial">W</FONT></TD>
+		<TD BORDERCOLOR="#c0c0c0"><FONT SIZE="2" COLOR="black" FACE="Arial">Not Accepted - Withdrawn by observer</FONT></TD>
+	</TR>
+	<TR VALIGN="TOP">
+		<TD BORDERCOLOR="#c0c0c0"><FONT SIZE="2" COLOR="black" FACE="Arial">X</FONT></TD>
+		<TD BORDERCOLOR="#c0c0c0"><FONT SIZE="2" COLOR="black" FACE="Arial">Unknown status</FONT></TD>
+	</TR>
+</TBODY>
+<TFOOT></TFOOT>
+</TABLE>
+
+
+</BODY>
+
+</HTML>

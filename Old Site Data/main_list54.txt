@@ -1,0 +1,747 @@
+Anseriformes - Screamers, Swans, Geese, and Ducks
+	Anatidae - Ducks, Geese, and Swans
+		Black-bellied Whistling-Duck (Dendrocygna autumnalis) - *P
+		Fulvous Whistling-Duck (Dendrocygna bicolor) - *
+		Taiga/Tundra Bean-Goose (Anser fabalis/Anser serrirostris) - *P
+		Greater White-fronted Goose (Anser albifrons)
+		Emperor Goose (Chen canagica) - *
+		Snow Goose (Chen caerulescens)
+		Ross's Goose (Chen rossii)
+		Brant (Branta bernicla)
+		Cackling Goose (Branta hutchinsii)
+		Canada Goose (Branta canadensis)
+		Trumpeter Swan (Cygnus buccinator) - P
+		Tundra Swan (Cygnus columbianus)
+		Whooper Swan (Cygnus cygnus) - *P
+		Wood Duck (Aix sponsa)
+		Gadwall (Anas strepera)
+		Falcated Duck (Anas falcata) - *P
+		Eurasian Wigeon (Anas penelope)
+		American Wigeon (Anas americana)
+		American Black Duck (Anas rubripes) - *
+		Mallard (Anas platyrhynchos)
+		Blue-winged Teal (Anas discors)
+		Cinnamon Teal (Anas cyanoptera)
+		Northern Shoveler (Anas clypeata)
+		Northern Pintail (Anas acuta)
+		Garganey (Anas querquedula) - *
+		Baikal Teal (Anas formosa) - *
+		Green-winged Teal (Anas crecca)
+		Canvasback (Aythya valisineria)
+		Redhead (Aythya americana)
+		Common Pochard (Aythya ferina) - *P
+		Ring-necked Duck (Aythya collaris)
+		Tufted Duck (Aythya fuligula)
+		Greater Scaup (Aythya marila)
+		Lesser Scaup (Aythya affinis)
+		Steller's Eider (Polysticta stelleri) - *P
+		King Eider (Somateria spectabilis) - *
+		Common Eider (Somateria mollissima) - *P
+		Harlequin Duck (Histrionicus histrionicus)
+		Surf Scoter (Melanitta perspicillata)
+		White-winged Scoter (Melanitta fusca)
+		Black Scoter (Melanitta americana)
+		Long-tailed Duck (Clangula hyemalis)
+		Bufflehead (Bucephala albeola)
+		Common Goldeneye (Bucephala clangula)
+		Barrow's Goldeneye (Bucephala islandica)
+		Smew (Mergellus albellus) - *PV
+		Hooded Merganser (Lophodytes cucullatus)
+		Common Merganser (Mergus merganser)
+		Red-breasted Merganser (Mergus serrator)
+		Ruddy Duck (Oxyura jamaicensis)
+Galliformes - Gallinaceous Birds
+	Odontophoridae - New World Quail
+		Mountain Quail (Oreortyx pictus)
+		California Quail (Callipepla californica)
+		Gambel's Quail (Callipepla gambelii)
+	Phasianidae - Partridges, Grouse, Turkeys, and Old World Quail
+		Chukar (Alectoris chukar) - I
+		Ring-necked Pheasant (Phasianus colchicus) - I
+		Ruffed Grouse (Bonasa umbellus)
+		Greater Sage-Grouse (Centrocercus urophasianus)
+		White-tailed Ptarmigan (Lagopus leucura) - IP
+		Sooty Grouse (Dendragapus fuliginosus)
+		Sharp-tailed Grouse (Tympanuchus phasianellus) - E
+		Wild Turkey (Meleagris gallopavo) - I
+Gaviiformes - Loons
+	Gaviidae - Loons
+		Red-throated Loon (Gavia stellata)
+		Arctic Loon (Gavia arctica) - *
+		Pacific Loon (Gavia pacifica)
+		Common Loon (Gavia immer)
+		Yellow-billed Loon (Gavia adamsii) - *
+Podicipediformes - Grebes
+	Podicipedidae - Grebes
+		Least Grebe (Tachybaptus dominicus) - *
+		Pied-billed Grebe (Podilymbus podiceps)
+		Horned Grebe (Podiceps auritus)
+		Red-necked Grebe (Podiceps grisegena)
+		Eared Grebe (Podiceps nigricollis)
+		Western Grebe (Aechmophorus occidentalis)
+		Clark's Grebe (Aechmophorus clarkii)
+Procellariiformes - Tube-nosed Swimmers
+	Diomedeidae - Albatrosses
+		Shy Albatross (Thalassarche cauta) - *P
+		Light-mantled Albatross (Phoebetria palpebrata) - *PV
+		Wandering Albatross (Diomedea exulans) - *P
+		Laysan Albatross (Phoebastria immutabilis)
+		Black-footed Albatross (Phoebastria nigripes)
+		Short-tailed Albatross (Phoebastria albatrus) - *
+	Procellariidae - Shearwaters and Petrels
+		Northern Fulmar (Fulmarus glacialis)
+		Great-winged Petrel (Pterodroma macroptera) - *PV
+		Murphy's Petrel (Pterodroma ultima)
+		Mottled Petrel (Pterodroma inexpectata)
+		Hawaiian Petrel (Pterodroma sandwichensis) - *PV
+		Cook's Petrel (Pterodroma cookii)
+		Stejneger's Petrel (Pterodroma longirostris) - *P
+		Bulwer's Petrel (Bulweria bulwerii) - *P
+		White-chinned Petrel (Procellaria aequinoctialis) - *PV
+		Parkinson's Petrel (Procellaria parkinsoni) - *P
+		Streaked Shearwater (Calonectris leucomelas) - *
+		Cory's Shearwater (Calonectris diomedea) - *P
+		Pink-footed Shearwater (Puffinus creatopus)
+		Flesh-footed Shearwater (Puffinus carneipes)
+		Great Shearwater (Puffinus gravis) - *P
+		Wedge-tailed Shearwater (Puffinus pacificus) - *P
+		Buller's Shearwater (Puffinus bulleri)
+		Sooty Shearwater (Puffinus griseus)
+		Short-tailed Shearwater (Puffinus tenuirostris)
+		Manx Shearwater (Puffinus puffinus) - PV
+		Townsend's Shearwater (Puffinus auricularis) - *
+		Black-vented Shearwater (Puffinus opisthomelas)
+	Hydrobatidae - Storm-Petrels
+		Wilson's Storm-Petrel (Oceanites oceanicus)
+		Fork-tailed Storm-Petrel (Oceanodroma furcata)
+		Ringed Storm-Petrel (Oceanodroma hornbyi) - *P
+		Leach's Storm-Petrel (Oceanodroma leucorhoa)
+		Ashy Storm-Petrel (Oceanodroma homochroa)
+		Wedge-rumped Storm-Petrel (Oceanodroma tethys) - *
+		Black Storm-Petrel (Oceanodroma melania)
+		Tristram's Storm-Petrel (Oceanodroma tristrami) - *P
+		Least Storm-Petrel (Oceanodroma microsoma)
+Phaethontiformes - Tropicbirds		
+	Phaethontidae - Tropicbirds
+		White-tailed Tropicbird (Phaethon lepturus) - *P
+		Red-billed Tropicbird (Phaethon aethereus)
+		Red-tailed Tropicbird (Phaethon rubricauda) - *
+Ciconiiformes - Storks
+	Ciconiidae - Storks
+		Wood Stork (Mycteria americana)
+Suliformes - Frigatebirds, Boobies, Cormorants, Darters, and Allies
+	Fregatidae - Frigatebirds
+		Magnificent Frigatebird (Fregata magnificens) - *
+		Great Frigatebird (Fregata minor) - *P
+		Lesser Frigatebird (Fregata ariel) - *P	
+	Sulidae - Boobies and Gannets
+		Masked Booby (Sula dactylatra) - *P
+		Blue-footed Booby (Sula nebouxii) - *
+		Brown Booby (Sula leucogaster)
+		Red-footed Booby (Sula sula) - *
+		Northern Gannet (Morus bassanus) - *P
+	Phalacrocoracidae - Cormorants
+		Brandt's Cormorant (Phalacrocorax penicillatus)
+		Neotropic Cormorant (Phalacrocorax brasilianus) - *P
+		Double-crested Cormorant (Phalacrocorax auritus)
+		Pelagic Cormorant (Phalacrocorax pelagicus)
+	Anhingidae - Darters
+		Anhinga (Anhinga anhinga) - *P	
+Pelecaniformes - Pelicans, Herons, Ibises, and Allies		
+	Pelecanidae - Pelicans
+		American White Pelican (Pelecanus erythrorhynchos)
+		Brown Pelican (Pelecanus occidentalis)
+	Ardeidae - Herons, Bitterns, and Allies
+		American Bittern (Botaurus lentiginosus)
+		Least Bittern (Ixobrychus exilis)
+		Great Blue Heron (Ardea herodias)
+		Great Egret (Ardea alba)
+		Snowy Egret (Egretta thula)
+		Little Blue Heron (Egretta caerulea)
+		Tricolored Heron (Egretta tricolor) - *
+		Reddish Egret (Egretta rufescens)
+		Cattle Egret (Bubulcus ibis)
+		Green Heron (Butorides virescens)
+		Black-crowned Night-Heron (Nycticorax nycticorax)
+		Yellow-crowned Night-Heron (Nyctanassa violacea) 
+	Threskiornithidae - Ibises and Spoonbills
+		White Ibis (Eudocimus albus) - *
+		Glossy Ibis (Plegadis falcinellus) - *P
+		White-faced Ibis (Plegadis chihi)
+		Roseate Spoonbill (Platalea ajaja) - *			
+Accipitriformes - Hawks, Kites, Eagles, and Allies		
+	Cathartidae - New World Vultures
+		Black Vulture (Coragyps atratus) - *P
+		Turkey Vulture (Cathartes aura)
+		California Condor (Gymnogyps californianus) - E
+	Pandionidae - Ospreys		
+		Osprey (Pandion haliaetus)
+	Accipitridae - Hawks, Kites, Eagles, and Allies	
+		Swallow-tailed Kite (Elanoides forficatus) - *P
+		White-tailed Kite (Elanus leucurus)
+		Mississippi Kite (Ictinia mississippiensis) - *
+		Bald Eagle (Haliaeetus leucocephalus)
+		Northern Harrier (Circus cyaneus)
+		Sharp-shinned Hawk (Accipiter striatus)
+		Cooper's Hawk (Accipiter cooperii)
+		Northern Goshawk (Accipiter gentilis)
+		Common Black-Hawk (Buteogallus anthracinus) - *P
+		Harris's Hawk (Parabuteo unicinctus) 
+		Red-shouldered Hawk (Buteo lineatus)
+		Broad-winged Hawk (Buteo platypterus)
+		Gray Hawk (Buteo plagiatus) - *PV
+		Swainson's Hawk (Buteo swainsoni)
+		Zone-tailed Hawk (Buteo albonotatus)
+		Red-tailed Hawk (Buteo jamaicensis)
+		Ferruginous Hawk (Buteo regalis)
+		Rough-legged Hawk (Buteo lagopus)
+		Golden Eagle (Aquila chrysaetos)
+Gruiformes - Rails, Cranes, and Allies
+	Rallidae - Rails, Gallinules, and Coots
+		Yellow Rail (Coturnicops noveboracensis)
+		Black Rail (Laterallus jamaicensis)
+		Clapper Rail (Rallus longirostris)
+		Virginia Rail (Rallus limicola)
+		Sora (Porzana carolina)
+		Purple Gallinule (Porphyrio martinicus) - *
+		Common Gallinule (Gallinula galeata)
+		American Coot (Fulica americana)
+	Gruidae - Cranes
+		Sandhill Crane (Grus canadensis)
+		Common Crane (Grus grus) - *P
+Charadriiformes - Shorebirds, Gulls, Auks, and Allies
+	Recurvirostridae - Stilts and Avocets
+		Black-necked Stilt (Himantopus mexicanus)
+		American Avocet (Recurvirostra americana)
+	Haematopodidae - Oystercatchers
+		American Oystercatcher (Haematopus palliatus)
+		Black Oystercatcher (Haematopus bachmani)
+	Charadriidae - Lapwings and Plovers
+		Black-bellied Plover (Pluvialis squatarola)
+		American Golden-Plover (Pluvialis dominica) 
+		Pacific Golden-Plover (Pluvialis fulva)
+		Lesser Sand-Plover (Charadrius mongolus) - *P
+		Greater Sand-Plover (Charadrius leschenaultii) - *PV
+		Snowy Plover (Charadrius nivosus)
+		Wilson's Plover (Charadrius wilsonia) - *
+		Common Ringed Plover (Charadrius hiaticula) - *PVA
+		Semipalmated Plover (Charadrius semipalmatus)
+		Piping Plover (Charadrius melodus) - *P
+		Killdeer (Charadrius vociferus)
+		Mountain Plover (Charadrius montanus)
+		Eurasian Dotterel (Charadrius morinellus) - *PV
+	Scolopacidae - Sandpipers, Phalaropes, and Allies
+		Terek Sandpiper (Xenus cinereus) - *PV
+		Spotted Sandpiper (Actitis macularius)
+		Solitary Sandpiper (Tringa solitaria)
+		Gray-tailed Tattler (Tringa brevipes) - *P
+		Wandering Tattler (Tringa incana)
+		Spotted Redshank (Tringa erythropus) - *P
+		Greater Yellowlegs (Tringa melanoleuca)
+		Common Greenshank (Tringa nebularia) - *PV
+		Willet (Tringa semipalmata)
+		Lesser Yellowlegs (Tringa flavipes)
+		Wood Sandpiper (Tringa glareola) - *P
+		Upland Sandpiper (Bartramia longicauda) - *
+		Little Curlew (Numenius minutus) - *P
+		Whimbrel (Numenius phaeopus)
+		Bristle-thighed Curlew (Numenius tahitiensis) - *PV
+		Long-billed Curlew (Numenius americanus)
+		Hudsonian Godwit (Limosa haemastica) - *P
+		Bar-tailed Godwit (Limosa lapponica) - *
+		Marbled Godwit (Limosa fedoa)
+		Ruddy Turnstone (Arenaria interpres)
+		Black Turnstone (Arenaria melanocephala)
+		Red Knot (Calidris canutus)
+		Surfbird (Calidris virgata)
+		Ruff (Calidris pugnax)
+		Sharp-tailed Sandpiper (Calidris acuminata)
+		Stilt Sandpiper (Calidris himantopus)
+		Curlew Sandpiper (Calidris ferruginea) - *
+		Long-toed Stint (Calidris subminuta) - *P
+		Red-necked Stint (Calidris ruficollis) - *P		
+		Sanderling (Calidris alba)
+		Dunlin (Calidris alpina)
+		Rock Sandpiper (Calidris ptilocnemis)
+		Baird's Sandpiper (Calidris bairdii)
+		Little Stint (Calidris minuta) - *
+		Least Sandpiper (Calidris minutilla)
+		White-rumped Sandpiper (Calidris fuscicollis) - *
+		Buff-breasted Sandpiper (Calidris subruficollis)
+		Pectoral Sandpiper (Calidris melanotos)
+		Semipalmated Sandpiper (Calidris pusilla)
+		Western Sandpiper (Calidris mauri)
+		Short-billed Dowitcher (Limnodromus griseus)
+		Long-billed Dowitcher (Limnodromus scolopaceus)
+		Jack Snipe (Lymnocryptes minimus) - *
+		Wilson's Snipe (Gallinago delicata)
+		Common Snipe (Gallinago gallinago) - *P
+		American Woodcock (Scolopax minor) - *P
+		Wilson's Phalarope (Phalaropus tricolor)
+		Red-necked Phalarope (Phalaropus lobatus)
+		Red Phalarope (Phalaropus fulicarius)
+	Stercorariidae - Skuas
+		South Polar Skua (Stercorarius maccormicki)
+		Pomarine Jaeger (Stercorarius pomarinus)
+		Parasitic Jaeger (Stercorarius parasiticus)
+		Long-tailed Jaeger (Stercorarius longicaudus)
+	Alcidae - Auks, Murres, and Puffins
+		Common Murre (Uria aalge)
+		Thick-billed Murre (Uria lomvia) - *
+		Pigeon Guillemot (Cepphus columba)
+		Long-billed Murrelet (Brachyramphus perdix) - *
+		Marbled Murrelet (Brachyramphus marmoratus)
+		Kittlitz's Murrelet (Brachyramphus brevirostris) - *
+		Scripps's Murrelet (Synthliboramphus scrippsi)
+		Guadalupe Murrelet (Synthliboramphus hypoleucus)
+		Craveri's Murrelet (Synthliboramphus craveri)
+		Ancient Murrelet (Synthliboramphus antiquus)
+		Cassin's Auklet (Ptychoramphus aleuticus)
+		Parakeet Auklet (Aethia psittacula) 
+		Least Auklet (Aethia pusilla) - *
+		Crested Auklet (Aethia cristatella) - *
+		Rhinoceros Auklet (Cerorhinca monocerata)
+		Horned Puffin (Fratercula corniculata)
+		Tufted Puffin (Fratercula cirrhata)
+	Laridae - Gulls, Terns, and Skimmers
+		Swallow-tailed Gull (Creagrus furcatus) - *P
+		Black-legged Kittiwake (Rissa tridactyla)
+		Red-legged Kittiwake (Rissa brevirostris) - *
+		Ivory Gull (Pagophila eburnea) - *P
+		Sabine's Gull (Xema sabini)
+		Bonaparte's Gull (Chroicocephalus philadelphia)
+		Black-headed Gull (Chroicocephalus ridibundus) - *P
+		Little Gull (Hydrocoloeus minutus) - *
+		Ross's Gull (Rhodostethia rosea) - *P
+		Laughing Gull (Leucophaeus atricilla)
+		Franklin's Gull (Leucophaeus pipixcan)
+		Belcher's Gull (Larus belcheri) - *PV
+		Black-tailed Gull (Larus crassirostris) - *
+		Heermann's Gull (Larus heermanni)
+		Mew Gull (Larus canus)
+		Ring-billed Gull (Larus delawarensis)
+		Western Gull (Larus occidentalis)
+		Yellow-footed Gull (Larus livens)
+		California Gull (Larus californicus)
+		Herring Gull (Larus argentatus)
+		Thayer's Gull (Larus thayeri)
+		Iceland Gull (Larus glaucoides) - *P
+		Lesser Black-backed Gull (Larus fuscus) 
+		Slaty-backed Gull (Larus schistisagus) - *P
+		Glaucous-winged Gull (Larus glaucescens)
+		Glaucous Gull (Larus hyperboreus)
+		Sooty Tern (Onychoprion fuscatus) - *
+		Bridled Tern (Onychoprion anaethetus) - *P
+		Least Tern (Sternula antillarum)
+		Gull-billed Tern (Gelochelidon nilotica)
+		Caspian Tern (Hydroprogne caspia)
+		Black Tern (Chlidonias niger)
+		White-winged Tern (Chlidonias leucopterus) - *PV
+		Common Tern (Sterna hirundo)
+		Arctic Tern (Sterna paradisaea)
+		Forster's Tern (Sterna forsteri)
+		Royal Tern (Thalasseus maximus)
+		Sandwich Tern (Thalasseus sandvicensis) - *P
+		Elegant Tern (Thalasseus elegans)
+		Black Skimmer (Rynchops niger)	
+Columbiformes - Pigeons, and Doves
+	Columbidae - Pigeons and Doves
+		Rock Pigeon (Columba livia) - I
+		Band-tailed Pigeon (Patagioenas fasciata)
+		Oriental Turtle-Dove (Streptopelia orientalis) - *PV
+		Eurasian Collared-Dove (Streptopelia decaocto) - I
+		Spotted Dove (Streptopelia chinensis) - I
+		White-winged Dove (Zenaida asiatica)
+		Mourning Dove (Zenaida macroura)
+		Inca Dove (Columbina inca)
+		Common Ground-Dove (Columbina passerina)
+		Ruddy Ground-Dove (Columbina talpacoti)
+Cuculiformes - Cuckoos and Allies
+	Cuculidae - Cuckoos, Roadrunners, and Anis
+		Common Cuckoo (Cuculus canorus) - *PV
+		Yellow-billed Cuckoo (Coccyzus americanus)
+		Black-billed Cuckoo (Coccyzus erythropthalmus) - *
+		Greater Roadrunner (Geococcyx californianus)
+		Groove-billed Ani (Crotophaga sulcirostris) - *P
+Strigiformes - Owls
+	Tytonidae - Barn Owls
+		Barn Owl (Tyto alba)
+	Strigidae - Typical Owls
+		Flammulated Owl (Psiloscops flammeolus)
+		Western Screech-Owl (Megascops kennicottii)
+		Great Horned Owl (Bubo virginianus)
+		Snowy Owl (Bubo scandiacus) - *
+		Northern Pygmy-Owl (Glaucidium gnoma)
+		Elf Owl (Micrathene whitneyi) - *
+		Burrowing Owl (Athene cunicularia)
+		Spotted Owl (Strix occidentalis)
+		Barred Owl (Strix varia)
+		Great Gray Owl (Strix nebulosa)
+		Long-eared Owl (Asio otus)
+		Short-eared Owl (Asio flammeus)
+		Northern Saw-whet Owl (Aegolius acadicus)
+Caprimulgiformes - Goatsuckers, Oilbirds, and Allies
+	Caprimulgidae - Goatsuckers
+		Lesser Nighthawk (Chordeiles acutipennis)
+		Common Nighthawk (Chordeiles minor)
+		Common Poorwill (Phalaenoptilus nuttallii)
+		Chuck-will's-widow (Antrostomus carolinensis) - *
+		Buff-collared Nightjar (Antrostomus ridgwayi) - *
+		Eastern Whip-poor-will (Antrostomus vociferus) - *P
+		Mexican Whip-poor-will (Antrostomus arizonae)
+Apodiformes - Swifts, and Hummingbirds
+	Apodidae - Swifts
+		Black Swift (Cypseloides niger)
+		White-collared Swift (Streptoprocne zonaris) - *S
+		Chimney Swift (Chaetura pelagica)
+		Vaux's Swift (Chaetura vauxi)
+		White-throated Swift (Aeronautes saxatalis)
+	Trochilidae - Hummingbirds
+		Green Violetear (Colibri thalassinus) - *P
+		Magnificent Hummingbird (Eugenes fulgens) - *P
+		Blue-throated Hummingbird (Lampornis clemenciae) - *P
+		Ruby-throated Hummingbird (Archilochus colubris) - *
+		Black-chinned Hummingbird (Archilochus alexandri)
+		Anna's Hummingbird (Calypte anna)
+		Costa's Hummingbird (Calypte costae)
+		Broad-tailed Hummingbird (Selasphorus platycercus)
+		Rufous Hummingbird (Selasphorus rufus)
+		Allen's Hummingbird (Selasphorus sasin)
+		Calliope Hummingbird (Selasphorus calliope)
+		Broad-billed Hummingbird (Cynanthus latirostris) - *P
+		Violet-crowned Hummingbird (Amazilia violiceps) - *P
+		Xantus's Hummingbird (Hylocharis xantusii) - *P
+Coraciiformes - Rollers, Motmots, Kingfishers, and Allies
+	Alcedinidae - Kingfishers
+		Belted Kingfisher (Megaceryle alcyon)
+Piciformes - Puffbirds, Jacamars, Toucans, Woodpeckers, and Allies
+	Picidae - Woodpeckers and Allies
+		Lewis's Woodpecker (Melanerpes lewis)
+		Red-headed Woodpecker (Melanerpes erythrocephalus) - *
+		Acorn Woodpecker (Melanerpes formicivorus)
+		Gila Woodpecker (Melanerpes uropygialis)
+		Williamson's Sapsucker (Sphyrapicus thyroideus)
+		Yellow-bellied Sapsucker (Sphyrapicus varius)
+		Red-naped Sapsucker (Sphyrapicus nuchalis)
+		Red-breasted Sapsucker (Sphyrapicus ruber)
+		Ladder-backed Woodpecker (Picoides scalaris)
+		Nuttall's Woodpecker (Picoides nuttallii)
+		Downy Woodpecker (Picoides pubescens)
+		Hairy Woodpecker (Picoides villosus)
+		White-headed Woodpecker (Picoides albolarvatus)
+		Black-backed Woodpecker (Picoides arcticus)
+		Northern Flicker (Colaptes auratus)
+		Gilded Flicker (Colaptes chrysoides)
+		Pileated Woodpecker (Dryocopus pileatus)
+Falconiformes - Caracaras and Falcons 		
+	Falconidae - Caracaras and Falcons
+		Crested Caracara (Caracara cheriway) - *PV
+		Eurasian Kestrel (Falco tinnunculus) - *P
+		American Kestrel (Falco sparverius)
+		Merlin (Falco columbarius)
+		Gyrfalcon (Falco rusticolus) - *
+		Peregrine Falcon (Falco peregrinus)
+		Prairie Falcon (Falco mexicanus)
+Psittaciformes - Parrots
+	Psittacidae - Lories, Parakeets, Macaws, and Parrots
+		Red-crowned Parrot (Amazona viridigenalis) - I		
+Passeriformes - Passerine Birds
+	Tyrannidae - Tyrant Flycatchers
+		Olive-sided Flycatcher (Contopus cooperi)
+		Greater Pewee (Contopus pertinax) - *
+		Western Wood-Pewee (Contopus sordidulus)
+		Eastern Wood-Pewee (Contopus virens) - *PA
+		Yellow-bellied Flycatcher (Empidonax flaviventris) - *
+		Alder Flycatcher (Empidonax alnorum) - *
+		Willow Flycatcher (Empidonax traillii)
+		Least Flycatcher (Empidonax minimus)
+		Hammond's Flycatcher (Empidonax hammondii)
+		Gray Flycatcher (Empidonax wrightii)
+		Dusky Flycatcher (Empidonax oberholseri)
+		Pacific-slope Flycatcher (Empidonax difficilis)
+		Cordilleran Flycatcher (Empidonax occidentalis)
+		Black Phoebe (Sayornis nigricans)
+		Eastern Phoebe (Sayornis phoebe)
+		Say's Phoebe (Sayornis saya)
+		Vermilion Flycatcher (Pyrocephalus rubinus)
+		Dusky-capped Flycatcher (Myiarchus tuberculifer) - *
+		Ash-throated Flycatcher (Myiarchus cinerascens)
+		Nutting's Flycatcher (Myiarchus nuttingi) - *PVA
+		Great Crested Flycatcher (Myiarchus crinitus) - *
+		Brown-crested Flycatcher (Myiarchus tyrannulus)
+		Sulphur-bellied Flycatcher (Myiodynastes luteiventris) - *PV
+		Tropical Kingbird (Tyrannus melancholicus)
+		Couch's Kingbird (Tyrannus couchii) - *PA
+		Cassin's Kingbird (Tyrannus vociferans)
+		Thick-billed Kingbird (Tyrannus crassirostris) - *PVA
+		Western Kingbird (Tyrannus verticalis)
+		Eastern Kingbird (Tyrannus tyrannus)
+		Scissor-tailed Flycatcher (Tyrannus forficatus)
+		Fork-tailed Flycatcher (Tyrannus savana) - *P
+	Laniidae - Shrikes
+		Brown Shrike (Lanius cristatus) - *P
+		Loggerhead Shrike (Lanius ludovicianus)
+		Northern Shrike (Lanius excubitor)
+	Vireonidae - Vireos
+		White-eyed Vireo (Vireo griseus) - *PA
+		Bell's Vireo (Vireo bellii)
+		Gray Vireo (Vireo vicinior)
+		Yellow-throated Vireo (Vireo flavifrons)
+		Plumbeous Vireo (Vireo plumbeus)
+		Cassin's Vireo (Vireo cassinii)
+		Blue-headed Vireo (Vireo solitarius) - *
+		Hutton's Vireo (Vireo huttoni)
+		Warbling Vireo (Vireo gilvus)
+		Philadelphia Vireo (Vireo philadelphicus)
+		Red-eyed Vireo (Vireo olivaceus)
+		Yellow-green Vireo (Vireo flavoviridis) - *
+	Corvidae - Crows and Jays
+		Gray Jay (Perisoreus canadensis)
+		Pinyon Jay (Gymnorhinus cyanocephalus)
+		Steller's Jay (Cyanocitta stelleri)
+		Blue Jay (Cyanocitta cristata) - *
+		Island Scrub-Jay (Aphelocoma insularis)
+		Western Scrub-Jay (Aphelocoma californica)
+		Clark's Nutcracker (Nucifraga columbiana)
+		Black-billed Magpie (Pica hudsonia)
+		Yellow-billed Magpie (Pica nuttalli)
+		American Crow (Corvus brachyrhynchos)
+		Common Raven (Corvus corax)
+	Alaudidae - Larks
+		Sky Lark (Alauda arvensis) - *P
+		Horned Lark (Eremophila alpestris)
+	Hirundinidae - Swallows
+		Purple Martin (Progne subis)
+		Tree Swallow (Tachycineta bicolor)
+		Violet-green Swallow (Tachycineta thalassina)
+		Northern Rough-winged Swallow (Stelgidopteryx serripennis)
+		Bank Swallow (Riparia riparia)
+		Cliff Swallow (Petrochelidon pyrrhonota)
+		Cave Swallow (Petrochelidon fulva) - *P
+		Barn Swallow (Hirundo rustica)
+	Paridae - Chickadees and Titmice
+		Black-capped Chickadee (Poecile atricapillus)
+		Mountain Chickadee (Poecile gambeli)
+		Chestnut-backed Chickadee (Poecile rufescens)
+		Oak Titmouse (Baeolophus inornatus)
+		Juniper Titmouse (Baeolophus ridgwayi)
+	Remizidae - Penduline Tits and Verdins
+		Verdin (Auriparus flaviceps)
+	Aegithalidae - Long-tailed Tits and Bushtits
+		Bushtit (Psaltriparus minimus)
+	Sittidae - Nuthatches
+		Red-breasted Nuthatch (Sitta canadensis)
+		White-breasted Nuthatch (Sitta carolinensis)
+		Pygmy Nuthatch (Sitta pygmaea)
+	Certhiidae - Creepers
+		Brown Creeper (Certhia americana)
+	Troglodytidae - Wrens
+		Rock Wren (Salpinctes obsoletus)
+		Canyon Wren (Catherpes mexicanus)
+		House Wren (Troglodytes aedon)
+		Pacific Wren (Troglodytes pacificus)
+		Winter Wren (Troglodytes hiemalis) - *PA
+		Sedge Wren (Cistothorus platensis) - *PA
+		Marsh Wren (Cistothorus palustris)
+		Bewick's Wren (Thryomanes bewickii)
+		Cactus Wren (Campylorhynchus brunneicapillus)
+	Polioptilidae - Gnatcatchers and Gnatwrens	
+		Blue-gray Gnatcatcher (Polioptila caerulea)
+		California Gnatcatcher (Polioptila californica)
+		Black-tailed Gnatcatcher (Polioptila melanura)		
+	Cinclidae - Dippers
+		American Dipper (Cinclus mexicanus)
+	Regulidae - Kinglets
+		Golden-crowned Kinglet (Regulus satrapa)
+		Ruby-crowned Kinglet (Regulus calendula)
+	Phylloscopidae - Leaf Warblers	
+		Dusky Warbler (Phylloscopus fuscatus) - *
+		Arctic Warbler (Phylloscopus borealis) - *P
+	Sylviidae - Sylviid Warblers
+		Wrentit (Chamaea fasciata)	
+	Megaluridae - Grassbirds	
+		Lanceolated Warbler (Locustella lanceolata) - *P	
+	Muscicapidae - Old World Flycatchers
+		Bluethroat (Luscinia svecica) - *P
+		Red-flanked Bluetail (Tarsiger cyanurus) - *P
+		Taiga Flycatcher (Ficedula albicilla) - *P
+		Northern Wheatear (Oenanthe oenanthe) - *
+		Stonechat (Saxicola torquatus) - *P		
+	Turdidae - Thrushes
+		Western Bluebird (Sialia mexicana)
+		Mountain Bluebird (Sialia currucoides)
+		Townsend's Solitaire (Myadestes townsendi)
+		Veery (Catharus fuscescens) - *P
+		Gray-cheeked Thrush (Catharus minimus) - *
+		Swainson's Thrush (Catharus ustulatus)
+		Hermit Thrush (Catharus guttatus)
+		Wood Thrush (Hylocichla mustelina) - *
+		Eyebrowed Thrush (Turdus obscurus) - *PV
+		Rufous-backed Robin (Turdus rufopalliatus) - *P
+		American Robin (Turdus migratorius)
+		Varied Thrush (Ixoreus naevius)
+	Mimidae - Mockingbirds and Thrashers
+		Gray Catbird (Dumetella carolinensis)
+		Curve-billed Thrasher (Toxostoma curvirostre) - *
+		Brown Thrasher (Toxostoma rufum)
+		Bendire's Thrasher (Toxostoma bendirei)
+		California Thrasher (Toxostoma redivivum)
+		Le Conte's Thrasher (Toxostoma lecontei)
+		Crissal Thrasher (Toxostoma crissale)
+		Sage Thrasher (Oreoscoptes montanus)
+		Northern Mockingbird (Mimus polyglottos)
+	Sturnidae - Starlings
+		European Starling (Sturnus vulgaris) - I
+	Motacillidae - Wagtails and Pipits
+		Eastern Yellow Wagtail (Motacilla tschutschensis) - *P
+		Gray Wagtail (Motacilla cinerea) - *P
+		White Wagtail (Motacilla alba) - *P
+		Olive-backed Pipit (Anthus hodgsoni) - *P
+		Red-throated Pipit (Anthus cervinus)
+		American Pipit (Anthus rubescens)
+		Sprague's Pipit (Anthus spragueii)
+	Bombycillidae - Waxwings
+		Bohemian Waxwing (Bombycilla garrulus)
+		Cedar Waxwing (Bombycilla cedrorum)
+	Ptiliogonatidae - Silky-flycatchers
+		Phainopepla (Phainopepla nitens)
+	Calcariidae - Longspurs and Snow Buntings	
+		Lapland Longspur (Calcarius lapponicus)
+		Chestnut-collared Longspur (Calcarius ornatus)
+		Smith's Longspur (Calcarius pictus) - *PV
+		McCown's Longspur (Rhynchophanes mccownii)		
+		Snow Bunting (Plectrophenax nivalis) - *	
+	Parulidae - Wood-Warblers
+		Ovenbird (Seiurus aurocapilla)
+		Worm-eating Warbler (Helmitheros vermivorum) - *
+		Louisiana Waterthrush (Parkesia motacilla) - *
+		Northern Waterthrush (Parkesia noveboracensis)
+		Golden-winged Warbler (Vermivora chrysoptera) - *
+		Blue-winged Warbler (Vermivora cyanoptera) - *
+		Black-and-white Warbler (Mniotilta varia)
+		Prothonotary Warbler (Protonotaria citrea)
+		Tennessee Warbler (Oreothlypis peregrina)
+		Orange-crowned Warbler (Oreothlypis celata)
+		Lucy's Warbler (Oreothlypis luciae)
+		Nashville Warbler (Oreothlypis ruficapilla)
+		Virginia's Warbler (Oreothlypis virginiae)
+		Connecticut Warbler (Oporornis agilis) - *
+		MacGillivray's Warbler (Geothlypis tolmiei)
+		Mourning Warbler (Geothlypis philadelphia) - *
+		Kentucky Warbler (Geothlypis formosa)
+		Common Yellowthroat (Geothlypis trichas)
+		Hooded Warbler (Setophaga citrina)
+		American Redstart (Setophaga ruticilla)
+		Cape May Warbler (Setophaga tigrina) - *
+		Cerulean Warbler (Setophaga cerulea) - *		
+		Northern Parula (Setophaga americana)
+		Magnolia Warbler (Setophaga magnolia)
+		Bay-breasted Warbler (Setophaga castanea)
+		Blackburnian Warbler (Setophaga fusca)
+		Yellow Warbler (Setophaga petechia)
+		Chestnut-sided Warbler (Setophaga pensylvanica)
+		Blackpoll Warbler (Setophaga striata)
+		Black-throated Blue Warbler (Setophaga caerulescens)
+		Palm Warbler (Setophaga palmarum)
+		Pine Warbler (Setophaga pinus) - *
+		Yellow-rumped Warbler (Setophaga coronata)
+		Yellow-throated Warbler (Setophaga dominica)
+		Prairie Warbler (Setophaga discolor)
+		Grace's Warbler (Setophaga graciae) - *
+		Black-throated Gray Warbler (Setophaga nigrescens)
+		Townsend's Warbler (Setophaga townsendi)
+		Hermit Warbler (Setophaga occidentalis)
+		Golden-cheeked Warbler (Setophaga chrysoparia) - *
+		Black-throated Green Warbler (Setophaga virens)
+		Canada Warbler (Cardellina canadensis)		
+		Wilson's Warbler (Cardellina pusilla)		
+		Red-faced Warbler (Cardellina rubrifrons) - *
+		Painted Redstart (Myioborus pictus)
+		Yellow-breasted Chat (Icteria virens)
+	Emberizidae - Emberizids
+		Green-tailed Towhee (Pipilo chlorurus)
+		Spotted Towhee (Pipilo maculatus)
+		Rufous-crowned Sparrow (Aimophila ruficeps)
+		California Towhee (Melozone crissalis)
+		Abert's Towhee (Melozone aberti)
+		Cassin's Sparrow (Peucaea cassinii) - *		
+		American Tree Sparrow (Spizella arborea)
+		Chipping Sparrow (Spizella passerina)
+		Clay-colored Sparrow (Spizella pallida)
+		Brewer's Sparrow (Spizella breweri)
+		Field Sparrow (Spizella pusilla) - *P
+		Black-chinned Sparrow (Spizella atrogularis)
+		Vesper Sparrow (Pooecetes gramineus)
+		Lark Sparrow (Chondestes grammacus)
+		Black-throated Sparrow (Amphispiza bilineata)
+		Sagebrush Sparrow (Artemisiospiza nevadensis)
+		Bell's Sparrow (Artemisiospiza belli)
+		Lark Bunting (Calamospiza melanocorys)
+		Savannah Sparrow (Passerculus sandwichensis)
+		Grasshopper Sparrow (Ammodramus savannarum)
+		Baird's Sparrow (Ammodramus bairdii) - *
+		Le Conte's Sparrow (Ammodramus leconteii) - *
+		Nelson's Sparrow (Ammodramus nelsoni)
+		Fox Sparrow (Passerella iliaca)
+		Song Sparrow (Melospiza melodia)
+		Lincoln's Sparrow (Melospiza lincolnii)
+		Swamp Sparrow (Melospiza georgiana)
+		White-throated Sparrow (Zonotrichia albicollis)
+		Harris's Sparrow (Zonotrichia querula)
+		White-crowned Sparrow (Zonotrichia leucophrys)
+		Golden-crowned Sparrow (Zonotrichia atricapilla)
+		Dark-eyed Junco (Junco hyemalis)
+		Little Bunting (Emberiza pusilla) - *P
+		Rustic Bunting (Emberiza rustica) - *P
+	Cardinalidae - Cardinals and Allies
+		Hepatic Tanager (Piranga flava)
+		Summer Tanager (Piranga rubra)
+		Scarlet Tanager (Piranga olivacea)
+		Western Tanager (Piranga ludoviciana)
+		Northern Cardinal (Cardinalis cardinalis)
+		Pyrrhuloxia (Cardinalis sinuatus) - *P
+		Rose-breasted Grosbeak (Pheucticus ludovicianus)
+		Black-headed Grosbeak (Pheucticus melanocephalus)
+		Blue Grosbeak (Passerina caerulea)
+		Lazuli Bunting (Passerina amoena)
+		Indigo Bunting (Passerina cyanea)
+		Varied Bunting (Passerina versicolor) - *
+		Painted Bunting (Passerina ciris)
+		Dickcissel (Spiza americana)
+	Icteridae - Blackbirds
+		Bobolink (Dolichonyx oryzivorus)
+		Red-winged Blackbird (Agelaius phoeniceus)
+		Tricolored Blackbird (Agelaius tricolor)
+		Western Meadowlark (Sturnella neglecta)
+		Yellow-headed Blackbird (Xanthocephalus xanthocephalus)
+		Rusty Blackbird (Euphagus carolinus) - *
+		Brewer's Blackbird (Euphagus cyanocephalus)
+		Common Grackle (Quiscalus quiscula) - *
+		Great-tailed Grackle (Quiscalus mexicanus)
+		Bronzed Cowbird (Molothrus aeneus)
+		Brown-headed Cowbird (Molothrus ater)
+		Orchard Oriole (Icterus spurius)
+		Hooded Oriole (Icterus cucullatus)
+		Streak-backed Oriole (Icterus pustulatus) - *
+		Bullock's Oriole (Icterus bullockii)
+		Baltimore Oriole (Icterus galbula)
+		Scott's Oriole (Icterus parisorum)
+	Fringillidae - Fringilline and Cardueline Finches and Allies
+		Brambling (Fringilla montifringilla) - *PV
+		Gray-crowned Rosy-Finch (Leucosticte tephrocotis)
+		Black Rosy-Finch (Leucosticte atrata) - *
+		Pine Grosbeak (Pinicola enucleator)
+		Common Rosefinch (Carpodacus erythrinus) - *P
+		House Finch (Haemorhous mexicanus)
+		Purple Finch (Haemorhous purpureus)
+		Cassin's Finch (Haemorhous cassinii)
+		Red Crossbill (Loxia curvirostra)
+		White-winged Crossbill (Loxia leucoptera) - *S
+		Common Redpoll (Acanthis flammea) - *
+		Pine Siskin (Spinus pinus)
+		Lesser Goldfinch (Spinus psaltria)
+		Lawrence's Goldfinch (Spinus lawrencei)
+		American Goldfinch (Spinus tristis)
+		Evening Grosbeak (Coccothraustes vespertinus)
+	Passeridae - Old World Sparrows
+		House Sparrow (Passer domesticus) - I

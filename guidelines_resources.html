@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="cbrc_styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700,900|Martel:400' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<script src="report_sighting.js"></script>
+	<title>CBRC</title>
+</head>
+<body>
+
+	<header>
+		<a href="index.html" id="logo"><img src="images/logo.png"></a>
+		<div id="hamburger"><a href="#id01" data-popup-open="popup-1" onclick="dropMenu()">&#9776;</a></div>
+			<ul>
+				<li id="close"><a href="javascript:void(0);" data-popup-close="popup-1" onclick="dropMenu()">&#x2715;</a></li>
+				<li><a href="index.html"  class="headerlink">HOME</a></li>
+				<li><a href="database_query.html" class="headerlink">DATABASE</a></li>
+				<li>
+					<section class="dropdown">
+					<a onclick="reportDropdown()" id="active" class="dropbtn headerlink">SUBMIT SIGHTING</a>
+						<div id="reportDropdown" class="dropdown-content">
+							<a href="guidelines_resources.html">Guidelines & Resources</a>
+							<a href="report_sighting.html">Report a Sighting</a>
+						</div>
+					</section>
+				</li>
+				<li>
+					<section class="dropdown">
+						<a onclick="listsDropdown()" class="dropbtn headerlink">LISTS</a>
+						<div id="listsDropdown" class="dropdown-content">
+							<a href="checklist.html">Checklist</a>
+							<a href="review_list.html">Review List</a>
+						</div>
+					</section>
+				</li>
+				<li><a href="reports.html" class="headerlink">REPORTS</a></li>
+				<li>
+					<section class="dropdown">
+					<a onclick="aboutDropdown()"  class="dropbtn headerlink">ABOUT</a>
+						<div id="aboutDropdown" class="dropdown-content">
+							<a href="foundation.html">Foundation</a>
+							<a href="CBRCbylaws.html">By-Laws</a>
+							<a href="CBRCmembers.html">Members</a>
+						</div>
+					</section>
+				</li>
+					<li><a class="search-icon">SEARCH</a></li>
+					<div id="white-box"></div>
+					<div class="top-search">
+						<form method="get" id="searchform" id="searchbox_016348171015647111605:xnnraaq2ers" action="search_results.html">
+							<div>
+								<input value="016348171015647111605:xnnraaq2ers" name="cx" type="hidden">
+								<input value="FORID:11" name="cof" type="hidden">
+								<input type="text" name="s" id="search-input">
+								<input type="submit" id="searchsubmit" value="">
+							</div>
+						</form>
+					</div>
+			</ul>
+	</header>
+
+
+	<!-- this is the end of the part that I coppied and pasted in.  -->
+	<main class="guidelines-container">
+
+		<!-- This is the part on the left which goes on the bottom when it's in mobile layout-->
+		<section class="column" id="top">
+
+  	 <!-- This is a list of the three guidlines for reporting "birdlist.html" -->
+
+	  		<h1>Guidelines</h1>
+			  <ul>
+			  	<li>Report <span>only</span> species which are on the CBRC <a href="review_list.html">Review List </a> or which are new to California.</li>
+			  	<li>Please email all documentation including photos and written descriptions to
+			  			<a href="mailto:secretary@californiabirds.org">secretary@californiabirds.org</a>, or mail to Tom Benson, California</li>
+			  	<li>We encourage you to become a member of <a href="http://www.westernfieldornithologists.org/">Western Field Ornithologists</a>
+                                    which includes a subscription to <a href="http://www.westernfieldornithologists.org/journal.php">Western Birds</a>
+                                    where our <a href="reports.html">annual reports</a> are published.</li>
+			  </ul>
+
+		<!-- Paragraph of the guidlines -->
+		      <p>
+		      	 All reports MUST include the species, location, date of the observation, and the name of the observer. The most important additional information you should include is a detailed description of the bird seen (not what it should look like), comparing the bird in question to similar species. Include the viewing conditions at the time of the observation.<p> For more information on documenting and reporting rarities, click <a href="http://wfopublications.org/Rare_Birds/FM/Documenting-Reporting.html">here</a>.</p>
+		      </p>
+		      <p>
+				An optional fill-in-the-blank form is available for submitting your sightings electronically. Download it <a href="CBRC_ReportingForm_2016_10.pdf">here</font></a>. <p>Photos should be submitted as separate JPEGs with original metadata (exif) rather than embedded in word processing documents.</p>
+			  </p>
+
+		</section>
+
+
+		<section class="column" id="bottom">
+			<h1>Resources</h1>
+				  <ul>
+				  	<li><a href="http://www.birdfellow.com/journal/archive/2011/1">A Lost Art?: Writing Descriptions of Rare Birds </a> - David Irons</li>
+				  	<li><a href="http://phainopeplafables.com/2013/08/10/elements-of-a-bird-description/">Elements of a Bird Description</a>- Lauren Harter</li>
+				  	<li><a href="http://www.losbird.org/lbrc/dittmann_lasley.html">How to Document Rare Birds</a>- Donna L. Dittmann and Greg W. Lasley</li>
+				  	<li><a href="http://www.pacifier.com/~mpatters/details/details.html">How to Write Convincing Details</a> - Mike Patterson</li>
+				  	<li><a href="http://www.utahbirds.org/RecCom/HowToWrite.htm">Writing a Rare Bird Report</a> - Steve Summers</li>
+				  	<li><a href="http://help.ebird.org/customer/en/portal/articles/973980-reporting-rarities--elements-of-a-bird-description?b_id=1928">Reporting Rarities </a>- Elements of a Bird Description</li>
+				  </ul>
+				  <button class="button" onclick="location.href='report_sighting.html';">Report Sighting</button>
+		</section>
+
+	</main>
+
+	<footer>
+				<ul>
+					<li><a href="https://www.westernfieldornithologists.org/support.php">donate</a></li>
+					<li><a href="mailto:webmaster@californiabirds.org">webmaster</a></li>
+					<li><a href="mailto:secretary@californiabirds.org">contact us</a></li>
+				</ul>
+	</footer>
+<div class="popup" data-popup="popup-1"></div>
+</body>
+
+</html>

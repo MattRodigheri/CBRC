@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="cbrc_styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700,900|Martel:400' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<script src="report_sighting.js"></script>
+        <script src="bird_photos_captions.js"></script>
+	<title>CBRC</title>
+</head>
+<body>
+
+	<header>
+		<a href="index.html" id="logo"><img src="images/logo.png"></a>
+		<div id="hamburger"><a href="#id01" data-popup-open="popup-1" onclick="dropMenu()">&#9776;</a></div>
+			<ul>
+				<li id="close"><a href="javascript:void(0);" data-popup-close="popup-1" onclick="dropMenu()">&#x2715;</a></li>
+				<li><a href="index.html"  class="headerlink">HOME</a></li>
+				<li><a href="database_query.html" id="active" class="headerlink">DATABASE</a></li>
+				<li>
+					<section class="dropdown">
+					<a onclick="reportDropdown()" class="dropbtn headerlink">SUBMIT SIGHTING</a>
+						<div id="reportDropdown" class="dropdown-content">
+							<a href="guidelines_resources.html">Guidelines & Resources</a>
+							<a href="report_sighting.html">Report a Sighting</a>
+						</div>
+					</section>
+				</li>
+				<li>
+					<section class="dropdown">
+						<a onclick="listsDropdown()" class="dropbtn headerlink">LISTS</a>
+						<div id="listsDropdown" class="dropdown-content">
+							<a href="checklist.html">Checklist</a>
+							<a href="review_list.html">Review List</a>
+						</div>
+					</section>
+				</li>
+				<li><a href="reports.html" class="headerlink">REPORTS</a></li>
+				<li>
+					<section class="dropdown">
+					<a onclick="aboutDropdown()" class="dropbtn headerlink">ABOUT</a>
+						<div id="aboutDropdown" class="dropdown-content">
+							<a href="foundation.html">Foundation</a>
+							<a href="CBRCbylaws.html">By-Laws</a>
+							<a href="CBRCmembers.html">Members</a>
+						</div>
+					</section>
+				</li>
+					<li><a class="search-icon">SEARCH</a></li>
+					<div id="white-box"></div>
+					<div class="top-search">
+						<form method="get" id="searchform" id="searchbox_016348171015647111605:xnnraaq2ers" action="search_results.html">
+							<div>
+								<input value="016348171015647111605:xnnraaq2ers" name="cx" type="hidden">
+								<input value="FORID:11" name="cof" type="hidden">
+								<input type="text" name="s" id="search-input">
+								<input type="submit" id="searchsubmit" value="">
+							</div>
+						</form>
+					</div>
+			</ul>
+	</header>
+
+
+	<!-- this is the end of the part that I coppied and pasted in.  -->
+
+
+	<main class="query-container">
+					
+		<!-- This is the part on the left which goes on the bottom when it's in mobile layout-->
+		<section class="column" id="bottom">
+			
+                                  <script type="text/javascript">getRandomImage(random_images_array);</script>
+
+
+			<p>This is a preliminary form which can be used to query raw data from the CBRC records database. 
+                           Although this database contains records as early as 1880, certain pre-1997 records may be missing. 
+                           For a complete accounting of older records through 2004 and selected records through 2006, 
+                           please refer to the book <i>Rare Birds of California available<a href="http://www.westernfieldornithologists.org/08rboc.php"> here</a>.</p>
+
+		</section>
+
+
+
+
+
+
+
+		<section class="column" id="top">
+				
+
+				<form action="../queryDatabase.asp">
+					<h1> Query Database</h1>
+
+					<h2>Species</h2>
+					<input class="search-species" type="text" name="species" placeholder="Enter Species">
+					<h2>Location</h2>
+					<select id="search-location"  type="text" name="county">
+
+						<option value="" selected>all counties </option>
+						<option value=ala>ala - alameda </option>
+						<option value=alp>alp - alpine </option>
+
+						<option value=ama>ama - amador </option>
+						<option value=but>but - butte </option>
+						<option value=cc>cc - contra costa </option>
+						<option value=clv>clv - calaveras </option>
+						<option value=col>col - colusa </option>
+						<option value=dn>dn - del norte </option>
+
+						<option value=ed>ed - el dorado </option>
+						<option value=fre>fre - fresno </option>
+						<option value=gle>gle - glenn </option>
+						<option value=hum>hum - humboldt </option>
+						<option value=imp>imp - imperial </option>
+						<option value=iny>iny - inyo </option>
+
+						<option value=ker>ker - kern </option>
+						<option value=kin>kin - kings </option>
+						<option value=la>la - los angeles </option>
+						<option value=lak>lak - lake </option>
+						<option value=las>las - lassen </option>
+						<option value=mad>mad - madera </option>
+
+						<option value=men>men - mendocino </option>
+						<option value=mer>mer - merced </option>
+						<option value=mno>mno - mono </option>
+						<option value=mod>mod - modoc </option>
+						<option value=mrn>mrn - marin </option>
+						<option value=mrp>mrp - mariposa </option>
+
+						<option value=mty>mty - monterey </option>
+						<option value=nap>nap - napa </option>
+						<option value=nev>nev - nevada </option>
+						<option value=ora>ora - orange </option>
+						<option value=pla>pla - placer </option>
+						<option value=plu>plu - plumas </option>
+
+						<option value=riv>riv - riverside </option>
+						<option value=sac>sac - sacramento </option>
+						<option value=sba>sba - santa barbara </option>
+						<option value=sbe>sbe - san bernardino </option>
+						<option value=sbt>sbt - san benito </option>
+						<option value=scl>scl - santa clara </option>
+
+						<option value=scz>scz - santa cruz </option>
+						<option value=sd>sd - san diego </option>
+						<option value=sf>sf - san francisco </option>
+						<option value=sha>sha - shasta </option>
+						<option value=sie>sie - sierra </option>
+						<option value=sis>sis - siskiyou </option>
+
+						<option value=sj>sj - san joaquin </option>
+						<option value=slo>slo - san luis obispo </option>
+						<option value=sm>sm - san mateo </option>
+						<option value=sol>sol - solano </option>
+						<option value=son>son - sonoma </option>
+						<option value=sta>sta - stanislaus </option>
+
+						<option value=sut>sut - sutter </option>
+						<option value=teh>teh - tehama </option>
+						<option value=tri>tri - trinity </option>
+						<option value=tul>tul - tulare </option>
+						<option value=tuo>tuo - tuolumne </option>
+						<option value=ven>ven - ventura </option>
+
+						<option value=yol>yol- yolo </option>
+						<option value=yub>yub - yuba </option>
+					</select>
+
+					<h2 class="dateleft">Start Date</h2>
+					<h2 class="dateright">End Date</h2>
+					<input class="dateleft" type="TEXT" name="STARTDATE" placeholder="mm/dd/yyyy">
+
+					<input class="dateright" type="text" NAME="enddate" placeholder="mm/dd/yyyy">
+						
+
+ 
+                                        <p>Check for partial matches<input class="checkbox" type="checkbox" name="partial" checked></p>
+
+					<p>Accepted Records Only<input class="checkbox" type="checkbox" name="accepted"></p>
+                                        
+                                        <p>Sort by date<input type="radio" name="sort" value="date" checked></p>
+                                        <p>Sort by month<input type="radio" name="sort" value="month"></p>
+					<p>Sort by record number<input type="radio" name="sort" value=""></p>
+				
+
+					<button type="submit" class="button">Query the Database</button>
+
+				</form>
+
+		</section>
+
+	</main>
+
+	<footer>
+				<ul>
+					<li><a href="https://www.westernfieldornithologists.org/support.php">donate</a></li>
+					<li><a href="mailto:webmaster@californiabirds.org">webmaster</a></li>
+					<li><a href="mailto:secretary@californiabirds.org">contact us</a></li>
+				</ul>
+	</footer>
+<div class="popup" data-popup="popup-1"></div>
+</body>
+</html>

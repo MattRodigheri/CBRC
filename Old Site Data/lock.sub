@@ -1,0 +1,35 @@
+#!/usr/local/bin/perl5
+
+###########################
+# Filename: lock.sub      #
+# By: Brent Michalski     #
+# Date: 10 Oct 96         #
+###########################
+# This is the subroutine to lock files when writing.
+$LOCK_SH=1;  # Shared
+$LOCK_EX=2;  # Exclusive
+$LOCK_NB=4;  # Don't block when locking
+$LOCK_UN=8;  # Unlock
+
+# The below locks a file for writing.  It seeks to the end of the
+# file once it is open so DON'T use it for searching.
+sub wlock {
+  local($file)=@_;
+  flock($file, $LOCK_EX);
+  # and in case someone appended
+  # while we were waiting...
+  seek($file,0,2);
+}
+
+# The below locks a file WITHOUT seeking to the end. This is the
+# one you want to use if you are searching through a file.
+sub lock {
+  local($file)=@_;
+  flock($file, $LOCK_EX);
+}
+
+# The below unlocks the file.
+sub unlock {
+  local($file)=@_;
+  flock($file, $LOCK_UN);
+}

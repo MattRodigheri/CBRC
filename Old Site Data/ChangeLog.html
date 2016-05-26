@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="cbrc_styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700,900|Martel:400' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<script src="report_sighting.js"></script>
+	<title>CBRC</title>
+</head>
+<body>
+
+	<header>
+		<a href="index.html" id="logo"><img src="images/logo.png"></a>
+		<div id="hamburger"><a href="#id01" data-popup-open="popup-1" onclick="dropMenu()">&#9776;</a></div>
+			<ul>
+				<li id="close"><a href="javascript:void(0);" data-popup-close="popup-1" onclick="dropMenu()">&#x2715;</a></li>
+				<li><a href="index.html" class="headerlink">HOME</a></li>
+				<li><a href="database_query.html" class="headerlink">DATABASE</a></li>
+				<li>
+					<section class="dropdown">
+					<a onclick="reportDropdown()" class="dropbtn headerlink">SUBMIT SIGHTING</a>
+						<div id="reportDropdown" class="dropdown-content">
+							<a href="guidelines_resources.html">Guidelines & Resources</a>
+							<a href="report_sighting.html">Report a Sighting</a>
+						</div>
+					</section>
+				</li>
+				<li>
+					<section class="dropdown">
+						<a onclick="listsDropdown()" class="dropbtn headerlink">LISTS</a>
+						<div id="listsDropdown" class="dropdown-content">
+							<a href="checklist.html">Checklist</a>
+							<a href="review_list.html">Review List</a>
+							<a href="watchlist.html">Watch List</a>
+						</div>
+					</section>
+				</li>
+				<li><a href="reports.html" class="headerlink">REPORTS</a></li>
+				<li>
+					<section class="dropdown">
+					<a onclick="aboutDropdown()" class="dropbtn headerlink">ABOUT</a>
+						<div id="aboutDropdown" class="dropdown-content">
+							<a href="foundation.html">Foundation</a>
+							<a href="CBRCbylaws.html">By-Laws</a>
+							<a href="CBRCmembers.html">Members</a>
+						</div>
+					</section>
+				</li>
+				<li><a class="search-icon">SEARCH</a></li>
+				<div id="white-box"></div>
+				<div class="top-search">
+					<form method="get" id="searchform" id="searchbox_016348171015647111605:xnnraaq2ers" action="search_results.html">
+						<div>
+							<input value="016348171015647111605:xnnraaq2ers" name="cx" type="hidden">
+							<input value="FORID:11" name="cof" type="hidden">
+							<input type="text" name="s" id="search-input">
+							<input type="submit" id="searchsubmit" value="">
+						</div>
+					</form>
+				</div>
+			</ul>
+	</header>
+
+	<main id="change-log-main">
+		<div class="change-log-container">
+				<h2>30 January 2016</h2>
+				<ul>
+					<li>Added Ruddy Ground-Dove <em>Columbina talpacoti</em> to the review list.</li>
+				</ul>
+				<h2>13 January 2016</h2>
+				<ul>
+					<li>Added Chatham Albatross <em>Thalassarche eremita</em> to the main and review lists.</li>
+					<li>Added Kelp Gull <em>Larus dominicanus</em> to the main and review lists.</li>
+				</ul>
+				<h2>3 October 2015</h2>
+				<ul>
+					<li>Added Common Scoter <em>Melanitta nigra</em> to the main and review lists.</li>
+				</ul>
+				<h2>2 July 2015</h2>
+				<ul>
+					<li>Updated names, list sequence, and taxonomy to conform to the 56th supplement of the AOU Check-List</li>
+				</ul>
+				<h2>26 January 2015</h2>
+				<ul>
+					<li>Replaced Taiga/Tundra Bean-Goose <em>Anser fabalis/serrirostris</em> with Tundra Bean-Goose <em>Anser serrirostris</em>
+					on the main and review llists.</li>
+					<li>Added Taiga/Tundra Bean-Goose <em>Anser fabalis/serrirostris </em>to the<em> </em>appended species groups on the
+					review list.</li>
+					<li>Replaced Frigatebird sp. <em>Fregata sp. </em>with Magnificent/Great/Lesser Frigatebird <em>Fregata magnificens/minor/ariel</em>
+					to the<em> </em>appended species groups on the review list.</li>
+					<li>Removed Blue-footed Booby <em>Sula nebouxii</em> from the review list.</li>
+					<li>Removed Yellow-green Vireo <em>Vireo flavoviridis</em> from the review list.</li>
+					<li>Replaced Arctic Warbler <em>Phylloscopus borealis</em> with Arctic/Kamchatka Leaf Warbler (<em>Phylloscopus borealis/examinandus</em>)
+					on the main and review lists.</li>
+				</ul>
+				<h2>18 December 2014</h2>
+				<ul>
+					<li>Added Salvin's Albatross <em>Thalassarche salvini</em> to the main and review lists.</li>
+					<li>Added Nazca Booby <em>Sula granti</em> to the main and review lists.</li>
+				</ul>
+				<h2>7 August 2014</h2>
+				<ul>
+					<li>Updated names, list sequence, and taxonomy to conform to the 55th supplement of the AOU Check-List</li>
+				</ul>
+				<h2>2 February 2014</h2>
+				<ul>
+					<li>Added Marsh Sandpiper <em>Tringa stagnatilis</em> to the main and review lists.</li>
+					<li>Added "A" to the evidence code for Eastern Whip-poor-will.</li>
+					<li>Added Common Swift <em>Apus apus</em> to the main and review lists.</li>
+				</ul>
+				<h2>19 January 2014</h2>
+				<ul>
+					<li>Removed Hawaiian Petrel <em>Pterodroma sandwichensis</em> from the review list.</li>
+					<li>Removed Galapagos/Hawaiian Petrel <em>Pterodroma phaeopygia/Pterodroma sandwichensis</em> from the appended species
+					pairs on the review list.</li>
+					<li>Changed "species pairs" to "species groups" and added Frigatebird sp. <em>Fregata sp. </em>to
+					the<em> </em>appended species groups on the review list.</li>
+					<li>Removed Nazca Booby <em>Sula granti</em> from the appended supplemental list on the main list.</li>
+					<li>Removed Neotropic Cormorant <em>Phalacrocorax brasilianus</em> from the review list.</li>
+					<li>Added new category code "RI" - Reintroduction in progress - not yet established.</li>
+					<li>Changed category for California Condor <em>Gymnogyps californianus</em> from E to RI on the main list.</li>
+					<li>Removed Pine Warbler <em>Setophaga pinus</em> from the review list.</li>
+				</ul>
+				<h2>27 August 2013</h2>
+				<ul>
+					<li>Added Great Black-backed Gull <em>Larus marinus</em> to the main and review lists.</li>
+					<li>Added Nutmeg Mannikin <em>Lonchura punctulata</em> to the main list with a code of "I"</li>
+				</ul>
+				<h2>8 August 2013</h2>
+				<ul>
+					<li>Updated names, list sequence, and taxonomy to conform to the 54th supplement of the AOU Check-List</li>
+				</ul>
+				<h2>23 April 2013</h2>
+				<ul>
+					<li>Corrected the generic name of the Belted Kingfisher <em>Megaceryle alcyon</em> on the main list</li>
+				</ul>
+				<h2>7 April 2013</h2>
+				<ul>
+					<li>Added Gray Hawk <em>Buteo plagiatus</em> to the main and review lists</li>
+				</ul>
+				<h2>17 March 2013</h2>
+				<ul>
+					<li>Corrected the list sequence position of Tristram's Storm-Petrel <em>Oceanodroma tristrami</em></li>
+				</ul>
+				<h2>22 January 2013</h2>
+				<ul>
+					<li>Added Taiga/Tundra Bean-Goose <em>Anser fabalis/Anser serrirostris</em> to the main and review lists</li>
+					<li>Removed Taiga/Tundra Bean-Goose <em>Anser fabalis/Anser serrirostris</em> from the appended species pairs on
+					the review list</li>
+					<li>Added Common Crane <em>Grus grus</em> to the main and review lists</li>
+					<li>Added Common Cuckoo <em>Cuculus canorus</em> to the main and review lists</li>
+					<li>Removed Yellow-crowned Night-Heron <em>Nyctanassa violacea</em> from the review list</li>
+					<li>Removed Harris's Hawk <em>Parabuteo unicinctus</em> from the review list</li>
+					<li>Removed Lesser Black-backed Gull <em>Larus fuscus</em> from the review list and removed its evidence code</li>
+					<li>Removed Parakeet Auklet <em>Aethia psittacula</em> from the review list</li>
+					<li>Added evidence code for Northern Gannet</li>
+				</ul>
+				<h2>27 August 2012</h2>
+				<ul>
+					<li>Fixed a regression error introduced 23 July 2012 which inadvertently added Trumpeter Swan <em>Cygnus buccinator</em>
+					and Yellow-throated Warbler <em>Setophaga dominica</em> back on the review list</li>
+				</ul>
+				<h2>3 August 2012</h2>
+				<ul>
+					<li>Added Northern Gannet <em>Morus bassanus</em> to the main and review lists</li>
+				</ul>
+				<h2>23 July 2012</h2>
+				<ul>
+					<li>Updated names, list sequence, and taxonomy to conform to the 53rd supplement of the AOU Check-List</li>
+				</ul>
+				<h2>1 July 2012</h2>
+				<ul>
+					<li>Appended Taiga/Tundra Bean-Goose <em>Anser fabalis/Anser serrirostris</em> to review list</li>
+				</ul>
+				<h2>12 March 2012</h2>
+				<ul>
+					<li>Added "P" to the evidence code for Common Snipe</li>
+					<li>Minor cosmetic changes to review list</li>
+				</ul>
+				<h2>11 March 2012</h2>
+				<ul>
+					<li>Added Common Snipe <em>Gallinago gallinago</em> to the main and review lists</li>
+				</ul>
+				<h2>16 February 2012</h2>
+				<ul>
+					<li>Added "A" to the evidence code for Common Ringed Plover <em>Charadrius hiaticula</em></li>
+				</ul>
+				<h2>12 February 2012</h2>
+				<ul>
+					<li>Added Common Ringed Plover <em>Charadrius hiaticula</em> to the main and review lists</li>
+				</ul>
+				<h2>15 January 2012</h2>
+				<ul>
+					<li>Removed Trumpeter Swan <em>Cygnus buccinator</em> from the review list</li>
+					<li>Removed Yellow-throated Warbler <em>Setophaga dominica</em> from the review list</li>
+				</ul>
+				<h2>27 December 2011</h2>
+				<ul>
+					<li>Corrected spelling of review list hybrid</li>
+				</ul>
+				<h2>26 July 2011</h2>
+				<ul>
+					<li>Updated names, list sequence, and taxonomy to conform to the 52nd supplement of the AOU Check-List</li>
+				</ul>
+				<h2>11 June 2011</h2>
+				<ul>
+					<li>Added<B> </B>Eastern Whip-poor-will <em>Caprimulgus vociferus</em> to the main and review lists</li>
+				</ul>
+				<h2>3 May 2011</h2>
+				<ul>
+					<li>Corrected the apostrophe in the spelling of three bird names</li>
+				</ul>
+				<h2>18 January 2011</h2>
+				<ul>
+					<li>Added Fulvous Whistling-Duck <em>Dendrocygna bicolor</em> to the review list</li>
+					<li>Added Cape May Warbler <em>Dendroica tigrina</em> to the review list</li>
+				</ul>
+				<h2>23 November 2010</h2>
+				<ul>
+					<li>Added Winter Wren <em>Troglodytes hiemalis</em> to the main and review lists</li>
+				</ul>
+				<h2>5 September 2010</h2>
+				<ul>
+					<li>Added White-chinned Petrel <em>Procellaria aequinoctialis</em> to the main and review lists</li>
+				</ul>
+				<h2>30 July 2010</h2>
+				<ul>
+					<li>Updated names, list sequence, and taxonomy to conform to the 51st supplement of the AOU Check-List</li>
+				</ul>
+				<h2>20 May 2010</h2>
+				<ul>
+					<li>Added Hawaiian Petrel <em>Pterodroma sandwichensis</em> to the main and review lists</li>
+					<li>Removed "Dark-rumped Petrel" <em>Pterodroma phaeopygia/Pterodroma sandwichensis</em> from the main</li>
+					list
+				</ul>
+				<h2>15 Jan 2010</h2>
+				<ul>
+					<li>Appended Galapagos/Hawaiian Petrel <em>Pterodroma phaeopygia/Pterodroma sandwichensis</em> to the review list</li>
+					<li>Appended Masked/Nazca Booby <em>Sula dactylatra/Sula granti</em> to the review list</li>
+					<li>Appended Blue-winged X Golden-winged Warbler <em>Vermivora pinus </em>X<em> V. chrysoptera</em> to the review list</li>
+					<li>Changed the "T" for "tape recording" to "A" for "audio recording" to
+					conform to the CBRC book</li>
+				</ul>
+				<h2>9 Jan 2010</h2>
+				<ul>
+					<li>Removed American Golden-Plover <em>Pluvialis dominica</em> from the review list</li>
+					<li>Added Elf Owl <em>Micrathene whitneyi</em> to the review list</li>
+				</ul>
+				<h2>15 July 2009</h2>
+				<ul>
+					<li>Updated names, list sequence, and taxonomy to conform to the 50th supplement of the AOU Check-List</li>
+				</ul>
+				<h2>8 Feb 2009</h2>
+				<ul>
+					<li>Added Bluethroat <em>Luscinia svecica</em> to the main and review lists</li>
+				</ul>
+				<h2>17 Jan 2009</h2>
+				<ul>
+					<li>Removed Mottled Petrel <em>Pterodroma inexpectata</em> from the review list</li>
+					<li>Added Magnificent Frigatebird <em>Fregata magnificens</em> to the review list</li>
+					<li>Removed Sprague's Pipit <em>Anthus spragueii</em> from the review list</li>
+				</ul>
+				<h2>16 Jan 2009</h2>
+				<ul>
+					<li>Removed American Oystercatcher <em>Haematopus palliates</em> from the review list</li>
+				</ul>
+				<h2>28 July 2008</h2>
+				<ul>
+					<li>Updated names, list sequence, and taxonomy to conform to the 49th supplement of the AOU Check-List</li>
+				</ul>
+				<h2>28 Mar 2008</h2>
+				<ul>
+					<li>Added Eurasian Kestrel <em>Falco tinnunculus</em> to the main and review lists</li>
+					<li>Added Common Rosefinch <em>Carpodacus erythrinus</em> to the main and review lists</li>
+				</ul>
+				<h2>27 Mar 2008</h2>
+				<ul>
+					<li>Added Swallow-tailed Kite <em>Elanoides forficatus</em> to the main and review lists</li>
+				</ul>
+				<h2>2 Feb 2008</h2>
+				<ul>
+					<li>Added Tristram's Storm-Petrel <em>Oceanodroma tristrami </em>to the main and review lists</li>
+				</ul>
+				<h2>19 Jan 2008</h2>
+				<ul>
+					<li>Removed Manx Shearwater <em>Puffinus puffinus</em> from the review list</li>
+					<li>Removed Brown Booby <em>Sula leucogaster</em> from the review list</li>
+					<li>Removed Yellow-throated Vireo <em>Vireo flavifrons</em> from the review list</li>
+					<li>Removed Scarlet Tanager <em>Piranga olivacea</em> from the review list</li>
+				</ul>
+				<h2>6 Jan 2008</h2>
+				<ul>
+					<li>Added Wood Sandpiper <em>Tringa glareola</em> to the main and review lists</li>
+				</ul>
+				<h2>8 Nov 2007</h2>
+				<ul>
+					<li>Added Townsend's Shearwater <em>Puffinus auricularis</em> to the main and review lists</li>
+					<li>Added Lesser Frigatebird <em>Fregata ariel</em> to the main and review lists</li>
+					<li>Removed Little Shearwater <em>Puffinus assimilis</em> from the main and review lists</li>
+				</ul>
+				<h2>30 July 2007</h2>
+				<ul>
+					<li>Updated names, list sequence, and taxonomy to conform to the 48th supplement of the AOU Check-List</li>
+				</ul>
+		</div>
+</main>
+
+<footer>
+			<ul>
+				<li><a href="https://www.westernfieldornithologists.org/support.php">donate</a></li>
+				<li><a href="mailto:webmaster@californiabirds.org">webmaster</a></li>
+				<li><a href="mailto:secretary@californiabirds.org">contact us</a></li>
+			</ul>
+</footer>
+
+<div class="popup" data-popup="popup-1"></div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-77794786-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

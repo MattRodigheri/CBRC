@@ -1,0 +1,1422 @@
+/* ===== GLOBAL STYLES ===== */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+	position: relative;
+ }
+
+body {
+min-height: 100%;
+position: relative;
+padding-bottom: 60px;
+box-sizing: border-box;
+font: 14px "Martel";
+font-weight: 400;
+line-height: 23px;
+text-align: left;
+color: #00343c;
+}
+
+/* ===== NAVIGATION ===== */
+
+header {
+	height: 100px;
+	line-height: 145px;
+	box-shadow: 0px 4px 4px -4px #aaa;
+	width: 95%;
+  margin: 0 auto;
+}
+
+#hamburger, #close {
+  	display: none;
+  	font-size: 32px;
+  	margin-top: -20px;
+}
+
+a img {
+	position: absolute;
+	width: 175px;
+	margin-top: 30px;
+}
+
+#active{
+	padding-bottom: 15px;
+	border-bottom: thick solid #307984;
+}
+
+header ul {
+	text-align: center;
+}
+
+header li {
+	display: inline-block;
+	padding: 0 1.5%;
+	color: #307984;
+	font: 16px "Lato", helvetica, sans-serif;
+	font-weight: 900;
+	background-color: #fff;
+}
+
+header a {
+	text-decoration: none;
+	color: #307984;
+}
+
+header .headerlink:hover {
+	color: #307984;
+	padding-bottom: 15px;
+	border-bottom: thick solid #307984;
+}
+
+.dropbtn {
+  	cursor: pointer;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	display: none;
+ 	position: absolute;
+	margin-top: 20px;
+	border-top: solid 1px #9db8bd;
+	box-shadow: 0px 5px 15px #e0e0e0;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+ 	background-color: #f0f6f7;
+	text-align: left;
+  text-decoration: none;
+  display: block;
+	padding: 10px;
+	font-family: "Lato";
+	font-weight: 700;
+	border-bottom: solid 1px #9db8bd;
+	border-left: solid 1px #9db8bd;
+	border-right: solid 1px #9db8bd;
+}
+
+.dropdown-content a:hover {
+	color: #307984;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+	display:block;
+}
+
+li img {
+	width: 14px;
+	float: left;
+	display: inline-block;
+}
+
+/* ===== SEARCH ===== */
+.search-icon {
+	position: absolute;;
+	top: 60px;
+	right: 19%;
+	z-index: 2;
+	cursor: default;
+}
+
+.search-icon:hover {
+	color: #307984;
+}
+
+#white-box {
+	position: absolute;
+	top: 58px;
+	left: 81%;
+	height: 27px;
+	width: 210px;
+	background-color: #fff;
+	z-index: 2;
+}
+
+#searchform #searchsubmit{
+	display: none;
+}
+
+#search-input{
+	font: 12px "Lato";
+	font-weight: 400;
+	background-color: #f0f6f7;
+	height: 21px;
+	width: 20%;
+	margin: 0 150px 5px 0;
+	padding: 2px 0 2px 5px;
+	border: solid 1px #c6d9da;
+	position: absolute;
+	right: 18%;
+	z-index: 1;
+}
+
+.top-search {
+	position: absolute;
+	top: 58px;
+	right: 0;
+	width: 0;
+	height: 42px;
+	background-color: #fff;
+	-webkit-transition: width 1s;
+	-moz-transition: width 1s;
+	-o-transition: width 1s;
+	transition: width 1s;
+	z-index: 1;
+}
+
+.box-change {
+	width: 83%;
+}
+/* ===== BODY ===== */
+
+h1 {
+	font: 28px "Lato";
+  font-weight: 700;
+	line-height: 75px;
+	font-size: 28px;
+	color: #307984;
+}
+
+h2 {
+	font: 20px "Lato";
+  font-weight: 700;
+	line-height: 50px;
+	font-size: 20px;
+	color: #307984;
+}
+
+h3 {
+	font: 16px "Lato";
+  font-weight: 700;
+	line-height: 50px;
+	color: #307984;
+}
+
+h4 {
+	font: 16px "Lato";
+  font-weight: 700;
+	line-height: 42px;
+	color: #307984;
+}
+
+main {
+	width: 70%;
+	max-width: 940px;
+	margin: 1% auto 2% auto;
+	text-align: center;
+}
+
+.column {
+	width: 40%;
+	max-width: 375px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 4%;
+	text-align: left;
+}
+
+main input {
+	font: 16px "Lato";
+	font-weight: 400;
+	color: #6aabb5;
+  width: 100%;
+	height: 50px;
+	background-color: #f0f6f7;
+	text-align: left;
+	border: solid 1px #9db8bd;
+	margin-bottom: 10px;
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+
+button {
+	border: 0px;
+	width: 100%;
+	height: 50px;
+	background-color: #307984;
+	font: 16px "Lato";
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	color: #fff;
+       letter spacing 0.5px
+	-webkit-appearance: none;
+  -moz-appearance: none;
+	cursor: pointer;
+        margin-top: 10px;
+}
+
+button:hover	{
+	background-color: #00343C;
+}
+
+select {
+	font: 16px "Lato";
+	font-weight: 400;
+ 	width: 100%;
+	height: 50px;
+	background-color: #f0f6f7;
+	color: #6aabb5;
+	text-align: left;
+	border: solid 1px #9db8bd;
+	margin-bottom: 20px;
+	padding-left: 15px;
+	-webkit-appearance: none;
+  -webkit-border-radius: 0px;
+	box-sizing: border-box;
+}
+
+select option {
+	padding: 1% 2%;
+}
+
+main a {
+  font:14px "Martel";
+	font-weight: 400;
+	color: #307984;
+	text-decoration: none;
+  line-height: 23px;
+}
+
+a:hover {
+	color: #6aabb5;
+}
+
+main li {
+	text-align: left;
+}
+
+.caption {
+	margin-top: 5px;
+	margin-bottom: 20px;
+	font: 11px "Lato";
+  color: #000;
+}
+
+/* ===== END OF GLOBAL STYLES ===== */
+
+/* ===== INDEX PAGE SPECIFICS ===== */
+.news-image{
+	width: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#iframe-div{
+	overflow: hidden;
+	position: relative;
+	height: 380px;
+	margin-left: -8%;
+}
+
+iframe {
+	position: absolute;
+  top: -110px;
+  width: 120%;
+  height: 480px;
+	border: none;
+	margin-left: -20px;
+}
+
+.partial-search {
+	display: none;
+}
+
+.mobile-top ul {
+	line-height: 20px;
+}
+
+.mobile-top h1:nth-of-type(2) {
+	margin-top: 10%;
+}
+
+#report-button {
+	margin-top: 15px;
+}
+/* ===== END OF INDEX PAGE SPECIFICS ===== */
+
+/* ===== SEARCH RESULTS PAGE SPECIFICS ===== */
+.search-results-main {
+	text-align: left;
+}
+
+.gsc-tabsArea, .gsc-refinementsArea, .gsc-above-wrapper-area,
+.gcsc-branding-text, .gcsc-branding-clickable {
+	display: none;
+}
+
+.gs-title {
+	padding-bottom: 20px;
+	margin-top: 20px;
+	font-family: "Lato";
+	font-weight: 700;
+}
+
+.gs-visibleUrl-long {
+	font: 12px "Lato";
+  font-weight: 400;
+}
+
+.gs-snippet {
+	font: 14px "Martel";
+	font-weight: 400;
+}
+
+.gs-fileFormat {
+	font-family: "Martel";
+}
+
+.gs-image {
+	margin-top: 0;
+}
+
+.gsc-cursor-page {
+	font-family: "Lato";
+}
+
+/* ===== END OF SEARCH RESULTS PAGE SPECIFICS ===== */
+
+/* ===== CHANGE LOG PAGE SPECIFICS ===== */
+#change-log-main ul {
+	line-height: 20px;
+}
+
+#change-log-main h2 {
+	text-align: left;
+}
+
+.change-log-container {
+	margin: 0 6%;
+	max-width: 375px;
+}
+/* ===== END OF CHANGE LOG PAGE SPECIFICS ===== */
+
+/* ===== REPORT SIGHTINGS PAGE SPECIFICS ===== */
+#report-sightings h1, .asterisk {
+	text-align: left;
+	margin-left: 6%;
+}
+
+.asterisk {
+	margin-top: -15px;
+}
+
+::-webkit-input-placeholder {
+   color: #6aabb5;
+}
+
+.short {
+	width: 45%;
+	display: inline-block;
+}
+
+.right {
+	float: right;
+}
+
+.ui-menu-item {
+	list-style-type: none;
+	background-color: #f0f6f7;
+	width: 25%;
+	color: #307984;
+	font: 16px "Lato";
+	font-weight: 400;
+	line-height: 24px;
+	padding: 10px;
+	border-bottom: solid 1px #9db8bd;
+	border-left: solid 1px #9db8bd;
+	border-right: solid 1px #9db8bd;
+	cursor: pointer;
+}
+
+.ui-helper-hidden-accessible {
+	display: none;
+}
+
+.conditions {
+	margin-bottom: 20px;
+}
+
+#recorded {
+	margin-top: 20px;
+}
+
+input[type="radio"] {
+	margin: 0;
+	height: 20px;
+	width: 20px;
+}
+
+.radio {
+	display: inline-block;
+	float: left;
+}
+
+label:not(.custom-file-upload) {
+	font: 16px "Lato";
+	font-weight: 700;
+	color: #307984;
+	margin-left: 5px;
+	padding-right: 30px;
+	vertical-align: top;
+}
+
+.radio-questions {
+	line-height: 16px;
+	clear: both;
+	margin-bottom: 10px;
+}
+
+#uploadFile::-webkit-file-upload-button {
+ visibility: hidden;
+}
+
+#uploadFile {
+	margin-left: -94px;
+	width: 250px;
+	height: 20px;
+}
+
+@-moz-document url-prefix() {
+  #uploadFile {
+     margin-left: -109px;
+  }
+}
+
+input[type="file"] {
+	background: none;
+	border: none;
+	width: 52%;
+	height: 14px;
+	font-size: 14px;
+	text-align: justify;
+	outline: none;
+	margin-bottom: -10px;
+	margin-left: -90px;
+	margin-top: 68px;
+	float: left;
+	clear: right;
+}
+
+.custom-file-upload {
+	border: 1px solid #ccc;
+	cursor: pointer;
+	border: 0px;
+  width: 45%;
+  height: 35px;
+  background-color: #307984;
+	margin-top: 35px;
+	margin-bottom: 40px;
+  padding-top: 15px;
+  font: 16px "Lato";
+	font-weight: 700;
+	letter-spacing: 0.5px;
+  text-transform: uppercase;
+	text-align: center;
+  color: #fff;
+	float: left;
+	clear: both;
+	position: relative;
+	z-index: 2;
+}
+
+.custom-file-upload:hover	{
+	background-color: #00343C;
+}
+
+textarea {
+	font: 16px "Lato";
+	font-weight: 400;
+	color: #307984;
+  width: 100%;
+	height: 135px;
+	background-color: #f0f6f7;
+	text-align: left;
+	border: solid 1px #9db8bd;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px 20px 0 20px;
+	box-sizing: border-box;
+}
+
+button a {
+	text-decoration: none;
+	color: #fff;
+	font: 16px "Lato";
+	font-weight: 700;
+}
+
+button a:hover {
+	color: #fff;
+}
+
+/* ===== END OF REPORT SIGHTINGS PAGE SPECIFICS ===== */
+
+/* ===== FOUNDATION PAGE SPECIFICS ===== */
+
+.hide {
+   display: none;
+   position: fixed;
+}
+
+
+#function {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+#editorial {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+#foundation {
+  margin-right: 6%;
+  margin-left: 6%;
+	line-height: 30px;
+  text-align: left;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.foundation-container p {
+	margin-top: 10px;
+}
+
+.foundation-container ol {
+	margin-left: 20px;
+}
+
+.foundation-container a {
+	cursor: pointer;
+}
+
+.foundation-container #mobile {
+	display: none;
+}
+
+.foundation-container #left-side {
+	display: inline-block;
+}
+
+.foundation-container #right-side {
+	display: inline-block;
+}
+
+/* ===== END OF FOUNDATION PAGE SPECIFICS ===== */
+
+.guidelines-container p {
+	margin-top: 10px;
+}
+
+
+/* ===== QUERY DATABASE PAGE SPECIFICS ===== */
+main .dateright {
+	display: inline-block;
+	width: 45%;
+	float: right;
+}
+
+main .dateleft {
+	display: inline-block;
+	width: 45%;
+}
+ .db-image{
+  max-height: 250px;
+  max-width: 400px;
+	width: 100%;
+	padding-top: 30px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#search-location {
+	text-transform: uppercase;
+}
+
+.checkbox {
+	width: 20px;
+	height: 20px;
+	margin: 5px;
+	vertical-align: middle;
+}
+
+.query-container input[type="radio"] {
+	margin: 5px;
+	vertical-align: middle;
+}
+
+
+#search-date {
+	width: 50%;
+}
+
+/* ===== END OF QUERY DATABASE PAGE SPECIFICS ===== */
+
+/* ===== DATABASE TABLE SPECIFICS ===== */
+
+.table-wrapper {
+	text-align: left;
+}
+
+.table-wrapper p {
+	font-family: "Lato";
+	padding-bottom: 1%;
+	font-size: 16px;
+}
+
+ #database-table {
+ 	text-align: center;
+    font-family: "Lato";
+    width: 100%;
+    outline: 1px solid #e5eef0;
+    border-collapse: collapse;
+}
+
+#database-table th {
+	color: #FFFFFF;
+	background-color: #307984;
+	text-transform: uppercase;
+	height: 60px;
+	padding: 10px;
+	border-left: 1px solid #2c8592;
+}
+
+#database-table td {
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #e5eef0;
+    /* relative positioning is needed for aligning tooltips */
+    position: relative;
+}
+
+
+#database-table td[data-label="Species"],
+#database-table td[data-label="Location"],
+#database-table td[data-label="Note"] {
+	text-align: left;
+	padding-left: 10px;
+}
+
+
+/* apply styles to certain columns */
+#database-table td:first-child a {
+        font-family: "Lato";
+	font-weight: 700;
+}
+
+#database-table td:first-child {
+	font-weight: 700;
+	white-space: nowrap;
+}
+
+#database-table td[data-label="Status"] {
+	font-weight: 400;
+}
+
+
+#database-table tr:nth-child(odd) {
+	background-color: #ffffff;
+}
+
+#database-table tr:nth-child(even) {
+	background-color: #ecf4f5;
+}
+
+#database-table tr:hover {
+	outline: 1px solid #307984;
+	outline-offset: -1px;
+}
+
+
+/* hide rows with additional information that will be visible
+in mobile mode  */
+#database-table .details {
+	display: none;
+}
+
+#database-table .details td {
+	vertical-align: top;
+}
+
+#database-table .details span {
+	font-weight: 700;
+}
+
+#database-table .details td:first-child  {
+	font-weight: 400;
+}
+
+#database-table .details td:nth-child(2)  {
+	text-align: left;
+}
+
+/* styles for tooltips which will appear on hovering over certiain table items */
+.tooltip {
+	z-index: 999;
+	display: none;
+  position: absolute;
+  max-width: 250px;
+  left: 50%;
+  top: 80%;
+	pointer-events: none;
+	border: 1px solid #307984;
+}
+
+.tooltip p {
+	text-align: left;
+  background-color: #FFFFFF;
+  padding: 2px 8px;
+}
+
+ /*===== POPUP WITH LIST OF CONTRIBUTORS ===== */
+
+.popup {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: rgba(0,0,0,0.75);
+		z-index: 2;
+}
+
+.contributors-popup {
+	  width: 100%;
+    height: 100%;
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: rgba(0,0,0,0.75);
+z-index: 2;
+}
+
+.inner-popup {
+    max-width: 500px;
+    width: 40%;
+    max-height: 80%;
+    overflow: scroll;
+    padding: 3%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 2px 6px rgba(0,0,0,1);
+    background: #fff;
+}
+
+.inner-popup h2 {
+	line-height: 35px;
+	padding: 3% 0;
+}
+
+.inner-popup #loading {
+	display: block;
+	margin: 0 auto;
+}
+
+#close-button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    text-decoration: none;
+    color: #307984;
+}
+
+#close-button:hover {
+    color: #6aabb5;
+}
+
+/* ===== END OF DATABASE TABLE SPECIFICS ===== */
+
+/* ===== BIRD LISTS SPECIFICS ===== */
+
+.birdlist-wrapper,
+.review-wrapper  {
+	margin: 0 6%;
+	max-width: 500px;
+	text-align: left;
+}
+
+.watchlist-wrapper {
+	margin: 0 6%;
+	max-width: 375px;
+	text-align: left;
+}
+
+.birdlist-wrapper ul,
+.review-wrapper ul {
+	list-style: none;
+	padding-left: 12%;
+}
+
+#supplemental-review ul {
+	padding-left: 6%;
+}
+
+.legend-list td {
+	vertical-align: top;
+	padding-left: 6%;
+}
+
+.birdlist-wrapper h2,
+.review-wrapper h2 {
+	padding-top: 2%;
+}
+
+.birdlist-wrapper h3,
+.review-wrapper h3 {
+	line-height: 29px;
+	padding: 3% 0 1% 0;
+}
+
+.birdlist-wrapper h4,
+.review-wrapper h4 {
+	color: #6aabb5;
+}
+
+.birdlist-wrapper .main-list h4,
+.birdlist-wrapper .supplemental-list h4,
+.review-wrapper .main-list h4 {
+	padding-left: 6%;
+	line-height: 29px;
+	padding: 1% 0 1% 6%;
+}
+
+ /*hide additional information in the introduction */
+.birdlist-more,
+.read-less {
+	display: none;
+}
+
+
+/* ===== END OF BIRD LISTS SPECIFICS ===== */
+
+
+
+
+/* ===== ANNUAL REPORTS PAGE SPECIFICS ===== */
+
+
+.reports-wrapper h1 {
+	line-height: 50px;
+	padding: 2% 0;
+}
+
+
+#requested-report-heading,
+#requested-meeting-heading {
+	display: none;
+}
+
+
+.latest-report {
+	height: 160px;
+}
+
+/* ===== END OF ANNUAL REPORTS PAGE SPECIFICS ===== */
+
+
+
+
+
+/* ===== MEMBERS and BYLAWS PAGE SPECIFICS ===== */
+
+.bylaws-container {
+	text-align: left;
+	margin: 0 6%;
+	max-width: 375px;
+	width: 40%;
+}
+
+.members-content {
+	text-align: left;
+	margin: 0 6%;
+	width: 80%;
+}
+
+.members-content h3 {
+	line-height: 35px;
+}
+
+.members-content img {
+	width: 100%;
+    height: auto;
+}
+
+.members-content table {
+	margin-top: 6%;
+}
+
+.members-content td {
+	vertical-align: top;
+	padding: 0 4% 4% 0;
+}
+
+.maxwidth {
+    max-width: 500px;
+}
+
+.latolink {
+font: 16px "Lato";
+  font-weight: 700;
+}
+
+#active-members {
+	border-bottom: 3px solid #307984;
+    padding-bottom: 2px;
+}
+
+
+.h3style
+{
+	line-height: 38px;
+    font: 16px "Lato";
+        font-weight: 700;
+}
+
+/* ===== END OF BYLAWA/MEMBERS PAGE SPECIFICS ===== */
+
+
+
+
+/* ===== FOOTER ===== */
+
+footer {
+	background-color: #00343c;
+	height: 60px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer ul {
+  	margin-left: 20%;
+}
+
+footer li {
+	padding-top: 22px;
+	margin-right: 5%;
+	display: inline-block;
+	font: 1em "Lato", helvetica, sans-serif;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+
+footer a {
+	text-decoration: none;
+	color: #fff;
+}
+
+/* ===== MOBILE HEADER ===== */
+@media screen and (max-width:1200px) {
+
+	header ul{
+   	 display: none;
+  }
+
+  #hamburger {
+    display: inline-block;
+    float: right;
+  }
+
+	/* NAV MENU */
+
+		#active {
+			padding-bottom: 0;
+			border-bottom: none;
+		}
+
+		#close {
+			display: block;
+			border: none;
+			margin-top: -41px;
+		}
+
+	  header .responsive {
+			display: block;
+			position: absolute;
+			right: 0;
+			z-index: 3;
+			width: 30%;
+			height: 550px;
+			padding-top: 64px;
+			background-color: #307984;
+	  }
+
+		header .headerlink:hover {
+			border-bottom: none;
+		}
+
+	  header .responsive li, a :not(#hamburger) :not(#logo) {
+			text-align: left;
+			margin: 0 auto;
+			width: 100%;
+	    display: block;
+			padding: 10px 0 10px 10px;
+			border-top: thin solid #6aabb5;
+			background-color: #307984;
+	  }
+
+	  header .responsive a {
+	    text-align: left;
+			color: #fff;
+			font-weight: 400;
+	  }
+
+		header .responsive a:hover {
+			color: #6aabb5;
+	  }
+
+		header .responsive li {
+			padding: 10px 0;
+			text-indent: 10px;
+		}
+
+		header li:last-child {
+			border: none;
+		}
+
+		.dropbtn:first-child:hover {
+			color: #fff;
+			cursor: default;
+		}
+
+		.dropdown-content {
+			width: 100%;
+			display: block;
+			border: none;
+			box-shadow: none;
+		}
+
+		.dropdown-content a {
+			padding-left: 0;
+			border-bottom: thin solid #6aabb5;
+			border-left: none;
+			border-right: none;
+			background-color: #307984;
+			text-indent: 20px;
+		}
+
+		.dropdown-content a:first-child {
+			border-top: thin solid #6aabb5;
+			margin-top: -10px;
+		}
+
+		header .responsive li:nth-child(5){
+			padding-top: 90px;
+		}
+
+		header .responsive li:nth-child(6){
+			padding-top: 90px;
+		}
+
+		.search-icon {
+			display: none;
+		}
+
+		.top-search {
+			position: absolute;
+			right: 0;
+			top: 42px;
+			border: none;
+		}
+
+		#search-input {
+			width: 150px;
+			margin-right: 5px;
+		}
+
+		#white-box {
+			display: none;
+		}
+}
+
+/* ===== MOBILE MAIN SECTION ===== */
+
+/* style settings for screens less than or equal to 992px */
+@media screen and (max-width: 992px) {
+
+body {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+main a {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+h1 {
+	font-size: 24px;
+	line-height: 50px;
+}
+
+h2 {
+	font-size: 18px;
+	line-height: 40px;
+}
+
+h3 {
+	font-size: 16px;
+	line-height: 38px;
+}
+
+.column {
+  display: block;
+	margin: 0 auto;
+	width: 90%;
+}
+
+#foundation {
+  text-align: center
+
+}
+
+.foundation-container #left-side {
+	display: none;
+}
+
+.foundation-container #right-side {
+	display: none;
+}
+
+.foundation-container #mobile {
+	display: inline-block;
+}
+
+/* ===== END OF MOBILE MAIN SECTION ===== */
+
+
+/* ===== MOBILE INDEX PAGE SPECIFICS ===== */
+
+	.news-image, .caption {
+		display: none;
+	}
+
+	.flex {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.mobile-top {
+		order: 1;
+	}
+
+	.mobile-top ul {
+		margin-left: 5%;
+	}
+
+	.mobile-bottom {
+		order: 2;
+		margin-top: 10%;
+  }
+
+	#iframe-div {
+		width: 111%;
+		margin-left: -10%;
+	}
+
+	iframe {
+		width: 110%;
+		margin-left: 2%;
+	}
+
+  .index-form input {
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+  }
+
+/* ===== END OF MOBILE INDEX PAGE SPECIFICS ===== */
+
+/* ===== MOBILE REPORT SIGHTINGS SPECIFICS ===== */
+	#report-sightings h1, .asterisk {
+		margin-left: 5%;
+		white-space: nowrap;
+	}
+
+	.asterisk {
+		margin-top: -5px;
+	}
+
+	.short h2 {
+		white-space: nowrap;
+	}
+
+	.short a {
+		font-size: 16px;
+	}
+
+	.ui-menu-item {
+		width: 40%;
+	}
+/* ===== END OF MOBILE REPORT SIGHTINGS SPECIFICS ===== */
+
+/* ===== MOBILE CHANGE LOG PAGE SPECIFICS ===== */
+.change-log-container {
+	margin: 0 10%;
+}
+
+/* ===== END OF MOBILE CHANGE LOG PAGE SPECIFICS ===== */
+
+/* ===== MOBILE DATABASE TABLE PAGE SPECIFICS ===== */
+
+ 	#database-table td {
+    text-align: left;
+  }
+
+	#database-table td:first-child {
+		font-weight: 400;
+		white-space: normal;
+	}
+
+  #database-table tr:hover {
+    outline: none;
+  }
+
+
+  /* stretch a popup window so it fits the small screen */
+  .inner-popup {
+  	width: 90%;
+  }
+
+/* ===== END OF MOBILE DATABASE TABLE PAGE SPECIFICS ===== */
+
+
+/* ===== ANNUAL REPOERS PAGE SPECIFICS ===== */
+
+  .latest-report {
+    height: 100%;
+  }
+/* ===== END OF ANNUAL REPOERS PAGE SPECIFICS ===== */
+
+
+/* ===== BIRD LISTS SPECIFICS ===== */
+
+	.birdlist-wrapper,
+	.review-wrapper,
+	.watchlist-wrapper {
+		margin: 0 auto;
+  	width: 90%;
+	}
+
+	.birdlist-wrapper h2 {
+		cursor: pointer;
+	}
+
+/* ===== END OF BIRD LISTS SPECIFICS ===== */
+
+
+
+/* ===== MEMBERS and BYLAWS PAGE SPECIFICS ===== */
+	.bylaws-container {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+	.members-content {
+		margin: 0 auto;
+    width: 90%;
+	}
+
+	.members-content td {
+		display: block;
+	}
+/* ===== END MEMBERS and BYLAWS PAGE SPECIFICS ===== */
+}
+
+/* ===== END OF MOBILE LISTS PAGE SPECIFICS ===== */
+
+/* style settings for screens less than or equal to 768px  */
+@media screen and (max-width: 768px) {
+/* ===== GLOBAL MOBILE ===== */
+	header .responsive {
+		width: 65%;
+	}
+
+	main {
+		width: 100%;
+	}
+
+	.column {
+		display: block;
+		width: 90%;
+		margin: 5% auto;
+	}
+
+	footer ul {
+		margin: 0;
+		text-align: center;
+	}
+/* ===== END OF GLOBAL MOBILE ===== */
+
+/* ===== REPORT SIGHTING MOBILE ===== */
+	.ui-menu-item {
+		width: 80%;
+	}
+/* ===== END OF REPORT SIGHTING MOBILE ===== */
+
+
+/* ===== QUERY DATABASE PAGE SPECIFICS ===== */
+	.db-image {
+	  display: none;
+	}
+
+/* ===== END OF QUERY DATABASE PAGE SPECIFICS ===== */
+
+
+/* ===== DATABASE TABLE SPECIFICS ===== */
+	.table-wrapper {
+		width: 100%;
+	}
+
+  .table-wrapper h2,
+	.table-wrapper p {
+		padding-left: 2%;
+	}
+
+  #database-table td {
+    white-space: normal;
+  }
+
+  #database-table td:first-child {
+		padding: 10px 3px 10px 6px;
+	}
+
+  #database-table td[data-label="Location"] {
+    padding: 10px 6px 10px 3px;
+	}
+
+/* ===== END OF DATABASE TABLE SPECIFICS ===== */
+
+	#foundation {
+		width: 90%;
+		margin: 5% auto;
+	}
+
+/* ===== MEMBERS and BYLAWS PAGE SPECIFICS ===== */
+
+	.members-content {
+		margin: 5% auto;
+		width: 90%;
+	}
+
+	.bylaws-container {
+		width: 90%;
+		margin: 5% auto;
+	}
+
+/* ===== END OF MEMBERS and BYLAWS PAGE SPECIFICS ===== */
+}

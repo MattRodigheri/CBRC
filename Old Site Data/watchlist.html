@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="'The "Watch List' of Introduced Birds by the California Bird Records Committee (CBRC) provides a listing of breeding introduced species that are not yet on the official state list, but which could be added in the future.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CBRC</title>
+    <link href="cbrc_styles.css" rel="stylesheet">
+     <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900|Martel:400' rel='stylesheet' type='text/css'>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+     <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="report_sighting.js"></script>
+    <script src="birdlist.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+    
+    
+<body>
+    
+    <!-- Header -->
+    <!-- ================================================== -->
+   <header>
+        <a href="index.html" id="logo"><img src="images/logo.png"></a>
+        <div id="hamburger"><a href="#id01" data-popup-open="popup-1" onclick="dropMenu()">&#9776;</a></div>
+            <ul>
+                <li id="close"><a href="javascript:void(0);" data-popup-close="popup-1" onclick="dropMenu()">&#x2715;</a></li>
+                <li><a href="index.html" class="headerlink">HOME</a></li>
+                <li><a href="database_query.html" class="headerlink">DATABASE</a></li>
+                <li>
+                    <section class="dropdown">
+                    <a onclick="reportDropdown()" class="dropbtn headerlink">SUBMIT SIGHTING</a>
+                        <div id="reportDropdown" class="dropdown-content">
+                            <a href="guidelines_resources.html">Guidelines & Resources</a>
+                            <a href="report_sighting.html">Report a Sighting</a>
+                        </div>
+                    </section>
+                </li>
+                <li>
+                    <section class="dropdown">
+                        <a onclick="listsDropdown()" class="dropbtn headerlink" id="active">LISTS</a>
+                        <div id="listsDropdown" class="dropdown-content">
+                            <a href="checklist.html">Checklist</a>
+                            <a href="review_list.html">Review List</a>
+                           <a href="watchlist.html">Watch List</a>
+                        </div>
+                    </section>
+                </li>
+                <li><a href="reports.html" class="headerlink">REPORTS</a></li>
+                <li>
+                    <section class="dropdown">
+                    <a onclick="aboutDropdown()" class="dropbtn headerlink">ABOUT</a>
+                        <div id="aboutDropdown" class="dropdown-content">
+                            <a href="foundation.html">Foundation</a>
+                            <a href="CBRCbylaws.html">By-Laws</a>
+                            <a href="CBRCmembers.html">Members</a>
+                        </div>
+                    </section>
+                </li>
+                    <li><a class="search-icon">SEARCH</a></li>
+                    <div id="white-box"></div>
+                    <div class="top-search">
+                        <form method="get" id="searchform" id="searchbox_016348171015647111605:xnnraaq2ers" action="search_results.html">
+                            <div>
+                                <input value="016348171015647111605:xnnraaq2ers" name="cx" type="hidden">
+                                <input value="FORID:11" name="cof" type="hidden">
+                                <input type="text" name="s" id="search-input">
+                                <input type="submit" id="searchsubmit" value="">
+                            </div>
+                        </form>
+                    </div>
+            </ul>
+    </header>
+
+    
+    
+    <!-- MAIN SECTION -->
+    <!-- ================================================== -->
+     <main>
+         <section class="watchlist-wrapper">
+            <h1>CBRC "Watch List"</h1>
+            <h4>Added 13 March 2015</h4>
+            <p>The CBRC "Watch List" of Introduced Birds provides a listing of breeding introduced species that are not yet on the official state list, but which could be added in the future.</p>
+            <button onclick="window.open('/CBRC%20Introduced%20Bird%20Watch%20List.pdf');">Open PDF</button>
+        </section> <!-- end of the second column --> 
+    </main> <!-- end of main section-->
+    
+    
+    
+    <!-- Footer -->
+    <!-- ================================================== -->
+    
+    <footer>
+        <ul>
+            <li><a href="https://www.westernfieldornithologists.org/support.php">donate</a></li>
+            <li><a href="mailto:webmaster@californiabirds.org">webmaster</a></li>
+            <li><a href="mailto:secretary@californiabirds.org">contact us</a></li>
+        </ul>
+    </footer>
+
+<div class="popup" data-popup="popup-1"></div>
+</body>
+</html>

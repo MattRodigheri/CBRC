@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="cbrc_styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700,900|Martel:400' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<script src="report_sighting.js"></script>
+	<title>CBRC</title>
+</head>
+<body>
+
+	<header>
+		<a href="index.html" id="logo"><img src="images/logo.png"></a>
+		<div id="hamburger"><a href="#id01" data-popup-open="popup-1" onclick="dropMenu()">&#9776;</a></div>
+			<ul>
+				<li id="close"><a href="javascript:void(0);" data-popup-close="popup-1" onclick="dropMenu()">&#x2715;</a></li>
+				<li><a href="index.html"  class="headerlink">HOME</a></li>
+				<li><a href="database_query.html" class="headerlink">DATABASE</a></li>
+				<li>
+					<section class="dropdown">
+					<a onclick="reportDropdown()" class="dropbtn headerlink">SUBMIT SIGHTING</a>
+						<div id="reportDropdown" class="dropdown-content">
+							<a href="guidelines_resources.html">Guidelines & Resources</a>
+							<a href="report_sighting.html">Report a Sighting</a>
+						</div>
+					</section>
+				</li>
+				<li>
+					<section class="dropdown">
+						<a onclick="listsDropdown()" class="dropbtn headerlink">LISTS</a>
+						<div id="listsDropdown" class="dropdown-content">
+							<a href="checklist.html">Checklist</a>
+							<a href="review_list.html">Review List</a>
+                                                        <a href="watchlist.html">Watch List</a>
+						</div>
+					</section>
+				</li>
+				<li><a href="reports.html" class="headerlink">REPORTS</a></li>
+				<li>
+					<section class="dropdown">
+					<a onclick="aboutDropdown()" id="active"  class="dropbtn headerlink">ABOUT</a>
+						<div id="aboutDropdown" class="dropdown-content">
+							<a href="foundation.html">Foundation</a>
+							<a href="CBRCbylaws.html">By-Laws</a>
+							<a href="CBRCmembers.html">Members</a>
+						</div>
+					</section>
+				</li>
+					<li><a class="search-icon">SEARCH</a></li>
+					<div id="white-box"></div>
+					<div class="top-search">
+						<form method="get" id="searchform" id="searchbox_016348171015647111605:xnnraaq2ers" action="search_results.html">
+							<div>
+								<input value="016348171015647111605:xnnraaq2ers" name="cx" type="hidden">
+								<input value="FORID:11" name="cof" type="hidden">
+								<input type="text" name="s" id="search-input">
+								<input type="submit" id="searchsubmit" value="">
+							</div>
+						</form>
+					</div>
+			</ul>
+	</header>
+
+	<main class="foundation-container">
+
+	<h1 id="foundation"> Founding of the CBRC</h1>
+  	
+
+
+
+	
+		<section class="column" id="bottom">
+
+
+			<P id="left-side">The CBRC is a committee of WFO, but it operates under its own by-laws and maintains its own web site.
+         The original purposes of the CBRC are</P>
+
+         <P id="mobile">The CBRC is a committee of WFO, but it operates under its own by-laws and maintains its own web site.
+         The original purposes of the CBRC are established by two editorials in the first issue of the first volume of California Birds, 
+         the precursor to Western Birds. They are reproduced here:</P>
+
+	  		<h2 id="editorial">Editorial</h2>
+		  		
+			        <p>This, the first issue of California Birds, marks the inauguration of a 
+			         publication which hopefully will earn a place among the major ornithological journals. It will have, 
+			         however, a rather different approach than most of those journals in that it will be devoted almost exclusively 
+			         to the field of ornithology. Specifically, California Birds will focus attention on the following:
+			     </p>
+			     <a id="Read_more_editorial">Read more>></a>
+			     <div id="editorial-document" class="hide">
+			     <p>
+						<ol>
+						     <li>Distribution, expansions and contractions of range, seasonal status, and timing of migration.</li>
+						     <li>Behavior.</li> 
+						     <li>Ecology.</li> 
+						     <li>Population studies and the methods for making such studies.</li> 
+						     <li>Techniques of field identification for species that are difficult to distinguish in the field.</li> 
+						     <li>Conservation problems (studies supporting preservation of needed habitat and critical areas, 
+						     studies of endangered species, and studies of the effects of biocides and pollution).</li> 
+						</ol>
+				 </p>
+						
+					<p>	    Although the emphasis (particularly in the first and last of the above subject areas) 
+						will be on articles relating to California, the intent is that each issue will contain sufficient 
+						material of general interest to be of value to ornithologists everywhere. 
+						Therefore any article based upon or pertaining to field studies of birds will be considered for 
+						publication if it is of general interest or if it deals with birds in the state of California, 
+						adjacent areas, or the northeastern Pacific Ocean. Papers submitted for publication will be reviewed by an Editorial Committee, to assure that all papers published maintain a high standard of quality and contain material within the scope of the journal.
+						 
+					<P>	
+						   One of the functions of California Birds will be the publication of properly authenticated field observations of birds found in 
+						California which are significantly outside their normal range. The time has long since passed (ff it ever existed)
+						 when .it was feasible to validate all noteworthy observations with a collected specimen. 
+						Yet, for field observations to be of value there must be some system whereby serious students can ascertain which of the multitudinous 
+						observations are acceptable beyond any reasonable doubt. Photographs serve to document many observations and are certainly of immense 
+						value whenever obtainable. In some cases specimens will still be required; however, the only possible documentation for the majority of 
+						field observations is a detailed description taken at the time of the observation. A Rare Bird Committee will be established to review 
+						significant observations documented by photographs and/or detailed description. Only those reports accepted unanimously by the Committee 
+						will be published in California Birds. The methods of operation of the Rare Bird Committee described below are very similar to those 
+						employed by Rare Bird Committees in Great Britain and in Belgium. 
+					</p>
+					<P>
+						California Birds is published by California Field Ornithologists, 
+						a new society whose objectives are: (1) to provide a medium for publication of the results of countless hours of field study by 
+						California's large and ever-growing army of amateur and professional observers, and (2) to upgrade the standards of these observers through the
+						 communication afforded by this publication. Membership in California Field Ornithologists is open to everyone. 
+						All classes of members are entitled to receive California Birds. -AMC. 
+					</p>
+					<a id="collapse-editorial"><< Read less</a>
+					</div> 
+					
+		</section>
+
+  	<!-- This is a list of the additional resources which are available-->
+		<section class="column" id="top">
+
+			<p id="right-side"> established by two editorials in the first issue of the first volume of California Birds, 
+                   the precursor to Western Birds. They are reproduced here:</p>
+
+			<h2 id="function">Function of the committee</h2>
+				
+					<P>
+						All reports on the occurrences of unusual birds submitted for publication in California Birds will be 
+						sent to the Secretary of the Rare Bird Committee. The Secretary will send the entire report to the first 
+						member of the Committee. The first member of the Committee checks the report and draws his own conclusions about the validity of the 
+					</p>
+					<a id="Read_more_function">Read more>></a>
+					<div id="function-document" class="hide">
+					<p>
+
+						report; he then sends his decision along with comments back to the Secretary, and sends the report on to the 
+						second member of the Committee. The process is repeated until the last member of the Committee. 
+						receives the report, and he sends it back to the Secretary along with his own comments.
+						 If all members of the Committee agree the bird was correctly identified, it is accepted. 
+						If a majority of the members feel the bird was incorrectly identified, the record is rejected. 
+						In all other cases the report along with the comments received from the first round is again 
+						circulated to the members of the Committee for a second judgement. If it is neither accepted nor 
+						rejected on the second round it is saved for discussion at the annual meeting. 
+					</P>
+
+					<P>	
+						The members of the Committee are not allowed to discuss any record under consideration on the first round
+						 with other members of the Committee although they can discuss it with anyone else outside of the Committee;
+						 this allows each member of the Committee to review the record without being influenced by other Committee 
+						members on the first round. On the second round the Committee members are allowed to read the comments of
+						 their fellow Committee members, and they are allowed to draw a new conclusion if they feel they were wrong on the first round.
+					</p>
+					<P>
+						 There will be no set rules that the Committee members will have to follow in judging the validity of individual records. 
+						However, the members will have to state the reasons for their decisions in their comments sent to the Secretary. 
+						It is hoped that each member of the Committee will view each record with an open mind and consider all possibilities 
+						presented by the available evidence. 
+					</p>
+					<P>	
+						The Committee should be made up of a non-voting Secretary and between five and ten voting members.
+						 Hopefully the voting members should be representatives of the various areas of the state. 
+						A member of the Rare Bird Committee must be fully aware of the many problems that arise in field identification, 
+						and must have a good understanding of status of the birds of California. -GMcC. 
+					</p> 
+					<a id="collapse-function"><< Read less</a>  
+				</DIV>
+                                        <button class="button" onclick="location.href='../Vol1No1.pdf';">Download Document PDF</button>
+		</section>
+
+
+	</main>
+
+	<div class="push"></div>
+</div>
+
+	</section> <br><br>
+
+	<footer>
+				<ul>
+					<li><a href="https://www.westernfieldornithologists.org/support.php">donate</a></li>
+					<li><a href="mailto:webmaster@californiabirds.org">webmaster</a></li>
+					<li><a href="mailto:secretary@californiabirds.org">contact us</a></li>
+				</ul>
+	</footer>
+
+<div class="popup" data-popup="popup-1"></div>
+<script type="text/javascript">assignListeners();</script>
+</body>
+</html>															
