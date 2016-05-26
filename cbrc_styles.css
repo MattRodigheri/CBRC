@@ -404,6 +404,28 @@ iframe {
 }
 /* ===== END OF CHANGE LOG PAGE SPECIFICS ===== */
 
+/* ===== RARE BIRDS PAGE SPECIFICS ===== */
+.rarebirds {
+	max-width: 375px;
+}
+
+.rarebirds h1, p {
+	text-align: left;
+}
+
+/* ===== END OF RARE BIRDS PAGE SPECIFICS ===== */
+
+/* ===== CORRECCTIONS PAGE SPECIFICS ===== */
+.corrections {
+	max-width: 375px;
+}
+
+.rarebirds h1, h2, p {
+	text-align: left;
+}
+
+/* ===== END OF CORRECCTIONS PAGE SPECIFICS ===== */
+
 /* ===== REPORT SIGHTINGS PAGE SPECIFICS ===== */
 #report-sightings h1, .asterisk {
 	text-align: left;
